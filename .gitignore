@@ -1,0 +1,21 @@
+# Kuku's input pack and everything derived from it is confidential: never commit it.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+store/
+outputs/
+cache/
+eval/manual_seeds.json
+
+# secrets
+.env
+.streamlit/secrets.toml
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+.DS_Store

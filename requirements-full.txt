@@ -1,0 +1,6 @@
+# Full local install: everything in requirements.txt plus semantic embeddings
+# (all-MiniLM-L6-v2, downloads ~90 MB once) and LanceDB as the vector store.
+-r requirements.txt
+sentence-transformers>=3.0
+lancedb>=0.13
+pyarrow>=15

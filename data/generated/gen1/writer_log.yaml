@@ -1,0 +1,255 @@
+show: gen1
+model: google_genai/gemini-3.5-flash-lite
+memory: 3
+temperature: 0.9
+premise: premise_example.yaml
+summaries:
+  1: Desperate to save her sister Mia's life, night-shift nurse Harper agrees to a
+    one-year contract marriage with mechanic Cole Hayes in exchange for him paying
+    one hundred thousand dollars for Mia's emergency heart surgery. As Mia is rushed
+    into the operating room, Harper and Cole legally become husband and wife while
+    Cole conceals his secret identity as a wealthy shipping CEO. Their new marriage
+    immediately faces outside tension when Cole's hostile stepmother, Diane, and stepbrother,
+    Jake, arrive at the hospital to insult the couple.
+  2: At St. Brigid's Hospital, Diane and Jake Whitmore publicly confront Cole for
+    marrying nurse Harper, who vigorously defends him after he funded her sister Mia's
+    successful emergency heart surgery. Fearing matriarch Evelyn will rewrite the
+    family empire's will, Diane orders Jake to investigate Harper, prompting Jake
+    to take a personal interest in her. Meanwhile, Cole conceals an encrypted Whitmore
+    executive smartphone from Harper, revealing a hidden connection to his family's
+    high-level operations. Cole then learns via text that eighty-one-year-old Evelyn
+    already discovered their contract marriage and demands he bring Harper to the
+    family estate immediately.
+  3: Harper and Cole arrive at the Whitmore estate, where Diane reveals that Cole
+    paid one hundred thousand dollars for Harper's sister's heart surgery to secure
+    their contract marriage. Harper fiercely defends her new husband, leading Jake
+    to flirt with her until matriarch Evelyn threatens to strip Jake of his corporate
+    title. In the drawing room, Evelyn produces a sealed trust document, revealing
+    that Cole's marriage is actually the mandatory requirement to unlock the family's
+    corporate shares.
+  4: Mia suffers a left arm injury after tripping in the hospital, prompting Jake
+    Whitmore to assist her and flirt with Harper, who firmly rejects him. Meanwhile,
+    Diane secretly injects poison into matriarch Evelyn's IV to protect the inheritance,
+    though Cole catches her acting suspiciously near the drip. Outside the room, Jake
+    cryptically reveals to Harper that Cole is hiding his true identity beyond his
+    mechanic persona. Evelyn's health drastically worsens when her heart monitor flatlines
+    immediately following the poisoning.
+  5: Nurse Harper successfully stabilizes eighty-one-year-old Evelyn Whitmore after
+    a cardiac crash while seventeen-year-old Mia wears a sling for her injured left
+    arm. Meanwhile, Cole's half-brother Jake tries to woo Harper, revealing the secret
+    that her supposedly broke mechanic husband Cole carries an encrypted executive
+    smartphone. Stepmother Diane tampers with Evelyn's IV to deliver a lethal potassium
+    dose, intending to kill Evelyn, strip Cole of his inheritance, and frame Harper
+    for murder. The episode ends with Harper discovering the unauthorized fatal drug
+    order fraudulently logged under her nurse credentials.
+  6: Night-shift nurse Harper is framed for logging a lethal dose of heart medication
+    for Cole's grandmother, Evelyn Whitmore, leading to her immediate arrest by police.
+    Diane Whitmore produces a digital audit accusing Harper of attempted murder for
+    the Whitmore inheritance, while Jake Whitmore reveals Cole was suspiciously spotted
+    outside the ICU room right before the IV line was tampered with. Exploiting the
+    crisis, Jake offers to use his legal team to wipe the charges clean if Harper
+    leaves Cole to marry him instead. Despite Cole rushing in to defend his contract
+    wife, Harper is cuffed and led away by officers, leaving her career and freedom
+    in jeopardy.
+  7: Disguised CEO Cole and his lawyer clear Harper of all charges and free her from
+    police custody by proving Diane forged the hospital logins. At the hospital, Mia
+    overhears Diane admit Cole will inherit the family fortune if Evelyn wakes up,
+    leading to a hostile confrontation between Diane and Mia. Upon returning to check
+    Evelyn's tampered IV, Harper learns Cole's true identity when Jake reveals Cole's
+    name on the Whitmore trust fund file. The episode closes as Evelyn's condition
+    suddenly shifts, twitching awake and gripping Harper's wrist while her heart monitor
+    alarms.
+  8: Evelyn Whitmore dies of a seizure in the hospital, while Mia accuses Diane of
+    murder. During the reading of the will, Jake exposes Cole's hidden billionaire
+    identity to his wife, Harper. Harper learns that Cole deceived her into a contract
+    marriage just to secure his grandfather's shipping empire, leaving her feeling
+    deeply betrayed. Consequently, Cole and Harper's marriage faces a severe crisis,
+    and his inheritance clause officially voids.
+  9: Harper discovers the legal trust file and learns that Cole hid his identity as
+    the billionaire Whitmore shipping heir to trap her in a contract marriage, shattering
+    her trust. Enraged and worried about her recovering sister Mia, Harper rips off
+    her wedding ring, rejects Cole, and attempts to leave. Meanwhile, Diane and Jake
+    celebrate Evelyn's death securing Diane's board status, leading Jake to intercept
+    Harper with a sinister offer and new legal papers.
+  10: Harper publicly dumps Cole and rejects his billionaire identity after learning
+    he used her, immediately filing for divorce and planning to leave with her injured
+    sister Mia. Meanwhile, Jake reveals he has secured Harper's signature on a new
+    corporate offer, while Diane gloats over seizing control of the Whitmore board
+    following Evelyn's death. Back at the hospital, grieving Mia confronts the family
+    over the lies told to steal their grandmother's inheritance, cementing a permanent
+    rupture in all related romantic and familial alliances.
+  11: Leaving the hospital with her recovering sister Mia, Harper is confronted by
+    Jake Whitmore, who blocks their path and exposes Cole as a wealthy fraud while
+    accusing Diane of murdering their grandmother Evelyn. Meanwhile, a furious Cole
+    vows to prove Diane's guilt using hidden security footage, only to be brutally
+    ambushed and stabbed in the chest with a metal pipe by a masked assailant in the
+    alley. The encounter shatters Harper and Cole's marriage-ending relationship over
+    his true identity, while the secret of Evelyn's murder at Diane's hands is fully
+    brought to light. Physically, Mia remains in a medical sling recovering from heart
+    surgery, and Cole sustains a critical, potentially fatal chest injury during the
+    ambush.
+  12: In this episode, Harper frantically tries to save Cole after he takes a near-fatal
+    stab wound to protect her, culminating in a code blue flatline in the ER. Meanwhile,
+    Jake confronts his mother Diane with a stolen ledger, and they scheme to force
+    Harper into signing transfer papers to cement their control over the Whitmore
+    shipping empire and cover up Evelyn's murder. Harper learns the secret that Cole
+    has been lying about his identity for a full year, while Jake intercepts an injured
+    Mia in the parking garage. These events push Harper and Cole's relationship into
+    terrified vulnerability as Cole's life hangs in the balance and the villains tighten
+    their grip on the family business.
+  13: In this episode, Jake ambushes Mia to force her to sign corporate transfer papers
+    while threatening Harper's medical funding, but Mia fights back by revealing she
+    knows Diane poisoned their grandmother. Meanwhile, Harper desperately tries to
+    save an injured Cole in the ER, and with his dying breath, Cole reveals that a
+    flash drive in his auto shop proves Diane is the murderer. However, Diane's operative
+    successfully destroys the video evidence at the shop just as Diane celebrates
+    seizing control of the Whitmore shipping empire. The episode ends with Jake physically
+    cornering Harper outside the hospital, demanding she sign the company away or
+    watch Mia die.
+  14: Outside the hospital, Jake corners nurse Harper and blackmails her into signing
+    medical clearance papers by threatening to cut off her sister Mia's life-saving
+    hospital funding. Meanwhile, a severely wounded Cole stumbles out of the ER to
+    stop Diane from seizing control of the family shipping company, only to learn
+    that Diane poisoned Evelyn and orchestrated his ambush. During the confrontation,
+    Harper discovers that Cole and Jake are brothers and that Cole is secretly her
+    husband. The episode ends with a security guard tasering Cole into unconsciousness
+    while Jake forces a distraught Harper to sign the papers at last.
+  15: Harper caves to Jake's blackmail, signing her hospital transfer papers to protect
+    her sister Mia, while Jake learns that Harper capitulated. Harper discovers the
+    massive secret that her husband Cole is actually a wealthy billionaire Whitmore
+    heir, causing her to reject him and effectively end their marriage. Meanwhile,
+    Cole uncovers hidden medical records proving his stepmother Diane poisoned his
+    grandmother Evelyn, but he is ambushed at gunpoint by Jake before he can use the
+    evidence.
+  16: Harper infiltrates the Whitmore mansion study to find medical records and confronts
+    Diane, learning that Diane murdered the late matriarch Evelyn. Diane successfully
+    frames Harper for stealing a family heirloom, leading security and eventually
+    the police to arrest Harper for grand larceny. Cole arrives with his post-surgery
+    bandages stained red and defends Harper, threatening Diane's board majority just
+    as police slap handcuffs on his wife. The relationship between Cole and Diane
+    deteriorates further, and Harper's health and job are jeopardized by the false
+    arrest.
+  17: While nurse Harper is interrogated for grand larceny after Diane plants a stolen
+    necklace in her bag, an injured Cole vows to expose Diane for murdering his grandmother
+    Evelyn and framing Harper. Jake suddenly intervenes at the police station, forcing
+    the detective to drop Harper's charges by threatening to expose Diane's poisoning
+    to the board. Through this blackmail, Harper learns that Jake and Diane are mother
+    and son, and Jake reveals he views Harper as his own possession rather than Cole's
+    wife.
+  18: Harper reveals to Mia that Jake blackmailed her into transferring to St. Brigid's
+    Hospital, while Cole discovers a hidden glass vial in his late grandmother Evelyn's
+    desk that proves his stepmother Diane poisoned her. Cole's health deteriorates
+    as he bleeds through his bandages, and Jake's blackmail of Harper solidifies his
+    manipulative control over her. The episode culminates with Jake holding Cole at
+    gunpoint in the mansion study, threatening to finish the murder his mother started
+    if Cole does not drop the incriminating vial.
+  19: In this episode, Jake holds Cole at gunpoint to protect their mother Diane and
+    secure the shipping empire, while Harper confesses to Mia that Jake blackmailed
+    her into transferring hospitals. Cole learns that Jake intends to bury the truth
+    about Diane poisoning their grandmother Evelyn, and Mia urges Harper to call the
+    police. The police arrive at the mansion, but Jake manipulates the situation,
+    resulting in Cole being wrongfully handcuffed by the lead detective. During the
+    confrontation, Cole suffers renewed injuries as his post-surgery bandages soak
+    through with fresh blood.
+  20: Harper confronts Diane with Evelyn's hidden ledger, revealing that Diane murdered
+    the matriarch. Diane retaliates by having her son Jake hold Cole at gunpoint to
+    protect the Whitmore shipping empire before police and a crooked detective arrive.
+    During the chaos, Harper discovers Diane planted the stolen necklace in her nursing
+    bag again, straining her and Cole's safety. Cole's health is compromised as he
+    confronts them with fresh post-surgery bandages, while police approach the locked
+    gates.
+  21: 'Corrupt officers wrongly arrest an injured Cole while an unhinged Jake holds
+    Harper and Diane at gunpoint inside the mansion. During the chaos, Cole reveals
+    his true CEO identity to Harper and urges her to deliver a hidden poison ledger
+    to federal authorities. Meanwhile, Harper learns the devastating secret that Jake
+    and Diane were responsible for poisoning Grandmother Evelyn. The episode ends
+    with Jake forcing Harper into a deadly ultimatum: flee with him forever or watch
+    him execute Cole.'
+  22: During a tense standoff at the Whitmore mansion, Harper exposes Diane's murder
+    of the family matriarch to Jake, while a handcuffed Cole insists to a detective
+    that he is the rightful CEO. Jake learns the full extent of his mother's manipulation
+    even as he holds Harper at gunpoint and threatens Cole. The confrontation deepens
+    the violent rift between the half-brothers and severely taxes Cole, whose already
+    injured body fails him as he desperately tries to break free to save his wife.
+  23: Cornered by Harper and a handcuffed Cole, Jake learns the devastating truth
+    that his mother Diane poisoned Evelyn to steal the Whitmore shipping empire. As
+    federal agents storm the mansion, a desperate Diane orders Jake to kill everyone,
+    leading Jake to choose his mother over Harper. Ultimately, a sobbing Jake shoots
+    Harper point-blank in the chest to protect Diane from prison, devastating Cole
+    and leaving Harper with a fatal injury.
+  24: Federal agents raid the Whitmore mansion just as Jake shoots Harper on Diane's
+    orders to stop her from exposing their plot to poison Evelyn. During the chaos,
+    Harper learns that her husband Cole is actually the powerful CEO of the family
+    empire. The episode ends in devastating tragedy as Harper dies from her gunshot
+    wound in Cole's arms, while Diane and Jake are arrested by federal agents.
+  25: A grieving Cole weeps over a motionless Harper in her hospital room, where her
+    sister Mia arrives to witness the tragedy and accuse Cole of failing to protect
+    her. Through their confrontation, Mia learns that Diane and Jake orchestrated
+    the shooting, while Cole’s secret identity as a billionaire CEO is fully exposed.
+    Harper suffers a critical medical decline as the heart monitor flatlines, though
+    her finger twitches against Cole's palm just as the screen flashes red.
+  26: Harper Lane survives her near-death experience in the hospital, where a shocked
+    Cole Whitmore rushes to her side. Mia arrives to deliver unexpected news, revealing
+    to Harper that her post-op blood work shows she is pregnant. Meanwhile, federal
+    agents arrest Diane and Jake Whitmore outside their headquarters for poisoning
+    Evelyn and shooting Harper. This fallout leaves the Whitmore corporate empire
+    vulnerable to Harper while solidifying the romantic bond between her and Cole.
+  27: Cole exposes his true billionaire identity and consolidates power after Diane
+    and Jake are arrested. Meanwhile, Harper learns she is pregnant with Cole's child,
+    cementing their romantic bond while she continues recovering from her previous
+    gunshot wound. The episode ends in a medical emergency as Harper suffers a sudden
+    physical crisis, causing her heart monitor to flatline right after the baby's
+    secret is revealed.
+  28: In this episode, Harper survives her flatline while Cole confesses his true
+    identity as a billionaire shipping CEO who funded her sister Mia's heart surgery.
+    Diane and Jake are arrested by federal agents for poisoning family matriarch Evelyn,
+    whose posthumous video clause names Harper and Cole as the company's controlling
+    shareholders. Relationship-wise, Harper and Cole's bond deepens as he vows to
+    protect her and their unborn child. However, the episode ends in peril when Mia
+    reveals Harper's pregnancy is severely compromised from a prior shooting, just
+    as an armed hitman kicks open the hospital door.
+  29: Cole successfully overpowers an armed hitman sent by Diane to kill Harper at
+    the hospital, saving Harper from injury. At the turbulent shareholders meeting,
+    Cole publicly reveals Evelyn's finalized will, exposing Diane's crimes and establishing
+    Harper as the majority owner of Whitmore Shipping with fifty-one percent of the
+    company. Diane is subsequently arrested and dragged away by federal marshals,
+    cementing Cole and Harper's united front as a married couple and executives. The
+    episode concludes with Harper gasping in agony and clutching her pregnant abdomen,
+    putting her health and the pregnancy in sudden jeopardy.
+  30: Harper Lane experiences a severe medical crisis outside the Whitmore estate
+    and is rushed to St. Brigid's Hospital, where she flatlines in the trauma bay.
+    During the emergency, Mia reveals her recovery by running downstairs without her
+    post-surgery sling, while Cole learns that Harper's pregnancy monitor is flashing
+    red. The episode ends with a devastating shift in their relationship and health
+    status as Harper's heart monitor flatlines, leaving her life hanging in the balance.
+format_issues:
+  1: []
+  2: []
+  3: []
+  4: []
+  5: []
+  6: []
+  7: []
+  8: []
+  9: []
+  10: []
+  11: []
+  12: []
+  13: []
+  14: []
+  15: []
+  16: []
+  17: []
+  18: []
+  19: []
+  20: []
+  21: []
+  22: []
+  23: []
+  24: []
+  25: []
+  26: []
+  27: []
+  28: []
+  29: []
+  30: []

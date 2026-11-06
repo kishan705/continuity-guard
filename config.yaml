@@ -1,0 +1,48 @@
+# Continuity Guard configuration.
+# Swap the model by editing `llm.provider` + `llm.model`, or without editing
+# anything:  LLM_PROVIDER=groq LLM_MODEL=<model> python cli.py check ...
+
+llm:
+  # google_genai | groq | ollama | openai | anthropic | offline
+  #   offline = no API key, regex baseline (used for tests, the demo, and as
+  #             the "no AI" row of the ablation table)
+  provider: google_genai
+  model: gemini-3.5-flash-lite     # check Google AI Studio for current free models
+  judge_model: null                # optional stronger model for judge + verify
+  temperature: 0
+  max_retries: 4                   # retries on rate-limit / network errors
+  rpm_limit: 8                     # requests per minute you allow yourself (free tiers are low)
+  timeout_seconds: 120
+
+  # Handy alternatives (verify names in each provider's console):
+  #   provider: groq          model: llama-3.3-70b-versatile
+  #   provider: ollama        model: qwen2.5:7b          (local, free, weaker)
+  #   provider: openai        model: <name>
+  #   provider: anthropic     model: <name>
+
+embeddings:
+  # auto = sentence-transformers if installed, else a built-in hashing embedder
+  provider: auto                   # auto | sentence_transformers | hashing
+  model: sentence-transformers/all-MiniLM-L6-v2
+
+vector_store: auto                 # auto | lancedb | numpy
+
+extract:
+  prompt: extract_facts_v2            # extract_facts (v1) | extract_facts_v2 (stricter about deaths, see prompts/)
+  max_lines_per_call: 140          # whole short episode in one call; longer ones are chunked by scene
+
+check:
+  similar_k: 8                     # past facts retrieved per new fact
+  min_similarity: 0.35             # below this a past fact is not considered related
+  secret_match: 0.45               # similarity needed to call two secrets "the same secret"
+  max_candidates_per_episode: 40   # cap on what goes to the AI judge
+  judge_batch_size: 8              # candidates per judge call
+  min_confidence: 0.6              # judge confidence needed to report a flag
+  dispute_after_challenges: 2      # an earlier fact contradicted by this many later episodes stops raising flags
+  mode: full                       # rules | judge | full  (full = rules + judge + verify)
+
+paths:
+  processed: data/processed
+  store: store
+  outputs: outputs
+  cache: cache

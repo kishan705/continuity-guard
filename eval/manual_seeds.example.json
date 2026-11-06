@@ -1,0 +1,23 @@
+[
+  {
+    "episode": 3,
+    "after_line_id": "E03L004",
+    "kind": "action",
+    "speaker": null,
+    "text": "A week has passed since the funeral; the flowers have wilted.",
+    "type": "timeline",
+    "contradicts": ["E03L002"],
+    "ai_only": true,
+    "note": "Example only (demo show). Copy to manual_seeds.json and write your own for the real pack."
+  },
+  {
+    "episode": 3,
+    "after_line_id": "E03L008",
+    "kind": "dialogue",
+    "speaker": "MAYA",
+    "text": "My cousin Lily would never say that.",
+    "type": "relationship",
+    "contradicts": ["E01L003"],
+    "note": "Lily is Maya's sister (ep 1), not her cousin."
+  }
+]

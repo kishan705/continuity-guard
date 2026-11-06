@@ -1,0 +1,50 @@
+# An original premise for generating a test series. Edit freely or write your own.
+# The writer model sees this bible in every episode, plus short summaries of the last few episodes.
+title: The Mechanic's Secret Crown
+logline: >
+  A broke night-shift nurse agrees to a one-year contract marriage with a mechanic who paid for her
+  sister's surgery, not knowing he is the hidden heir of the Whitmore shipping empire.
+setting: Boston, present day. Glass towers, a hospital, the Whitmore estate, a small auto shop.
+characters:
+  - name: Harper Lane
+    age: 24
+    job: night-shift nurse at St. Brigid's Hospital
+    relationships: older sister of Mia
+    secret: none at the start
+  - name: Cole Whitmore
+    age: 32
+    job: CEO of Whitmore Shipping, pretending to be a mechanic named Cole Hayes
+    relationships: grandson of Evelyn; stepson of Diane; half-brother of Jake
+    secret: his real identity, hidden from Harper
+  - name: Mia Lane
+    age: 17
+    job: high-school student
+    relationships: Harper's younger sister
+    secret: none; she needs heart surgery in episode 1
+  - name: Evelyn Whitmore
+    age: 81
+    job: matriarch, controls the family shares
+    relationships: Cole's grandmother
+    secret: she knows Cole married Harper for the inheritance clause
+  - name: Diane Whitmore
+    age: 58
+    job: board member
+    relationships: Cole's stepmother, Jake's mother
+    secret: she is quietly poisoning Evelyn to inherit control
+  - name: Jake Whitmore
+    age: 29
+    job: head of sales at Whitmore Shipping
+    relationships: Cole's half-brother, Diane's son
+    secret: he is in love with Harper
+rules:
+  - Cole must not reveal his identity to Harper before episode 10.
+  - Evelyn dies at the end of episode 8 and stays dead.
+  - Mia's surgery is in episode 1; she wears a sling on her left arm from a fall in episode 4 until episode 7.
+beats:
+  - {from: 1, to: 3, beat: "The contract marriage and Mia's surgery; Harper meets the Whitmores, who sneer at the mechanic."}
+  - {from: 4, to: 7, beat: "Harper works at the hospital where Evelyn is treated; Diane's sabotage begins; Jake gets close to Harper."}
+  - {from: 8, to: 10, beat: "Evelyn dies; the will is read; Harper learns Cole's real identity in a public humiliation scene."}
+  - {from: 11, to: 15, beat: "Harper leaves Cole; Jake pursues her; Cole investigates Evelyn's death."}
+  - {from: 16, to: 20, beat: "Harper finds proof Diane poisoned Evelyn; Diane frames Harper for theft."}
+  - {from: 21, to: 25, beat: "Cole and Harper team up; Jake must choose between his mother and Harper."}
+  - {from: 26, to: 30, beat: "Diane's exposure at the shareholders' meeting; a pregnancy reveal; a final cliffhanger for season 2."}
