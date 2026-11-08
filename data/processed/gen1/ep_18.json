@@ -1,0 +1,200 @@
+{
+ "episode": 18,
+ "source_file": "ep_18.txt",
+ "title": "The Poison Vial",
+ "scenes": [
+  {
+   "scene_id": "E18S01",
+   "episode": 18,
+   "heading": "EXT. ST. BRIGID'S HOSPITAL - NIGHT",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E18L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. ST. BRIGID'S HOSPITAL - NIGHT"
+    },
+    {
+     "line_id": "E18L002",
+     "ts": "00:03",
+     "ts_sec": 3.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Harper, a 24-year-old night-shift nurse, stands by her locker while her 17-year-old sister Mia watches closely."
+    },
+    {
+     "line_id": "E18L003",
+     "ts": "00:06",
+     "ts_sec": 6.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Jake blackmailed me into transferring here, Mia, and I still can't believe Cole is a billionaire."
+    },
+    {
+     "line_id": "E18L004",
+     "ts": "00:11",
+     "ts_sec": 11.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "MIA",
+     "text": "He lied to you about being a mechanic, Harper, but he saved my life."
+    }
+   ]
+  },
+  {
+   "scene_id": "E18S02",
+   "episode": 18,
+   "heading": "INT. WHITMORE MANSION STUDY - NIGHT",
+   "start": "00:16",
+   "lines": [
+    {
+     "line_id": "E18L005",
+     "ts": "00:16",
+     "ts_sec": 16.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE MANSION STUDY - NIGHT"
+    },
+    {
+     "line_id": "E18L006",
+     "ts": "00:20",
+     "ts_sec": 20.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole, the 32-year-old CEO of Whitmore Shipping, bleeds through his bandages as he searches the desk for his late grandmother Evelyn's medical file."
+    },
+    {
+     "line_id": "E18L007",
+     "ts": "00:25",
+     "ts_sec": 25.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Diane, my stepmother, thought she could poison my 81-year-old grandmother Evelyn and get away with it."
+    }
+   ]
+  },
+  {
+   "scene_id": "E18S03",
+   "episode": 18,
+   "heading": "EXT. WHITMORE ESTATE GARDEN - CONTINUOUS",
+   "start": "00:30",
+   "lines": [
+    {
+     "line_id": "E18L008",
+     "ts": "00:30",
+     "ts_sec": 30.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. WHITMORE ESTATE GARDEN - CONTINUOUS"
+    },
+    {
+     "line_id": "E18L009",
+     "ts": "00:33",
+     "ts_sec": 33.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Diane, the 58-year-old board member, paces near the glass doors with her son Jake, the 29-year-old head of sales."
+    },
+    {
+     "line_id": "E18L010",
+     "ts": "00:38",
+     "ts_sec": 38.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Cole is trying to expose us, Jake, but we still control the board shares."
+    },
+    {
+     "line_id": "E18L011",
+     "ts": "00:43",
+     "ts_sec": 43.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Let him try, Mother, because I already made sure Harper belongs to me now."
+    }
+   ]
+  },
+  {
+   "scene_id": "E18S04",
+   "episode": 18,
+   "heading": "INT. WHITMORE MANSION STUDY - NIGHT",
+   "start": "00:48",
+   "lines": [
+    {
+     "line_id": "E18L012",
+     "ts": "00:48",
+     "ts_sec": 48.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE MANSION STUDY - NIGHT"
+    },
+    {
+     "line_id": "E18L013",
+     "ts": "00:51",
+     "ts_sec": 51.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole pulls a hidden glass vial from the secret desk compartment, his eyes narrowing at the toxic residue inside."
+    },
+    {
+     "line_id": "E18L014",
+     "ts": "00:56",
+     "ts_sec": 56.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "This vial proves Diane murdered my grandmother Evelyn."
+    }
+   ]
+  },
+  {
+   "scene_id": "E18S05",
+   "episode": 18,
+   "heading": "EXT. WHITMORE MANSION - CONTINUOUS",
+   "start": "01:01",
+   "lines": [
+    {
+     "line_id": "E18L015",
+     "ts": "01:01",
+     "ts_sec": 61.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. WHITMORE MANSION - CONTINUOUS"
+    },
+    {
+     "line_id": "E18L016",
+     "ts": "01:04",
+     "ts_sec": 64.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Jake kicks open the study door with a gun raised, pointing it directly at Cole's chest."
+    },
+    {
+     "line_id": "E18L017",
+     "ts": "01:09",
+     "ts_sec": 69.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Drop the vial, Cole, or I finish what my mother started."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "episode": 10,
+ "source_file": "ep_10.txt",
+ "title": "The Ring Returned",
+ "scenes": [
+  {
+   "scene_id": "E10S01",
+   "episode": 10,
+   "heading": "EXT. WHITMORE SHIPPING HEADQUARTERS - NIGHT",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E10L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. WHITMORE SHIPPING HEADQUARTERS - NIGHT"
+    },
+    {
+     "line_id": "E10L002",
+     "ts": "00:04",
+     "ts_sec": 4.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Harper rips her wedding ring off her finger and slams it onto the hood of Cole's battered mechanic truck."
+    },
+    {
+     "line_id": "E10L003",
+     "ts": "00:08",
+     "ts_sec": 8.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "I never want to see your billionaire face again, Cole Hayes, or whatever your real name is!"
+    }
+   ]
+  },
+  {
+   "scene_id": "E10S02",
+   "episode": 10,
+   "heading": "INT. WHITMORE LOBBY - CONTINUOUS",
+   "start": "00:14",
+   "lines": [
+    {
+     "line_id": "E10L004",
+     "ts": "00:14",
+     "ts_sec": 14.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE LOBBY - CONTINUOUS"
+    },
+    {
+     "line_id": "E10L005",
+     "ts": "00:18",
+     "ts_sec": 18.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole lunges forward, catching Harper's wrist before she can turn away from the glass entrance doors."
+    },
+    {
+     "line_id": "E10L006",
+     "ts": "00:23",
+     "ts_sec": 23.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Harper, wait, let me explain why I hid the Whitmore shipping empire from you!"
+    }
+   ]
+  },
+  {
+   "scene_id": "E10S03",
+   "episode": 10,
+   "heading": "EXT. STREET CORNER - CONTINUOUS",
+   "start": "00:29",
+   "lines": [
+    {
+     "line_id": "E10L007",
+     "ts": "00:29",
+     "ts_sec": 29.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. STREET CORNER - CONTINUOUS"
+    },
+    {
+     "line_id": "E10L008",
+     "ts": "00:33",
+     "ts_sec": 33.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Jake steps out of a sleek black sedan, holding a thick stack of corporate documents."
+    },
+    {
+     "line_id": "E10L009",
+     "ts": "00:38",
+     "ts_sec": 38.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Save your breath, cousin, she already signed my new offer and knows you used her."
+    }
+   ]
+  },
+  {
+   "scene_id": "E10S04",
+   "episode": 10,
+   "heading": "INT. HOSPITAL ROOM - LATER",
+   "start": "00:44",
+   "lines": [
+    {
+     "line_id": "E10L010",
+     "ts": "00:44",
+     "ts_sec": 44.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. HOSPITAL ROOM - LATER"
+    },
+    {
+     "line_id": "E10L011",
+     "ts": "00:48",
+     "ts_sec": 48.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Mia sits on her hospital bed, staring at her healing left arm in its sling, crying over Evelyn's tragic death."
+    },
+    {
+     "line_id": "E10L012",
+     "ts": "00:55",
+     "ts_sec": 55.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "MIA",
+     "text": "You lied to my nurse sister Harper just to get grandma Evelyn's inheritance!"
+    }
+   ]
+  },
+  {
+   "scene_id": "E10S05",
+   "episode": 10,
+   "heading": "INT. LAWYER'S OFFICE - NIGHT",
+   "start": "01:00",
+   "lines": [
+    {
+     "line_id": "E10L013",
+     "ts": "01:00",
+     "ts_sec": 60.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. LAWYER'S OFFICE - NIGHT"
+    },
+    {
+     "line_id": "E10L014",
+     "ts": "01:05",
+     "ts_sec": 65.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Diane slams a red folder onto the mahogany desk, smirking at the ruined contract marriage."
+    },
+    {
+     "line_id": "E10L015",
+     "ts": "01:10",
+     "ts_sec": 70.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "The board is mine now, and your contract wife is walking out that door forever."
+    },
+    {
+     "line_id": "E10L016",
+     "ts": "01:15",
+     "ts_sec": 75.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "I'm filing for an immediate divorce, Cole, and taking my sister far away from this toxic family."
+    }
+   ]
+  }
+ ]
+}

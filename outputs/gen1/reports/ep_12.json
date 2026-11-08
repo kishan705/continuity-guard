@@ -1,0 +1,52 @@
+{
+ "episode": 12,
+ "flags": [
+  {
+   "flag_id": "FL-E12-01",
+   "type": "physical",
+   "rule": "similar_fact",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.85,
+   "new": {
+    "episode": 12,
+    "ts": "00:02",
+    "line_id": "E12L002",
+    "quote": "Harper drops to her knees in the rain, pressing her hands against Cole's chest to stop the massive pool of blood spreading from his stab wound."
+   },
+   "prior": [
+    {
+     "episode": 11,
+     "ts": "01:20",
+     "line_id": "E11L015",
+     "quote": "A masked figure lunges from the shadows, plunging a heavy metal pipe directly into Cole's chest."
+    }
+   ],
+   "explanation": "A heavy metal pipe causes blunt force trauma, not a stab wound with a massive pool of blood.",
+   "suggested_fix": "Change 'stab wound' in E12 to 'crush injury' or change the weapon in E11 to a knife.",
+   "found_by": "rules+judge+verify",
+   "model": "google_genai/gemini-3.5-flash-lite",
+   "verify_reason": "The text depicts a direct physical contradiction where a heavy metal pipe attack results in a stab wound with a massive pool of blood in the subsequent scene without any contextual explanation provided in the lines.",
+   "prior_fact_ids": [
+    "F-E11-015"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 12,
+  "facts": 11,
+  "extract_calls": 1,
+  "extract_drafts": 13,
+  "extract_invalid": 2,
+  "extract_grounded": 11,
+  "extract_rejected": 0,
+  "extract_repaired": 0,
+  "candidates": 9,
+  "judged_contradiction": 1,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 1,
+  "seconds": 29.85,
+  "priors_disputed": 0
+ }
+}

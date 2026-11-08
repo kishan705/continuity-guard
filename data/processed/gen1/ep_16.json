@@ -1,0 +1,183 @@
+{
+ "episode": 16,
+ "source_file": "ep_16.txt",
+ "title": "The Poisoned Ledger",
+ "scenes": [
+  {
+   "scene_id": "E16S01",
+   "episode": 16,
+   "heading": "INT. WHITMORE MANSION - STUDY - NIGHT",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E16L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE MANSION - STUDY - NIGHT"
+    },
+    {
+     "line_id": "E16L002",
+     "ts": "00:04",
+     "ts_sec": 4.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "I cannot believe my husband Cole lied to me about being a billionaire Whitmore heir while my sister Mia needed surgery."
+    },
+    {
+     "line_id": "E16L003",
+     "ts": "00:10",
+     "ts_sec": 10.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Harper frantically rifles through Evelyn Whitmore's mahogany desk to find any trace of the late matriarch's true medical records."
+    }
+   ]
+  },
+  {
+   "scene_id": "E16S02",
+   "episode": 16,
+   "heading": "INT. WHITMORE MANSION - STUDY - CONTINUOUS",
+   "start": "00:16",
+   "lines": [
+    {
+     "line_id": "E16L004",
+     "ts": "00:16",
+     "ts_sec": 16.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE MANSION - STUDY - CONTINUOUS"
+    },
+    {
+     "line_id": "E16L005",
+     "ts": "00:19",
+     "ts_sec": 19.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Looking for your late grandmother-in-law Evelyn's personal medical diary, twenty-four-year-old nurse Harper?"
+    },
+    {
+     "line_id": "E16L006",
+     "ts": "00:26",
+     "ts_sec": 26.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Diane Whitmore steps out from the shadows holding a pair of heavy silver candlesticks with a cold smile."
+    },
+    {
+     "line_id": "E16L007",
+     "ts": "00:32",
+     "ts_sec": 32.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "You poisoned fifty-eight-year-old stepmother Diane, and I found the hidden pages proving you murdered Evelyn for control."
+    },
+    {
+     "line_id": "E16L008",
+     "ts": "00:39",
+     "ts_sec": 39.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Diane lunges forward and drops a diamond-encrusted family heirloom necklace directly into Harper's open handbag."
+    }
+   ]
+  },
+  {
+   "scene_id": "E16S03",
+   "episode": 16,
+   "heading": "INT. WHITMORE MANSION - FOYER - SECONDS LATER",
+   "start": "00:46",
+   "lines": [
+    {
+     "line_id": "E16L009",
+     "ts": "00:46",
+     "ts_sec": 46.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE MANSION - FOYER - SECONDS LATER"
+    },
+    {
+     "line_id": "E16L010",
+     "ts": "00:50",
+     "ts_sec": 50.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Security, arrest thirty-two-year-old nurse Harper for stealing our most priceless family heirloom from the study!"
+    },
+    {
+     "line_id": "E16L011",
+     "ts": "00:57",
+     "ts_sec": 57.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Two armed security guards grab Harper by both arms as she struggles against the frame-up."
+    }
+   ]
+  },
+  {
+   "scene_id": "E16S04",
+   "episode": 16,
+   "heading": "EXT. WHITMORE MANSION - NIGHT - CONTINUOUS",
+   "start": "01:03",
+   "lines": [
+    {
+     "line_id": "E16L012",
+     "ts": "01:03",
+     "ts_sec": 63.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. WHITMORE MANSION - NIGHT - CONTINUOUS"
+    },
+    {
+     "line_id": "E16L013",
+     "ts": "01:07",
+     "ts_sec": 67.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Let go of my wife Harper right now, Diane, or I will destroy your entire board majority tonight!"
+    },
+    {
+     "line_id": "E16L014",
+     "ts": "01:14",
+     "ts_sec": 74.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Thirty-two-year-old CEO Cole Whitmore stumbles out of a black sedan with his hospital bandages stained red."
+    },
+    {
+     "line_id": "E16L015",
+     "ts": "01:21",
+     "ts_sec": 81.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Too late, stepson Cole, because the police are already arresting your wife for grand larceny!"
+    },
+    {
+     "line_id": "E16L016",
+     "ts": "01:27",
+     "ts_sec": 87.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Flashing blue sirens illuminate the driveway as two Boston police officers slap handcuffs on Harper."
+    }
+   ]
+  }
+ ]
+}

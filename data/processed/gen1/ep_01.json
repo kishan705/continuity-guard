@@ -1,0 +1,193 @@
+{
+ "episode": 1,
+ "source_file": "ep_01.txt",
+ "title": "The One-Year Deal",
+ "scenes": [
+  {
+   "scene_id": "E01S01",
+   "episode": 1,
+   "heading": "INT. ST. BRIGID'S HOSPITAL - NIGHT",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E01L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. ST. BRIGID'S HOSPITAL - NIGHT"
+    },
+    {
+     "line_id": "E01L002",
+     "ts": "00:05",
+     "ts_sec": 5.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Tears stream down twenty-four-year-old night-shift nurse Harper's face as she stares at an unpaid bill for her seventeen-year-old sister Mia's emergency heart surgery."
+    },
+    {
+     "line_id": "E01L003",
+     "ts": "00:11",
+     "ts_sec": 11.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Please, Mia needs this heart surgery tonight or she will not survive!"
+    },
+    {
+     "line_id": "E01L004",
+     "ts": "00:17",
+     "ts_sec": 17.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "A rugged man in oil-stained coveralls steps forward and places a cashier's check on the hospital counter."
+    },
+    {
+     "line_id": "E01L005",
+     "ts": "00:23",
+     "ts_sec": 23.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "I am paying for Mia's surgery in full right now."
+    }
+   ]
+  },
+  {
+   "scene_id": "E01S02",
+   "episode": 1,
+   "heading": "INT. AUTO SHOP - NIGHT",
+   "start": "00:29",
+   "lines": [
+    {
+     "line_id": "E01L006",
+     "ts": "00:29",
+     "ts_sec": 29.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. AUTO SHOP - NIGHT"
+    },
+    {
+     "line_id": "E01L007",
+     "ts": "00:34",
+     "ts_sec": 34.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Thirty-two-year-old mechanic Cole Hayes wipes grease off his hands as Harper follows him into the small garage."
+    },
+    {
+     "line_id": "E01L008",
+     "ts": "00:40",
+     "ts_sec": 40.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "You are just a night-shift mechanic, Cole, how do you have one hundred thousand dollars for my sister?"
+    },
+    {
+     "line_id": "E01L009",
+     "ts": "00:46",
+     "ts_sec": 46.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "My condition is simple: sign a one-year contract marriage with me tonight, and the hospital operates immediately."
+    },
+    {
+     "line_id": "E01L010",
+     "ts": "00:52",
+     "ts_sec": 52.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "A contract marriage with a stranger just to save Mia's life?"
+    },
+    {
+     "line_id": "E01L011",
+     "ts": "00:57",
+     "ts_sec": 57.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole slides a signed legal marriage document across the workbench toward her."
+    },
+    {
+     "line_id": "E01L012",
+     "ts": "01:03",
+     "ts_sec": 63.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Sign it, Harper, or I walk away and your sister loses her chance."
+    }
+   ]
+  },
+  {
+   "scene_id": "E01S03",
+   "episode": 1,
+   "heading": "INT. ST. BRIGID'S HOSPITAL - NIGHT",
+   "start": "01:09",
+   "lines": [
+    {
+     "line_id": "E01L013",
+     "ts": "01:09",
+     "ts_sec": 69.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. ST. BRIGID'S HOSPITAL - NIGHT"
+    },
+    {
+     "line_id": "E01L014",
+     "ts": "01:14",
+     "ts_sec": 74.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Harper signs the marriage contract with shaking hands as seventeen-year-old Mia is rolled into the operating room."
+    },
+    {
+     "line_id": "E01L015",
+     "ts": "01:20",
+     "ts_sec": 80.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole secretly glances at his phone screen displaying a message from Whitmore Shipping regarding his hidden CEO status."
+    },
+    {
+     "line_id": "E01L016",
+     "ts": "01:26",
+     "ts_sec": 86.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Your sister is safe now, wife."
+    },
+    {
+     "line_id": "E01L017",
+     "ts": "01:31",
+     "ts_sec": 91.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "High heels clack against the tile floor as Cole's wealthy stepmother Diane Whitmore enters with her twenty-nine-year-old son Jake."
+    },
+    {
+     "line_id": "E01L018",
+     "ts": "01:37",
+     "ts_sec": 97.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "What is a pathetic mechanic like you doing marrying a broke nurse in public?"
+    }
+   ]
+  }
+ ]
+}

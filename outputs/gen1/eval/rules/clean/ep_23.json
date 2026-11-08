@@ -1,0 +1,51 @@
+{
+ "episode": 23,
+ "flags": [
+  {
+   "flag_id": "FL-E23-01",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 23,
+    "ts": "00:43",
+    "line_id": "E23L009",
+    "quote": "DIANE: Jake, your half-brother Cole is lying to you, shoot her right now before we lose everything!"
+   },
+   "prior": [
+    {
+     "episode": 7,
+     "ts": "00:09",
+     "line_id": "E07L003",
+     "quote": "JAKE: Sign these divorce papers for my broke mechanic brother, Harper, and my legal team gets you out today."
+    }
+   ],
+   "explanation": "relationship was 'brother', now 'half-brother'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E07-005"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 23,
+  "facts": 10,
+  "extract_calls": 1,
+  "extract_drafts": 10,
+  "extract_invalid": 0,
+  "extract_grounded": 10,
+  "extract_rejected": 0,
+  "extract_repaired": 1,
+  "candidates": 7,
+  "judged_contradiction": 0,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 1,
+  "seconds": 0.05
+ }
+}

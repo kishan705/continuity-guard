@@ -1,0 +1,57 @@
+characters:
+- id: harper
+  name: Harper
+  aliases:
+  - Harper
+  - HARPER
+  - Harper Lane
+- id: cole
+  name: Cole
+  aliases:
+  - Cole
+  - COLE
+  - Cole Whitmore
+  - Cole Hayes
+  - COLE HAYES
+- id: jake
+  name: Jake
+  aliases:
+  - Jake
+  - JAKE
+  - Jake Whitmore
+  - JAKE WHITMORE
+- id: diane
+  name: Diane
+  aliases:
+  - Diane
+  - DIANE
+  - Diane Whitmore
+  - DIANE WHITMORE
+- id: evelyn
+  name: Evelyn
+  aliases:
+  - Evelyn
+  - EVELYN
+  - Evelyn Whitmore
+- id: mia
+  name: Mia
+  aliases:
+  - Mia
+  - MIA
+  - Mia Lane
+- id: detective
+  name: Detective
+  aliases:
+  - DETECTIVE
+- id: lawyer
+  name: Lawyer
+  aliases:
+  - LAWYER
+- id: mechanic
+  name: Mechanic
+  aliases:
+  - MECHANIC
+- id: attorney
+  name: Attorney
+  aliases:
+  - ATTORNEY

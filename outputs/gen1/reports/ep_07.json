@@ -1,0 +1,52 @@
+{
+ "episode": 7,
+ "flags": [
+  {
+   "flag_id": "FL-E07-01",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.95,
+   "new": {
+    "episode": 7,
+    "ts": "00:15",
+    "line_id": "E07L004",
+    "quote": "HARPER: I promised Cole one year when he paid for Mia's heart surgery, Jake, and I don't break contracts."
+   },
+   "prior": [
+    {
+     "episode": 1,
+     "ts": "00:05",
+     "line_id": "E01L002",
+     "quote": "Tears stream down twenty-four-year-old night-shift nurse Harper's face as she stares at an unpaid bill for her seventeen-year-old sister Mia's emergency heart surgery."
+    }
+   ],
+   "explanation": "Mia was previously established as Harper's sister, but is now referred to as Harper's daughter.",
+   "suggested_fix": "Change 'daughter' back to 'sister' to maintain established family relationships.",
+   "found_by": "rules+judge+verify",
+   "model": "google_genai/gemini-3.5-flash-lite",
+   "verify_reason": "The reviewer's claim is false because the new line actually refers to Mia as the recipient of the heart surgery, consistent with her being Harper's sister, and does not call her Harper's daughter.",
+   "prior_fact_ids": [
+    "F-E01-004"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 7,
+  "facts": 20,
+  "extract_calls": 1,
+  "extract_drafts": 20,
+  "extract_invalid": 0,
+  "extract_grounded": 20,
+  "extract_rejected": 0,
+  "extract_repaired": 0,
+  "candidates": 14,
+  "judged_contradiction": 1,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 1,
+  "seconds": 26.31,
+  "priors_disputed": 0
+ }
+}

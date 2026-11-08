@@ -1,0 +1,139 @@
+{
+ "episode": 23,
+ "flags": [
+  {
+   "flag_id": "FL-E23-01",
+   "type": "status",
+   "rule": "dead_character_active",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.95,
+   "new": {
+    "episode": 23,
+    "ts": "00:37",
+    "line_id": "E23L008_S12",
+    "quote": "EVELYN: I'm not finished with this family yet."
+   },
+   "prior": [
+    {
+     "episode": 10,
+     "ts": "00:48",
+     "line_id": "E10L011",
+     "quote": "Mia sits on her hospital bed, staring at her healing left arm in its sling, crying over Evelyn's tragic death."
+    }
+   ],
+   "explanation": "Evelyn speaks and acts alive in E23 despite her tragic death being established in E10.",
+   "suggested_fix": "Change the scene to a flashback or hallucination to account for Evelyn's death.",
+   "found_by": "rules+judge",
+   "model": "google_genai/gemini-3.5-flash-lite",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E10-008"
+   ]
+  },
+  {
+   "flag_id": "FL-E23-02",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.95,
+   "new": {
+    "episode": 23,
+    "ts": "00:37",
+    "line_id": "E23L008_S4",
+    "quote": "JAKE: I'm 25, and I know exactly what I'm doing."
+   },
+   "prior": [
+    {
+     "episode": 21,
+     "ts": "00:26",
+     "line_id": "E21L006",
+     "quote": "JAKE: 29-year-old Jake holds a loaded pistol, staring at Harper with desperate, unhinged obsession."
+    },
+    {
+     "episode": 18,
+     "ts": "00:33",
+     "line_id": "E18L009",
+     "quote": "Diane, the 58-year-old board member, paces near the glass doors with her son Jake, the 29-year-old head of sales."
+    },
+    {
+     "episode": 14,
+     "ts": "00:03",
+     "line_id": "E14L002",
+     "quote": "Jake Whitmore, 29, physically corners 24-year-old nurse Harper Lane outside the ambulance bay doors."
+    }
+   ],
+   "explanation": "Jake's age suddenly drops from 29 to 25 without any narrative explanation.",
+   "suggested_fix": "Change Jake's stated age in E23 to 29.",
+   "found_by": "rules+judge",
+   "model": "google_genai/gemini-3.5-flash-lite",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E21-003",
+    "F-E18-017",
+    "F-E14-001"
+   ]
+  },
+  {
+   "flag_id": "FL-E23-03",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.95,
+   "new": {
+    "episode": 23,
+    "ts": "01:04",
+    "line_id": "E23L012_S8",
+    "quote": "Jake, Diane's nephew, walks in."
+   },
+   "prior": [
+    {
+     "episode": 21,
+     "ts": "00:20",
+     "line_id": "E21L005",
+     "quote": "DIANE: Step-mother Diane glares at her son Jake, demanding he secure the shipping empire immediately."
+    },
+    {
+     "episode": 20,
+     "ts": "00:22",
+     "line_id": "E20L005",
+     "quote": "DIANE: That ledger is a forgery, and my son Jake will make sure you rot in a cell for stealing it."
+    },
+    {
+     "episode": 18,
+     "ts": "00:33",
+     "line_id": "E18L009",
+     "quote": "Diane, the 58-year-old board member, paces near the glass doors with her son Jake, the 29-year-old head of sales."
+    }
+   ],
+   "explanation": "Jake is suddenly described as Diane's nephew instead of her son.",
+   "suggested_fix": "Change 'nephew' back to 'son' to match the established mother-son relationship.",
+   "found_by": "rules+judge",
+   "model": "google_genai/gemini-3.5-flash-lite",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E21-002",
+    "F-E20-005",
+    "F-E18-019"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 23,
+  "facts": 10,
+  "extract_calls": 1,
+  "extract_drafts": 10,
+  "extract_invalid": 0,
+  "extract_grounded": 10,
+  "extract_rejected": 0,
+  "extract_repaired": 0,
+  "candidates": 9,
+  "judged_contradiction": 3,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 3,
+  "seconds": 13.44
+ }
+}

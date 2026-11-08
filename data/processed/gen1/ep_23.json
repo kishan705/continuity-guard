@@ -1,0 +1,184 @@
+{
+ "episode": 23,
+ "source_file": "ep_23.txt",
+ "title": "The Ultimatum Of Blood",
+ "scenes": [
+  {
+   "scene_id": "E23S01",
+   "episode": 23,
+   "heading": "INT. WHITMORE MANSION - LIVING ROOM - DAY",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E23L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE MANSION - LIVING ROOM - DAY"
+    },
+    {
+     "line_id": "E23L002",
+     "ts": "00:05",
+     "ts_sec": 5.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Jake lowers his trembling gun slightly as Harper stares directly into his eyes with fierce resolve."
+    },
+    {
+     "line_id": "E23L003",
+     "ts": "00:10",
+     "ts_sec": 10.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Jake, your mother Diane poisoned Evelyn just to steal the Whitmore shipping empire!"
+    }
+   ]
+  },
+  {
+   "scene_id": "E23S02",
+   "episode": 23,
+   "heading": "INT. WHITMORE MANSION - FOYER - DAY",
+   "start": "00:16",
+   "lines": [
+    {
+     "line_id": "E23L004",
+     "ts": "00:16",
+     "ts_sec": 16.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE MANSION - FOYER - DAY"
+    },
+    {
+     "line_id": "E23L005",
+     "ts": "00:20",
+     "ts_sec": 20.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole struggles against his handcuffs, fighting through his recent injuries to protect his wife Harper."
+    },
+    {
+     "line_id": "E23L006",
+     "ts": "00:26",
+     "ts_sec": 26.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Jake, open your eyes, Diane is using you as a pawn to destroy everything I built!"
+    }
+   ]
+  },
+  {
+   "scene_id": "E23S03",
+   "episode": 23,
+   "heading": "INT. WHITMORE MANSION - LIVING ROOM - DAY",
+   "start": "00:32",
+   "lines": [
+    {
+     "line_id": "E23L007",
+     "ts": "00:32",
+     "ts_sec": 32.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE MANSION - LIVING ROOM - DAY"
+    },
+    {
+     "line_id": "E23L008",
+     "ts": "00:37",
+     "ts_sec": 37.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Diane shrieks in absolute panic as her son Jake turns his gaze from Harper toward her."
+    },
+    {
+     "line_id": "E23L009",
+     "ts": "00:43",
+     "ts_sec": 43.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Jake, your half-brother Cole is lying to you, shoot her right now before we lose everything!"
+    },
+    {
+     "line_id": "E23L010",
+     "ts": "00:50",
+     "ts_sec": 50.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Choose right now, Jake: run away with a murderer's son, or save what is left of your soul."
+    },
+    {
+     "line_id": "E23L011",
+     "ts": "00:57",
+     "ts_sec": 57.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Jake's finger twitches nervously on the trigger as he looks back and forth between Diane and Harper."
+    },
+    {
+     "line_id": "E23L012",
+     "ts": "01:04",
+     "ts_sec": 64.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "If I let you go with Cole, my mother goes to prison for murder."
+    },
+    {
+     "line_id": "E23L013",
+     "ts": "01:11",
+     "ts_sec": 71.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Suddenly, the front doors crash open and federal agents flood the grand foyer with weapons drawn."
+    },
+    {
+     "line_id": "E23L014",
+     "ts": "01:17",
+     "ts_sec": 77.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Kill them all, Jake, kill them all right now!"
+    },
+    {
+     "line_id": "E23L015",
+     "ts": "01:23",
+     "ts_sec": 83.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Jake raises his gun directly at Harper's chest with a tear streaming down his face."
+    },
+    {
+     "line_id": "E23L016",
+     "ts": "01:30",
+     "ts_sec": 90.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "I'm sorry, Harper, but I can't let my mother die."
+    },
+    {
+     "line_id": "E23L017",
+     "ts": "01:36",
+     "ts_sec": 96.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Jake fires his weapon point-blank into Harper's chest as Cole screams in absolute horror."
+    }
+   ]
+  }
+ ]
+}

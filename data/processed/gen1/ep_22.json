@@ -1,0 +1,148 @@
+{
+ "episode": 22,
+ "source_file": "ep_22.txt",
+ "title": "The Final Choice",
+ "scenes": [
+  {
+   "scene_id": "E22S01",
+   "episode": 22,
+   "heading": "EXT. WHITMORE MANSION - NIGHT",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E22L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. WHITMORE MANSION - NIGHT"
+    },
+    {
+     "line_id": "E22L002",
+     "ts": "00:05",
+     "ts_sec": 5.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "You are coming with me right now, Harper, or I pull this trigger and end my half-brother Cole forever!"
+    },
+    {
+     "line_id": "E22L003",
+     "ts": "00:11",
+     "ts_sec": 11.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "You are insane, Jake, your own mother Diane murdered your grandmother Evelyn for this shipping empire!"
+    },
+    {
+     "line_id": "E22L004",
+     "ts": "00:18",
+     "ts_sec": 18.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "I do not care about the ledger, I only care about you!"
+    }
+   ]
+  },
+  {
+   "scene_id": "E22S02",
+   "episode": 22,
+   "heading": "INT. MANSION STUDY - NIGHT",
+   "start": "00:23",
+   "lines": [
+    {
+     "line_id": "E22L005",
+     "ts": "00:23",
+     "ts_sec": 23.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. MANSION STUDY - NIGHT"
+    },
+    {
+     "line_id": "E22L006",
+     "ts": "00:28",
+     "ts_sec": 28.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Put the gun down, Jake, do not ruin your future for this wretched night-shift nurse!"
+    },
+    {
+     "line_id": "E22L007",
+     "ts": "00:34",
+     "ts_sec": 34.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Shut up, Mother, you started this mess by poisoning the matriarch!"
+    },
+    {
+     "line_id": "E22L008",
+     "ts": "00:40",
+     "ts_sec": 40.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Look at him, Jake, your mother is using you as a shield just like she used everyone else!"
+    },
+    {
+     "line_id": "E22L009",
+     "ts": "00:47",
+     "ts_sec": 47.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Silence, Harper, choose me or watch Cole bleed out in cuffs!"
+    }
+   ]
+  },
+  {
+   "scene_id": "E22S03",
+   "episode": 22,
+   "heading": "EXT. FRONT GATES - NIGHT",
+   "start": "00:53",
+   "lines": [
+    {
+     "line_id": "E22L010",
+     "ts": "00:53",
+     "ts_sec": 53.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. FRONT GATES - NIGHT"
+    },
+    {
+     "line_id": "E22L011",
+     "ts": "00:58",
+     "ts_sec": 58.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Listen to me, Detective, that crooked arrest is a mistake because I am Cole Whitmore, the rightful CEO!"
+    },
+    {
+     "line_id": "E22L012",
+     "ts": "01:05",
+     "ts_sec": 65.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DETECTIVE",
+     "text": "Save it for the station house, Hayes, you are trespassing and interfering with a homicide investigation."
+    },
+    {
+     "line_id": "E22L013",
+     "ts": "01:12",
+     "ts_sec": 72.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "My injured body is failing me, but I will break these gates down before I let Jake take my wife!"
+    }
+   ]
+  }
+ ]
+}

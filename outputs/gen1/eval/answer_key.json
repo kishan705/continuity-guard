@@ -1,0 +1,382 @@
+[
+ {
+  "seed_id": "S01",
+  "episode": 17,
+  "line_id": "E17L009_S1",
+  "type": "identity",
+  "expected_rule": "stable_attribute_changed",
+  "kind": "dialogue",
+  "speaker": "COLE",
+  "text": "I'm 36, and I know exactly what I'm doing.",
+  "contradicts": [
+   {
+    "episode": 8,
+    "line_id": "E08L016",
+    "quote": "thirty-two-year-old Cole"
+   }
+  ],
+  "source": "auto",
+  "ai_only": false
+ },
+ {
+  "seed_id": "S02",
+  "episode": 19,
+  "line_id": "E19L011_S2",
+  "type": "identity",
+  "expected_rule": "stable_attribute_changed",
+  "kind": "dialogue",
+  "speaker": "JAKE",
+  "text": "I'm 32, and I know exactly what I'm doing.",
+  "contradicts": [
+   {
+    "episode": 1,
+    "line_id": "E01L017",
+    "quote": "twenty-nine-year-old son Jake"
+   }
+  ],
+  "source": "auto",
+  "ai_only": false
+ },
+ {
+  "seed_id": "S03",
+  "episode": 21,
+  "line_id": "E21L010_S3",
+  "type": "identity",
+  "expected_rule": "stable_attribute_changed",
+  "kind": "dialogue",
+  "speaker": "JAKE",
+  "text": "I'm 34, and I know exactly what I'm doing.",
+  "contradicts": [
+   {
+    "episode": 3,
+    "line_id": "E03L009",
+    "quote": "Twenty-nine-year-old sales head Jake Whitmore"
+   }
+  ],
+  "source": "auto",
+  "ai_only": false
+ },
+ {
+  "seed_id": "S04",
+  "episode": 23,
+  "line_id": "E23L008_S4",
+  "type": "identity",
+  "expected_rule": "stable_attribute_changed",
+  "kind": "dialogue",
+  "speaker": "JAKE",
+  "text": "I'm 25, and I know exactly what I'm doing.",
+  "contradicts": [
+   {
+    "episode": 1,
+    "line_id": "E01L017",
+    "quote": "twenty-nine-year-old son Jake"
+   }
+  ],
+  "source": "auto",
+  "ai_only": false
+ },
+ {
+  "seed_id": "S05",
+  "episode": 17,
+  "line_id": "E17L006_S5",
+  "type": "relationship",
+  "expected_rule": "relationship_changed",
+  "kind": "action",
+  "speaker": null,
+  "text": "Jake, Diane's nephew, walks in.",
+  "contradicts": [
+   {
+    "episode": 1,
+    "line_id": "E01L017",
+    "quote": "twenty-nine-year-old son Jake"
+   }
+  ],
+  "source": "auto",
+  "ai_only": false
+ },
+ {
+  "seed_id": "S06",
+  "episode": 19,
+  "line_id": "E19L010_S6",
+  "type": "relationship",
+  "expected_rule": "relationship_changed",
+  "kind": "action",
+  "speaker": null,
+  "text": "Mia, Harper's cousin, walks in.",
+  "contradicts": [
+   {
+    "episode": 11,
+    "line_id": "E11L002",
+    "quote": "her 17-year-old sister Mia"
+   }
+  ],
+  "source": "auto",
+  "ai_only": false
+ },
+ {
+  "seed_id": "S07",
+  "episode": 21,
+  "line_id": "E21L006_S7",
+  "type": "relationship",
+  "expected_rule": "relationship_changed",
+  "kind": "action",
+  "speaker": null,
+  "text": "Cole, Jake's cousin, walks in.",
+  "contradicts": [
+   {
+    "episode": 7,
+    "line_id": "E07L003",
+    "quote": "mechanic brother"
+   }
+  ],
+  "source": "auto",
+  "ai_only": false
+ },
+ {
+  "seed_id": "S08",
+  "episode": 23,
+  "line_id": "E23L012_S8",
+  "type": "relationship",
+  "expected_rule": "relationship_changed",
+  "kind": "action",
+  "speaker": null,
+  "text": "Jake, Diane's nephew, walks in.",
+  "contradicts": [
+   {
+    "episode": 8,
+    "line_id": "E08L007",
+    "quote": "her son Jake"
+   }
+  ],
+  "source": "auto",
+  "ai_only": false
+ },
+ {
+  "seed_id": "S09",
+  "episode": 17,
+  "line_id": "E17L009_S1_S9",
+  "type": "status",
+  "expected_rule": "dead_character_active",
+  "kind": "dialogue",
+  "speaker": "EVELYN",
+  "text": "I'm not finished with this family yet.",
+  "contradicts": [
+   {
+    "episode": 8,
+    "line_id": "E08L002",
+    "quote": "Harper gasps as eighty-one-year-old Evelyn Whitmore's heart monitor flatlines"
+   }
+  ],
+  "source": "auto",
+  "ai_only": false
+ },
+ {
+  "seed_id": "S10",
+  "episode": 19,
+  "line_id": "E19L007_S10",
+  "type": "status",
+  "expected_rule": "dead_character_active",
+  "kind": "dialogue",
+  "speaker": "EVELYN",
+  "text": "I'm not finished with this family yet.",
+  "contradicts": [
+   {
+    "episode": 8,
+    "line_id": "E08L002",
+    "quote": "Harper gasps as eighty-one-year-old Evelyn Whitmore's heart monitor flatlines"
+   }
+  ],
+  "source": "auto",
+  "ai_only": false
+ },
+ {
+  "seed_id": "S11",
+  "episode": 21,
+  "line_id": "E21L010_S11",
+  "type": "status",
+  "expected_rule": "dead_character_active",
+  "kind": "dialogue",
+  "speaker": "EVELYN",
+  "text": "I'm not finished with this family yet.",
+  "contradicts": [
+   {
+    "episode": 8,
+    "line_id": "E08L002",
+    "quote": "Harper gasps as eighty-one-year-old Evelyn Whitmore's heart monitor flatlines"
+   }
+  ],
+  "source": "auto",
+  "ai_only": false
+ },
+ {
+  "seed_id": "S12",
+  "episode": 23,
+  "line_id": "E23L008_S12",
+  "type": "status",
+  "expected_rule": "dead_character_active",
+  "kind": "dialogue",
+  "speaker": "EVELYN",
+  "text": "I'm not finished with this family yet.",
+  "contradicts": [
+   {
+    "episode": 10,
+    "line_id": "E10L011",
+    "quote": "Evelyn's tragic death"
+   }
+  ],
+  "source": "auto",
+  "ai_only": false
+ },
+ {
+  "seed_id": "S13",
+  "episode": 17,
+  "line_id": "E17L010_S13",
+  "type": "knowledge",
+  "expected_rule": "secret_before_learned",
+  "kind": "dialogue",
+  "speaker": "ATTORNEY",
+  "text": "I know that harper hid the Whitmore shipping empire from Cole.",
+  "contradicts": [
+   {
+    "episode": 10,
+    "line_id": "E10L006",
+    "quote": "let me explain why I hid the Whitmore shipping empire from you!"
+   }
+  ],
+  "source": "auto",
+  "ai_only": false
+ },
+ {
+  "seed_id": "S14",
+  "episode": 19,
+  "line_id": "E19L011_S2_S14",
+  "type": "knowledge",
+  "expected_rule": "secret_before_learned",
+  "kind": "dialogue",
+  "speaker": "DETECTIVE",
+  "text": "I know that diane Whitmore planted a diamond necklace in Harper's bag to frame her for grand larceny.",
+  "contradicts": [
+   {
+    "episode": 17,
+    "line_id": "E17L003",
+    "quote": "Diane Whitmore planted that diamond necklace in my bag"
+   }
+  ],
+  "source": "auto",
+  "ai_only": false
+ },
+ {
+  "seed_id": "S15",
+  "episode": 21,
+  "line_id": "E21L010_S15",
+  "type": "knowledge",
+  "expected_rule": "secret_before_learned",
+  "kind": "dialogue",
+  "speaker": "HARPER",
+  "text": "I know that someone broke in and wiped all video evidence of Diane murdering the matriarch.",
+  "contradicts": [
+   {
+    "episode": 13,
+    "line_id": "E13L011",
+    "quote": "Someone broke in and wiped all the video evidence of Diane murdering the matriarch."
+   }
+  ],
+  "source": "auto",
+  "ai_only": false
+ },
+ {
+  "seed_id": "S16",
+  "episode": 23,
+  "line_id": "E23L008_S12_S16",
+  "type": "knowledge",
+  "expected_rule": "secret_before_learned",
+  "kind": "dialogue",
+  "speaker": "EVELYN",
+  "text": "I know that diane poisoned Evelyn, proven by Evelyn's personal ledger behind the bookshelf.",
+  "contradicts": [
+   {
+    "episode": 20,
+    "line_id": "E20L004",
+    "quote": "it proves you poisoned the 81-year-old matriarch"
+   }
+  ],
+  "source": "auto",
+  "ai_only": false
+ },
+ {
+  "seed_id": "S17",
+  "episode": 17,
+  "line_id": "E17L010_S13_S17",
+  "type": "physical",
+  "expected_rule": "similar_fact",
+  "kind": "action",
+  "speaker": null,
+  "text": "Cole lifts a heavy box with both arms and carries it outside.",
+  "contradicts": [
+   {
+    "episode": 16,
+    "line_id": "E16L014",
+    "quote": "his hospital bandages stained red"
+   }
+  ],
+  "source": "auto",
+  "ai_only": true
+ },
+ {
+  "seed_id": "S18",
+  "episode": 19,
+  "line_id": "E19L007_S18",
+  "type": "physical",
+  "expected_rule": "similar_fact",
+  "kind": "action",
+  "speaker": null,
+  "text": "Cole lifts a heavy box with both arms and carries it outside.",
+  "contradicts": [
+   {
+    "episode": 18,
+    "line_id": "E18L006",
+    "quote": "bleeds through his bandages"
+   }
+  ],
+  "source": "auto",
+  "ai_only": true
+ },
+ {
+  "seed_id": "S19",
+  "episode": 21,
+  "line_id": "E21L010_S15_S19",
+  "type": "physical",
+  "expected_rule": "similar_fact",
+  "kind": "action",
+  "speaker": null,
+  "text": "Cole lifts a heavy box with both arms and carries it outside.",
+  "contradicts": [
+   {
+    "episode": 20,
+    "line_id": "E20L008",
+    "quote": "your bleeding post-surgery bandages"
+   }
+  ],
+  "source": "auto",
+  "ai_only": true
+ },
+ {
+  "seed_id": "S20",
+  "episode": 23,
+  "line_id": "E23L009_S20",
+  "type": "physical",
+  "expected_rule": "similar_fact",
+  "kind": "action",
+  "speaker": null,
+  "text": "Cole lifts a heavy box with both arms and carries it outside.",
+  "contradicts": [
+   {
+    "episode": 22,
+    "line_id": "E22L013",
+    "quote": "My injured body is failing me"
+   }
+  ],
+  "source": "auto",
+  "ai_only": true
+ }
+]

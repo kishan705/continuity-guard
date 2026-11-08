@@ -1,0 +1,157 @@
+{
+ "episode": 26,
+ "source_file": "ep_26.txt",
+ "title": "The Final Verdict",
+ "scenes": [
+  {
+   "scene_id": "E26S01",
+   "episode": 26,
+   "heading": "INT. HOSPITAL ROOM - DAY",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E26L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. HOSPITAL ROOM - DAY"
+    },
+    {
+     "line_id": "E26L002",
+     "ts": "00:08",
+     "ts_sec": 8.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Harper Lane, twenty-four, a night-shift nurse, gasps awake on the hospital bed, her chest wound bandaged."
+    },
+    {
+     "line_id": "E26L003",
+     "ts": "00:15",
+     "ts_sec": 15.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Cole Whitmore, thirty-two, billionaire CEO of Whitmore Shipping pretending to be a mechanic, drops his coffee in shock."
+    },
+    {
+     "line_id": "E26L004",
+     "ts": "00:23",
+     "ts_sec": 23.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "You're alive, Harper, you're really alive!"
+    },
+    {
+     "line_id": "E26L005",
+     "ts": "00:30",
+     "ts_sec": 30.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "The doctors said my heart stopped, Cole, I felt everything go dark."
+    }
+   ]
+  },
+  {
+   "scene_id": "E26S02",
+   "episode": 26,
+   "heading": "INT. ST. BRIGID'S HOSPITAL - DAY",
+   "start": "00:38",
+   "lines": [
+    {
+     "line_id": "E26L006",
+     "ts": "00:38",
+     "ts_sec": 38.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. ST. BRIGID'S HOSPITAL - DAY"
+    },
+    {
+     "line_id": "E26L007",
+     "ts": "00:46",
+     "ts_sec": 46.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "MIA",
+     "text": "Mia Lane, seventeen, high-school student still recovering from her heart surgery, rushes in with her left arm in a sling."
+    },
+    {
+     "line_id": "E26L008",
+     "ts": "00:54",
+     "ts_sec": 54.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "MIA",
+     "text": "Harper, the doctors just came by with your post-op blood work results!"
+    },
+    {
+     "line_id": "E26L009",
+     "ts": "01:01",
+     "ts_sec": 61.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "What is it, Mia, is my heart failing again?"
+    },
+    {
+     "line_id": "E26L010",
+     "ts": "01:08",
+     "ts_sec": 68.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "MIA",
+     "text": "No, you're pregnant, Harper, you're going to be a mother!"
+    }
+   ]
+  },
+  {
+   "scene_id": "E26S03",
+   "episode": 26,
+   "heading": "EXT. WHITMORE SHIPPING HEADQUARTERS - DAY",
+   "start": "01:14",
+   "lines": [
+    {
+     "line_id": "E26L011",
+     "ts": "01:14",
+     "ts_sec": 74.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. WHITMORE SHIPPING HEADQUARTERS - DAY"
+    },
+    {
+     "line_id": "E26L012",
+     "ts": "00:21",
+     "ts_sec": 21.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Jake Whitmore, twenty-nine, head of sales, stands in handcuffs alongside his mother Diane as reporters swarm them outside the building."
+    },
+    {
+     "line_id": "E26L013",
+     "ts": "01:29",
+     "ts_sec": 89.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Diane Whitmore, fifty-eight, board member, glares at the cameras as federal agents drag her toward a squad car for poisoning Evelyn."
+    },
+    {
+     "line_id": "E26L014",
+     "ts": "01:36",
+     "ts_sec": 96.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "If Harper survived my bullet, mother, she's going to take everything we built."
+    }
+   ]
+  }
+ ]
+}

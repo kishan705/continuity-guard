@@ -1,0 +1,183 @@
+{
+ "episode": 20,
+ "source_file": "ep_20.txt",
+ "title": "The Poisoned Ledger",
+ "scenes": [
+  {
+   "scene_id": "E20S01",
+   "episode": 20,
+   "heading": "INT. WHITMORE ESTATE STUDY - NIGHT",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E20L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE ESTATE STUDY - NIGHT"
+    },
+    {
+     "line_id": "E20L002",
+     "ts": "00:04",
+     "ts_sec": 4.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "I told you I would find the truth about who framed me for the theft of Evelyn's necklace, Diane."
+    },
+    {
+     "line_id": "E20L003",
+     "ts": "00:09",
+     "ts_sec": 9.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "You think your pathetic nurse salary gives you leverage against me, Harper?"
+    },
+    {
+     "line_id": "E20L004",
+     "ts": "00:15",
+     "ts_sec": 15.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "I found Evelyn's personal ledger hidden behind the bookshelf, Diane, and it proves you poisoned the 81-year-old matriarch."
+    },
+    {
+     "line_id": "E20L005",
+     "ts": "00:22",
+     "ts_sec": 22.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "That ledger is a forgery, and my son Jake will make sure you rot in a cell for stealing it."
+    }
+   ]
+  },
+  {
+   "scene_id": "E20S02",
+   "episode": 20,
+   "heading": "EXT. WHITMORE ESTATE GROUNDS - CONTINUOUS",
+   "start": "00:29",
+   "lines": [
+    {
+     "line_id": "E20L006",
+     "ts": "00:29",
+     "ts_sec": 29.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. WHITMORE ESTATE GROUNDS - CONTINUOUS"
+    },
+    {
+     "line_id": "E20L007",
+     "ts": "00:33",
+     "ts_sec": 33.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Stop right there, Diane, before you frame my 24-year-old wife Harper for another crime she didn't commit!"
+    },
+    {
+     "line_id": "E20L008",
+     "ts": "00:41",
+     "ts_sec": 41.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Look who decided to crawl out of the hospital despite your bleeding post-surgery bandages, Cole."
+    }
+   ]
+  },
+  {
+   "scene_id": "E20S03",
+   "episode": 20,
+   "heading": "INT. WHITMORE ESTATE FOYER - CONTINUOUS",
+   "start": "00:48",
+   "lines": [
+    {
+     "line_id": "E20L009",
+     "ts": "00:48",
+     "ts_sec": 48.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE ESTATE FOYER - CONTINUOUS"
+    },
+    {
+     "line_id": "E20L010",
+     "ts": "00:53",
+     "ts_sec": 53.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Cole, your reckless stepmother just planted the stolen necklace inside my nursing bag again while the police were outside!"
+    },
+    {
+     "line_id": "E20L011",
+     "ts": "01:00",
+     "ts_sec": 60.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "I know her game, Harper, because my late grandmother Evelyn left me the exact proof of who killed her."
+    },
+    {
+     "line_id": "E20L012",
+     "ts": "01:07",
+     "ts_sec": 67.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Shoot him, Jake, finish what we started in the study or we lose the entire Whitmore shipping empire!"
+    }
+   ]
+  },
+  {
+   "scene_id": "E20S04",
+   "episode": 20,
+   "heading": "EXT. WHITMORE ESTATE DRIVEWAY - CONTINUOUS",
+   "start": "01:14",
+   "lines": [
+    {
+     "line_id": "E20L013",
+     "ts": "01:14",
+     "ts_sec": 74.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. WHITMORE ESTATE DRIVEWAY - CONTINUOUS"
+    },
+    {
+     "line_id": "E20L014",
+     "ts": "01:19",
+     "ts_sec": 79.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Put the gun down, Mother, because the police cars are already turning into the driveway."
+    },
+    {
+     "line_id": "E20L015",
+     "ts": "01:26",
+     "ts_sec": 86.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Then we frame Harper for stealing the ledger and murdering Evelyn right now before they see us!"
+    },
+    {
+     "line_id": "E20L016",
+     "ts": "01:33",
+     "ts_sec": 93.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Run, Cole, they've locked the front gates and the crooked detective is stepping out of his cruiser!"
+    }
+   ]
+  }
+ ]
+}

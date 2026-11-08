@@ -1,0 +1,201 @@
+{
+ "episode": 30,
+ "source_file": "ep_30.txt",
+ "title": "The True Crown",
+ "scenes": [
+  {
+   "scene_id": "E30S01",
+   "episode": 30,
+   "heading": "EXT. WHITMORE ESTATE - DAY",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E30L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. WHITMORE ESTATE - DAY"
+    },
+    {
+     "line_id": "E30L002",
+     "ts": "00:04",
+     "ts_sec": 4.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Harper Lane, twenty-four-year-old night-shift nurse and majority owner of Whitmore Shipping, grips her pregnant abdomen in pain outside the grand mansion."
+    },
+    {
+     "line_id": "E30L003",
+     "ts": "00:09",
+     "ts_sec": 9.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Cole Whitmore, thirty-two-year-old billionaire CEO of Whitmore Shipping and her husband who hid his true identity as a mechanic, rushes to catch her."
+    },
+    {
+     "line_id": "E30L004",
+     "ts": "00:15",
+     "ts_sec": 15.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "I cannot lose our baby, Cole, not after everything Diane and Jake put us through."
+    }
+   ]
+  },
+  {
+   "scene_id": "E30S02",
+   "episode": 30,
+   "heading": "INT. WHITMORE ESTATE - FOYER - DAY",
+   "start": "00:20",
+   "lines": [
+    {
+     "line_id": "E30L005",
+     "ts": "00:20",
+     "ts_sec": 20.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE ESTATE - FOYER - DAY"
+    },
+    {
+     "line_id": "E30L006",
+     "ts": "00:25",
+     "ts_sec": 25.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Cole carries his wounded wife past the shattered portraits of the disgraced board members who tried to murder his grandmother Evelyn."
+    },
+    {
+     "line_id": "E30L007",
+     "ts": "00:30",
+     "ts_sec": 30.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "MIA",
+     "text": "Seventeen-year-old Mia Lane runs down the grand staircase, her left arm finally free of the sling she wore since her heart surgery."
+    },
+    {
+     "line_id": "E30L008",
+     "ts": "00:36",
+     "ts_sec": 36.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "MIA",
+     "text": "Harper, your monitor on your phone is flashing red again."
+    }
+   ]
+  },
+  {
+   "scene_id": "E30S03",
+   "episode": 30,
+   "heading": "EXT. WHITMORE ESTATE - DRIVEWAY - DAY",
+   "start": "00:42",
+   "lines": [
+    {
+     "line_id": "E30L009",
+     "ts": "00:42",
+     "ts_sec": 42.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. WHITMORE ESTATE - DRIVEWAY - DAY"
+    },
+    {
+     "line_id": "E30L010",
+     "ts": "00:46",
+     "ts_sec": 46.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Cole gently places Harper into the passenger seat of his sleek black Bentley."
+    },
+    {
+     "line_id": "E30L011",
+     "ts": "00:51",
+     "ts_sec": 51.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "You promised to protect me and our child, Cole, no matter what enemies crawled out of the woodwork."
+    },
+    {
+     "line_id": "E30L012",
+     "ts": "00:57",
+     "ts_sec": 57.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "I am taking you back to St. Brigid's Hospital right now where no hitman or relative will ever touch you again."
+    }
+   ]
+  },
+  {
+   "scene_id": "E30S04",
+   "episode": 30,
+   "heading": "INT. ST. BRIGID'S HOSPITAL - EMERGENCY ROOM - DAY",
+   "start": "01:04",
+   "lines": [
+    {
+     "line_id": "E30L013",
+     "ts": "01:04",
+     "ts_sec": 64.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. ST. BRIGID'S HOSPITAL - EMERGENCY ROOM - DAY"
+    },
+    {
+     "line_id": "E30L014",
+     "ts": "01:08",
+     "ts_sec": 68.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Harper gasps for air as a team of trauma doctors rush her through the swinging double doors."
+    },
+    {
+     "line_id": "E30L015",
+     "ts": "01:14",
+     "ts_sec": 74.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Cole grips the metal door handle as security guards block him from entering the high-risk trauma bay."
+    },
+    {
+     "line_id": "E30L016",
+     "ts": "01:21",
+     "ts_sec": 81.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "MIA",
+     "text": "Mia bursts into tears, leaning against her brother-in-law as the overhead hospital speakers blare a code blue."
+    },
+    {
+     "line_id": "E30L017",
+     "ts": "01:27",
+     "ts_sec": 87.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Evelyn left us fifty-one percent of the shipping empire to build a family, and I refuse to let death take you away from me too."
+    },
+    {
+     "line_id": "E30L018",
+     "ts": "01:34",
+     "ts_sec": 94.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Harper's hand suddenly drops off the stretcher, her eyes rolling back as the heart monitor flatlines completely."
+    }
+   ]
+  }
+ ]
+}

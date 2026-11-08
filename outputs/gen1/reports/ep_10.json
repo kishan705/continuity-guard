@@ -1,0 +1,52 @@
+{
+ "episode": 10,
+ "flags": [
+  {
+   "flag_id": "FL-E10-01",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.95,
+   "new": {
+    "episode": 10,
+    "ts": "00:38",
+    "line_id": "E10L009",
+    "quote": "JAKE: Save your breath, cousin, she already signed my new offer and knows you used her."
+   },
+   "prior": [
+    {
+     "episode": 5,
+     "ts": "00:24",
+     "line_id": "E05L008",
+     "quote": "MIA: You saved the matriarch, but Cole's half-brother will not stop watching you."
+    }
+   ],
+   "explanation": "Jake's relationship to Cole suddenly shifts from half-brother to cousin without any in-story explanation or reveal.",
+   "suggested_fix": "Change 'cousin' back to 'half-brother' in E10L009.",
+   "found_by": "rules+judge+verify",
+   "model": "google_genai/gemini-3.5-flash-lite",
+   "verify_reason": "The text explicitly changes Jake's relationship to Cole from half-brother in Episode 5 to cousin in Episode 10 without any in-story explanation or reveal supported by the provided lines.",
+   "prior_fact_ids": [
+    "F-E05-009"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 10,
+  "facts": 12,
+  "extract_calls": 1,
+  "extract_drafts": 12,
+  "extract_invalid": 0,
+  "extract_grounded": 12,
+  "extract_rejected": 0,
+  "extract_repaired": 0,
+  "candidates": 7,
+  "judged_contradiction": 1,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 1,
+  "seconds": 21.41,
+  "priors_disputed": 0
+ }
+}

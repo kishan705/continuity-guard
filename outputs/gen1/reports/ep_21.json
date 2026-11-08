@@ -1,0 +1,21 @@
+{
+ "episode": 21,
+ "flags": [],
+ "stats": {
+  "episode": 21,
+  "facts": 13,
+  "extract_calls": 1,
+  "extract_drafts": 13,
+  "extract_invalid": 0,
+  "extract_grounded": 13,
+  "extract_rejected": 0,
+  "extract_repaired": 0,
+  "candidates": 10,
+  "judged_contradiction": 0,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 0,
+  "seconds": 18.58,
+  "priors_disputed": 0
+ }
+}

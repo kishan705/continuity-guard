@@ -1,0 +1,174 @@
+{
+ "episode": 17,
+ "source_file": "ep_17.txt",
+ "title": "Caged Truth",
+ "scenes": [
+  {
+   "scene_id": "E17S01",
+   "episode": 17,
+   "heading": "INT. INTERROGATION ROOM - NIGHT",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E17L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. INTERROGATION ROOM - NIGHT"
+    },
+    {
+     "line_id": "E17L002",
+     "ts": "00:05",
+     "ts_sec": 5.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Harper sits alone at a metal table, her wrists red where the police handcuffs dug into her skin."
+    },
+    {
+     "line_id": "E17L003",
+     "ts": "00:10",
+     "ts_sec": 10.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "I told you, Diane Whitmore planted that diamond necklace in my bag to frame me for grand larceny."
+    },
+    {
+     "line_id": "E17L004",
+     "ts": "00:16",
+     "ts_sec": 16.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DETECTIVE",
+     "text": "Mrs. Whitmore is a respected board member, nurse Lane, and your fingerprints are all over the velvet box."
+    }
+   ]
+  },
+  {
+   "scene_id": "E17S02",
+   "episode": 17,
+   "heading": "EXT. WHITMORE MANSION - NIGHT",
+   "start": "00:23",
+   "lines": [
+    {
+     "line_id": "E17L005",
+     "ts": "00:23",
+     "ts_sec": 23.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. WHITMORE MANSION - NIGHT"
+    },
+    {
+     "line_id": "E17L006",
+     "ts": "00:28",
+     "ts_sec": 28.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole stumbles down the grand marble steps, his fresh post-surgery bandages bleeding through his shirt."
+    },
+    {
+     "line_id": "E17L007",
+     "ts": "00:34",
+     "ts_sec": 34.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Diane is going to pay for murdering my grandmother Evelyn and framing my wife."
+    }
+   ]
+  },
+  {
+   "scene_id": "E17S03",
+   "episode": 17,
+   "heading": "INT. MANSION STUDY - NIGHT",
+   "start": "00:41",
+   "lines": [
+    {
+     "line_id": "E17L008",
+     "ts": "00:41",
+     "ts_sec": 41.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. MANSION STUDY - NIGHT"
+    },
+    {
+     "line_id": "E17L009",
+     "ts": "00:46",
+     "ts_sec": 46.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Diane pours herself a glass of whiskey, smirking as she looks at the security camera monitor."
+    },
+    {
+     "line_id": "E17L010",
+     "ts": "00:52",
+     "ts_sec": 52.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "A broke 24-year-old nurse from St. Brigid's Hospital never stood a chance against the Whitmore empire."
+    }
+   ]
+  },
+  {
+   "scene_id": "E17S04",
+   "episode": 17,
+   "heading": "INT. INTERROGATION ROOM - NIGHT",
+   "start": "00:58",
+   "lines": [
+    {
+     "line_id": "E17L011",
+     "ts": "00:58",
+     "ts_sec": 58.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. INTERROGATION ROOM - NIGHT"
+    },
+    {
+     "line_id": "E17L012",
+     "ts": "01:03",
+     "ts_sec": 63.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "The metal door flies open with a loud slam, revealing Jake standing in the doorway with a cold smile."
+    },
+    {
+     "line_id": "E17L013",
+     "ts": "01:10",
+     "ts_sec": 70.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Drop the grand larceny charges against Harper right now, or I expose your poisoning to the whole board."
+    },
+    {
+     "line_id": "E17L014",
+     "ts": "01:17",
+     "ts_sec": 77.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Jake? Why are you helping me after everything you and your mother put my family through?"
+    },
+    {
+     "line_id": "E17L015",
+     "ts": "01:24",
+     "ts_sec": 84.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Because my half-brother Cole doesn't own you anymore, Harper... you belong to me now."
+    }
+   ]
+  }
+ ]
+}

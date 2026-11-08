@@ -1,0 +1,175 @@
+{
+ "episode": 29,
+ "source_file": "ep_29.txt",
+ "title": "Final Showdown at the Shareholders Meeting",
+ "scenes": [
+  {
+   "scene_id": "E29S01",
+   "episode": 29,
+   "heading": "INT. WHITMORE AUDITORIUM - DAY",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E29L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE AUDITORIUM - DAY"
+    },
+    {
+     "line_id": "E29L002",
+     "ts": "00:06",
+     "ts_sec": 6.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "An armed hitman hired by the jailed Diane aims his silenced pistol directly at Harper in the hospital room."
+    },
+    {
+     "line_id": "E29L003",
+     "ts": "00:12",
+     "ts_sec": 12.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Drop the gun or I swear to God you will never leave this building alive!"
+    },
+    {
+     "line_id": "E29L004",
+     "ts": "00:18",
+     "ts_sec": 18.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole lunges forward with terrifying billionaire fury, tackling the hitman before he can pull the trigger."
+    }
+   ]
+  },
+  {
+   "scene_id": "E29S02",
+   "episode": 29,
+   "heading": "EXT. WHITMORE SHIPPING HEADQUARTERS - DAY",
+   "start": "00:24",
+   "lines": [
+    {
+     "line_id": "E29L005",
+     "ts": "00:24",
+     "ts_sec": 24.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. WHITMORE SHIPPING HEADQUARTERS - DAY"
+    },
+    {
+     "line_id": "E29L006",
+     "ts": "00:30",
+     "ts_sec": 30.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Inside the grand glass auditorium, thirty nervous board members whisper anxiously about Diane and Jake's federal arrests."
+    }
+   ]
+  },
+  {
+   "scene_id": "E29S03",
+   "episode": 29,
+   "heading": "INT. WHITMORE AUDITORIUM - DAY",
+   "start": "00:37",
+   "lines": [
+    {
+     "line_id": "E29L007",
+     "ts": "00:37",
+     "ts_sec": 37.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE AUDITORIUM - DAY"
+    },
+    {
+     "line_id": "E29L008",
+     "ts": "00:43",
+     "ts_sec": 43.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Diane Whitmore, 58, stands at the podium in a tailored white suit, desperately trying to salvage her ruined voting block."
+    },
+    {
+     "line_id": "E29L009",
+     "ts": "00:50",
+     "ts_sec": 50.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "My arrest for poisoning Evelyn was a hostile corporate conspiracy orchestrated by my ungrateful stepson!"
+    },
+    {
+     "line_id": "E29L010",
+     "ts": "00:57",
+     "ts_sec": 57.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "The massive glass double doors swing open with a loud bang, revealing Cole and a bruised Harper walking in together."
+    },
+    {
+     "line_id": "E29L011",
+     "ts": "01:04",
+     "ts_sec": 64.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "You poisoned Evelyn and tried to murder me because you were terrified of the truth in her will."
+    },
+    {
+     "line_id": "E29L012",
+     "ts": "01:10",
+     "ts_sec": 70.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "You are a broke night-shift nurse from St. Brigid's Hospital who has no legal right to sit on this board!"
+    },
+    {
+     "line_id": "E29L013",
+     "ts": "01:16",
+     "ts_sec": 76.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "She is my wife, and as the CEO of Whitmore Shipping, I am activating Evelyn's posthumous inheritance clause right now."
+    },
+    {
+     "line_id": "E29L014",
+     "ts": "01:23",
+     "ts_sec": 83.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole slaps the finalized legal documents onto the mahogany podium, proving Harper owns fifty-one percent of the empire."
+    },
+    {
+     "line_id": "E29L015",
+     "ts": "01:30",
+     "ts_sec": 90.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "This cannot be happening, my son Jake and I built this company for our family!"
+    },
+    {
+     "line_id": "E29L016",
+     "ts": "01:37",
+     "ts_sec": 97.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Suddenly, Harper gasps in agony, clutching her pregnant abdomen as federal marshals drag a handcuffed Diane out of the room."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,175 @@
+{
+ "episode": 7,
+ "source_file": "ep_07.txt",
+ "title": "Shadow Protection",
+ "scenes": [
+  {
+   "scene_id": "E07S01",
+   "episode": 7,
+   "heading": "INT. POLICE HOLDING CELL - DAY",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E07L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. POLICE HOLDING CELL - DAY"
+    },
+    {
+     "line_id": "E07L002",
+     "ts": "00:04",
+     "ts_sec": 4.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cuffed at the wrist, twenty-four-year-old night-shift nurse Harper stares through the iron bars as officer footfalls echo down the hall."
+    },
+    {
+     "line_id": "E07L003",
+     "ts": "00:09",
+     "ts_sec": 9.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Sign these divorce papers for my broke mechanic brother, Harper, and my legal team gets you out today."
+    },
+    {
+     "line_id": "E07L004",
+     "ts": "00:15",
+     "ts_sec": 15.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "I promised Cole one year when he paid for Mia's heart surgery, Jake, and I don't break contracts."
+    },
+    {
+     "line_id": "E07L005",
+     "ts": "00:21",
+     "ts_sec": 21.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Secretly disguised Whitmore CEO Cole enters with Boston's top defense attorney, slamming a digital audit report onto the table."
+    },
+    {
+     "line_id": "E07L006",
+     "ts": "00:27",
+     "ts_sec": 27.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Drop the charges, because the hospital IP address that forged Harper's login belongs to Diane's office laptop."
+    }
+   ]
+  },
+  {
+   "scene_id": "E07S02",
+   "episode": 7,
+   "heading": "INT. ST. BRIGID'S HOSPITAL - CORRIDOR - DAY",
+   "start": "00:33",
+   "lines": [
+    {
+     "line_id": "E07L007",
+     "ts": "00:33",
+     "ts_sec": 33.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. ST. BRIGID'S HOSPITAL - CORRIDOR - DAY"
+    },
+    {
+     "line_id": "E07L008",
+     "ts": "00:38",
+     "ts_sec": 38.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Seventeen-year-old Mia adjusts the sling on her injured left arm as she catches stepmother Diane whispering to an administrator."
+    },
+    {
+     "line_id": "E07L009",
+     "ts": "00:44",
+     "ts_sec": 44.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "If that eighty-one-year-old matriarch wakes up, Cole gets the entire shipping fortune and we get nothing."
+    },
+    {
+     "line_id": "E07L010",
+     "ts": "00:50",
+     "ts_sec": 50.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Mia gasps, accidentally knocking over a metal chart tray that clatters across the linoleum floor."
+    },
+    {
+     "line_id": "E07L011",
+     "ts": "00:55",
+     "ts_sec": 55.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Diane whips around with a menacing glare, grabbing Mia by her uninjured shoulder."
+    }
+   ]
+  },
+  {
+   "scene_id": "E07S03",
+   "episode": 7,
+   "heading": "INT. EVELYN'S ICU ROOM - DAY",
+   "start": "00:59",
+   "lines": [
+    {
+     "line_id": "E07L012",
+     "ts": "00:59",
+     "ts_sec": 59.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. EVELYN'S ICU ROOM - DAY"
+    },
+    {
+     "line_id": "E07L013",
+     "ts": "01:04",
+     "ts_sec": 64.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Released from custody, Harper rushes to eighty-one-year-old Evelyn's bedside to check the tampered IV line."
+    },
+    {
+     "line_id": "E07L014",
+     "ts": "01:10",
+     "ts_sec": 70.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Jake steps into the doorway, blocking the exit while sliding a secret investigation file across the bedside table."
+    },
+    {
+     "line_id": "E07L015",
+     "ts": "01:16",
+     "ts_sec": 76.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Ask your mechanic husband why his real name is on the Whitmore family trust fund, nurse Lane."
+    },
+    {
+     "line_id": "E07L016",
+     "ts": "01:21",
+     "ts_sec": 81.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Suddenly, Evelyn's hand twitches, her fingers tightly locking around Harper's wrist as her heart monitor sounds a rapid alarm."
+    }
+   ]
+  }
+ ]
+}

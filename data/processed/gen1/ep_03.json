@@ -1,0 +1,167 @@
+{
+ "episode": 3,
+ "source_file": "ep_03.txt",
+ "title": "Wolves in Silk",
+ "scenes": [
+  {
+   "scene_id": "E03S01",
+   "episode": 3,
+   "heading": "INT. WHITMORE ESTATE - FOYER - DAY",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E03L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE ESTATE - FOYER - DAY"
+    },
+    {
+     "line_id": "E03L002",
+     "ts": "00:03",
+     "ts_sec": 3.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Harper gasps at the crystal chandeliers while Cole steps across the marble floor with quiet authority."
+    },
+    {
+     "line_id": "E03L003",
+     "ts": "00:08",
+     "ts_sec": 8.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Why is the matriarch of Boston's biggest shipping empire demanding to see a hospital nurse and a garage mechanic?"
+    },
+    {
+     "line_id": "E03L004",
+     "ts": "00:14",
+     "ts_sec": 14.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Just stay close to me and let me handle my former employers."
+    },
+    {
+     "line_id": "E03L005",
+     "ts": "00:18",
+     "ts_sec": 18.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Look what grease the street cat dragged into my foyer."
+    },
+    {
+     "line_id": "E03L006",
+     "ts": "00:23",
+     "ts_sec": 23.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Fifty-eight-year-old Diane Whitmore glides down the stairs, sneering at twenty-four-year-old night-shift nurse Harper."
+    },
+    {
+     "line_id": "E03L007",
+     "ts": "00:29",
+     "ts_sec": 29.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Cole paid one hundred thousand dollars for your sister Mia's heart surgery just to buy a fake wife!"
+    },
+    {
+     "line_id": "E03L008",
+     "ts": "00:35",
+     "ts_sec": 35.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Cole earned that money at his auto shop, Mrs. Whitmore, and I won't let you insult my husband!"
+    },
+    {
+     "line_id": "E03L009",
+     "ts": "00:41",
+     "ts_sec": 41.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Twenty-nine-year-old sales head Jake Whitmore steps beside Diane, staring at Harper with intense fascination."
+    },
+    {
+     "line_id": "E03L010",
+     "ts": "00:47",
+     "ts_sec": 47.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Don't waste your passion defending a dirty mechanic, Harper, when you could have a real Whitmore man."
+    }
+   ]
+  },
+  {
+   "scene_id": "E03S02",
+   "episode": 3,
+   "heading": "INT. WHITMORE ESTATE - DRAWING ROOM - DAY",
+   "start": "00:53",
+   "lines": [
+    {
+     "line_id": "E03L011",
+     "ts": "00:53",
+     "ts_sec": 53.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE ESTATE - DRAWING ROOM - DAY"
+    },
+    {
+     "line_id": "E03L012",
+     "ts": "00:55",
+     "ts_sec": 55.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Eighty-one-year-old matriarch Evelyn Whitmore slams her silver cane onto the rug, silencing the room."
+    },
+    {
+     "line_id": "E03L013",
+     "ts": "01:00",
+     "ts_sec": 60.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "EVELYN",
+     "text": "Quiet, Jake, before I strip your corporate title away!"
+    },
+    {
+     "line_id": "E03L014",
+     "ts": "01:05",
+     "ts_sec": 65.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "EVELYN",
+     "text": "Welcome, Harper, to the estate of the man you just legally bound yourself to."
+    },
+    {
+     "line_id": "E03L015",
+     "ts": "01:10",
+     "ts_sec": 70.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Mrs. Whitmore, Cole is just a humble mechanic, so why does our contract marriage matter to you?"
+    },
+    {
+     "line_id": "E03L016",
+     "ts": "01:16",
+     "ts_sec": 76.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Evelyn smiles coldly at Cole, holding up a sealed trust document that requires his marriage to unlock the family shares."
+    }
+   ]
+  }
+ ]
+}

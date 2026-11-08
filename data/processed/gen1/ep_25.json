@@ -1,0 +1,183 @@
+{
+ "episode": 25,
+ "source_file": "ep_25.txt",
+ "title": "A Heartbreaking Return",
+ "scenes": [
+  {
+   "scene_id": "E25S01",
+   "episode": 25,
+   "heading": "EXT. ST. BRIGID'S HOSPITAL - DAY",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E25L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. ST. BRIGID'S HOSPITAL - DAY"
+    },
+    {
+     "line_id": "E25L002",
+     "ts": "00:03",
+     "ts_sec": 3.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "A sterile hospital hallway echoes with the frantic footsteps of thirty-two-year-old Cole Whitmore, grieving billionaire CEO of Whitmore Shipping."
+    }
+   ]
+  },
+  {
+   "scene_id": "E25S02",
+   "episode": 25,
+   "heading": "INT. HOSPITAL ROOM - DAY",
+   "start": "00:08",
+   "lines": [
+    {
+     "line_id": "E25L003",
+     "ts": "00:08",
+     "ts_sec": 8.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. HOSPITAL ROOM - DAY"
+    },
+    {
+     "line_id": "E25L004",
+     "ts": "00:10",
+     "ts_sec": 10.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Twenty-four-year-old night-shift nurse Harper Lane lies motionless on a medical bed, pale and cold after taking a bullet to the chest from Jake."
+    },
+    {
+     "line_id": "E25L005",
+     "ts": "00:17",
+     "ts_sec": 17.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Please, Harper, you can't leave me, my one-year contract wife."
+    },
+    {
+     "line_id": "E25L006",
+     "ts": "00:23",
+     "ts_sec": 23.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole presses his tear-stained face against Harper's lifeless hand, his fake mechanic identity shattered forever now that she knows the truth."
+    }
+   ]
+  },
+  {
+   "scene_id": "E25S03",
+   "episode": 25,
+   "heading": "EXT. CORRIDOR - DAY",
+   "start": "00:29",
+   "lines": [
+    {
+     "line_id": "E25L007",
+     "ts": "00:29",
+     "ts_sec": 29.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. CORRIDOR - DAY"
+    },
+    {
+     "line_id": "E25L008",
+     "ts": "00:31",
+     "ts_sec": 31.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Seventeen-year-old high-school student Mia races down the corridor with her left arm still in a sling from her recent fall."
+    },
+    {
+     "line_id": "E25L009",
+     "ts": "00:38",
+     "ts_sec": 38.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "MIA",
+     "text": "Where is my older sister Harper?"
+    }
+   ]
+  },
+  {
+   "scene_id": "E25S04",
+   "episode": 25,
+   "heading": "INT. HOSPITAL ROOM - DAY",
+   "start": "00:43",
+   "lines": [
+    {
+     "line_id": "E25L010",
+     "ts": "00:43",
+     "ts_sec": 43.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. HOSPITAL ROOM - DAY"
+    },
+    {
+     "line_id": "E25L011",
+     "ts": "00:45",
+     "ts_sec": 45.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Mia bursts through the door, her eyes widening in absolute horror as she sees Cole weeping over Harper's silent body."
+    },
+    {
+     "line_id": "E25L012",
+     "ts": "00:52",
+     "ts_sec": 52.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "MIA",
+     "text": "No! You said you would protect her, Cole!"
+    },
+    {
+     "line_id": "E25L013",
+     "ts": "00:57",
+     "ts_sec": 57.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "I failed her, Mia, just like Diane and Jake planned."
+    },
+    {
+     "line_id": "E25L014",
+     "ts": "01:04",
+     "ts_sec": 64.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "A sudden, faint flatline sound begins to beep softly from the heart monitor beside Harper's bed."
+    },
+    {
+     "line_id": "E25L015",
+     "ts": "01:11",
+     "ts_sec": 71.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Harper! Stay with me!"
+    },
+    {
+     "line_id": "E25L016",
+     "ts": "01:16",
+     "ts_sec": 76.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Harper's index finger twitches slightly against Cole's palm just as the screen flashes bright red."
+    }
+   ]
+  }
+ ]
+}

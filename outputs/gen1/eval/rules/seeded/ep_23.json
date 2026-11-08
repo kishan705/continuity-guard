@@ -1,0 +1,243 @@
+{
+ "episode": 23,
+ "flags": [
+  {
+   "flag_id": "FL-E23-01",
+   "type": "status",
+   "rule": "dead_character_active",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 23,
+    "ts": "00:37",
+    "line_id": "E23L008_S12",
+    "quote": "EVELYN: I'm not finished with this family yet."
+   },
+   "prior": [
+    {
+     "episode": 10,
+     "ts": "00:48",
+     "line_id": "E10L011",
+     "quote": "Mia sits on her hospital bed, staring at her healing left arm in its sling, crying over Evelyn's tragic death."
+    }
+   ],
+   "explanation": "Evelyn died earlier but speaks here",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E10-008"
+   ]
+  },
+  {
+   "flag_id": "FL-E23-04",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 23,
+    "ts": "00:37",
+    "line_id": "E23L008_S4",
+    "quote": "JAKE: I'm 25, and I know exactly what I'm doing."
+   },
+   "prior": [
+    {
+     "episode": 21,
+     "ts": "00:26",
+     "line_id": "E21L006",
+     "quote": "JAKE: 29-year-old Jake holds a loaded pistol, staring at Harper with desperate, unhinged obsession."
+    },
+    {
+     "episode": 18,
+     "ts": "00:33",
+     "line_id": "E18L009",
+     "quote": "Diane, the 58-year-old board member, paces near the glass doors with her son Jake, the 29-year-old head of sales."
+    },
+    {
+     "episode": 14,
+     "ts": "00:03",
+     "line_id": "E14L002",
+     "quote": "Jake Whitmore, 29, physically corners 24-year-old nurse Harper Lane outside the ambulance bay doors."
+    }
+   ],
+   "explanation": "age was '29', now '25'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E21-003",
+    "F-E18-017",
+    "F-E14-001"
+   ]
+  },
+  {
+   "flag_id": "FL-E23-02",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 23,
+    "ts": "00:10",
+    "line_id": "E23L003",
+    "quote": "HARPER: Jake, your mother Diane poisoned Evelyn just to steal the Whitmore shipping empire!"
+   },
+   "prior": [
+    {
+     "episode": 5,
+     "ts": "00:14",
+     "line_id": "E05L005",
+     "quote": "Harper stabilizes the cardiac monitor just as stepmother Diane glares through the glass window."
+    }
+   ],
+   "explanation": "relationship was 'stepmother', now 'killer'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E05-006"
+   ]
+  },
+  {
+   "flag_id": "FL-E23-03",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 23,
+    "ts": "00:26",
+    "line_id": "E23L006",
+    "quote": "COLE: Jake, open your eyes, Diane is using you as a pawn to destroy everything I built!"
+   },
+   "prior": [
+    {
+     "episode": 22,
+     "ts": "00:05",
+     "line_id": "E22L002",
+     "quote": "JAKE: You are coming with me right now, Harper, or I pull this trigger and end my half-brother Cole forever!"
+    },
+    {
+     "episode": 17,
+     "ts": "01:24",
+     "line_id": "E17L015",
+     "quote": "JAKE: Because my half-brother Cole doesn't own you anymore, Harper... you belong to me now."
+    },
+    {
+     "episode": 15,
+     "ts": "00:11",
+     "line_id": "E15L003",
+     "quote": "JAKE: Smart nurse, Harper. Now walk away from my half-brother Cole and never look back."
+    }
+   ],
+   "explanation": "relationship was 'half-brother', now 'brother'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E22-001",
+    "F-E17-010",
+    "F-E15-004"
+   ]
+  },
+  {
+   "flag_id": "FL-E23-05",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 23,
+    "ts": "00:43",
+    "line_id": "E23L009",
+    "quote": "DIANE: Jake, your half-brother Cole is lying to you, shoot her right now before we lose everything!"
+   },
+   "prior": [
+    {
+     "episode": 7,
+     "ts": "00:09",
+     "line_id": "E07L003",
+     "quote": "JAKE: Sign these divorce papers for my broke mechanic brother, Harper, and my legal team gets you out today."
+    }
+   ],
+   "explanation": "relationship was 'brother', now 'half-brother'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E07-005"
+   ]
+  },
+  {
+   "flag_id": "FL-E23-06",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 23,
+    "ts": "01:04",
+    "line_id": "E23L012_S8",
+    "quote": "Jake, Diane's nephew, walks in."
+   },
+   "prior": [
+    {
+     "episode": 21,
+     "ts": "00:20",
+     "line_id": "E21L005",
+     "quote": "DIANE: Step-mother Diane glares at her son Jake, demanding he secure the shipping empire immediately."
+    },
+    {
+     "episode": 20,
+     "ts": "00:22",
+     "line_id": "E20L005",
+     "quote": "DIANE: That ledger is a forgery, and my son Jake will make sure you rot in a cell for stealing it."
+    },
+    {
+     "episode": 18,
+     "ts": "00:33",
+     "line_id": "E18L009",
+     "quote": "Diane, the 58-year-old board member, paces near the glass doors with her son Jake, the 29-year-old head of sales."
+    }
+   ],
+   "explanation": "relationship was 'son', now 'nephew'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E21-002",
+    "F-E20-005",
+    "F-E18-019"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 23,
+  "facts": 10,
+  "extract_calls": 1,
+  "extract_drafts": 10,
+  "extract_invalid": 0,
+  "extract_grounded": 10,
+  "extract_rejected": 0,
+  "extract_repaired": 0,
+  "candidates": 9,
+  "judged_contradiction": 0,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 6,
+  "seconds": 7.88
+ }
+}

@@ -1,0 +1,210 @@
+{
+ "episode": 2,
+ "source_file": "ep_02.txt",
+ "title": "A Mechanic's Honor",
+ "scenes": [
+  {
+   "scene_id": "E02S01",
+   "episode": 2,
+   "heading": "INT. ST. BRIGID'S HOSPITAL CORRIDOR - NIGHT",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E02L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. ST. BRIGID'S HOSPITAL CORRIDOR - NIGHT"
+    },
+    {
+     "line_id": "E02L002",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Diane Whitmore thrusts her emerald-ringed finger into Cole's chest while twenty-four-year-old nurse Harper grips her sister's medical chart."
+    },
+    {
+     "line_id": "E02L003",
+     "ts": "00:06",
+     "ts_sec": 6.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "You shameless grease-monkey, dragging the Whitmore family name through hospital dirt with this poverty-stricken nurse!"
+    },
+    {
+     "line_id": "E02L004",
+     "ts": "00:13",
+     "ts_sec": 13.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Cole paid one hundred thousand dollars for my seventeen-year-old sister Mia's emergency heart surgery, so keep your venom to yourself!"
+    },
+    {
+     "line_id": "E02L005",
+     "ts": "00:21",
+     "ts_sec": 21.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Quiet down, Mother, before someone from Whitmore Shipping sees us making a public scene."
+    },
+    {
+     "line_id": "E02L006",
+     "ts": "00:27",
+     "ts_sec": 27.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Twenty-nine-year-old Jake stares at Harper, his gaze lingering on her face longer than simple curiosity allows."
+    },
+    {
+     "line_id": "E02L007",
+     "ts": "00:34",
+     "ts_sec": 34.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Though I must admit, Cole, marrying a night-shift nurse just to spite your own family is low even for a garage mechanic."
+    },
+    {
+     "line_id": "E02L008",
+     "ts": "00:42",
+     "ts_sec": 42.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Harper is my legal wife now, Jake, and your opinions don't mean a damn thing to a guy who works for a living."
+    }
+   ]
+  },
+  {
+   "scene_id": "E02S02",
+   "episode": 2,
+   "heading": "INT. SURGICAL RECOVERY ROOM - NIGHT",
+   "start": "00:49",
+   "lines": [
+    {
+     "line_id": "E02L009",
+     "ts": "00:49",
+     "ts_sec": 49.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. SURGICAL RECOVERY ROOM - NIGHT"
+    },
+    {
+     "line_id": "E02L010",
+     "ts": "00:49",
+     "ts_sec": 49.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Seventeen-year-old Mia rests under warm blankets as heart monitors chime steadily beside her bed."
+    },
+    {
+     "line_id": "E02L011",
+     "ts": "00:55",
+     "ts_sec": 55.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Thank you for standing up to your stepmother, Cole, but why do your wealthy relatives hate a simple mechanic so much?"
+    },
+    {
+     "line_id": "E02L012",
+     "ts": "01:03",
+     "ts_sec": 63.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Diane only cares about money and status, things that don't matter inside a garage."
+    }
+   ]
+  },
+  {
+   "scene_id": "E02S03",
+   "episode": 2,
+   "heading": "EXT. ST. BRIGID'S HOSPITAL ENTRANCE - NIGHT",
+   "start": "01:09",
+   "lines": [
+    {
+     "line_id": "E02L013",
+     "ts": "01:09",
+     "ts_sec": 69.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. ST. BRIGID'S HOSPITAL ENTRANCE - NIGHT"
+    },
+    {
+     "line_id": "E02L014",
+     "ts": "01:09",
+     "ts_sec": 69.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Fifty-eight-year-old Diane glares back at the glass doors while Jake steps into their private luxury sedan."
+    },
+    {
+     "line_id": "E02L015",
+     "ts": "01:16",
+     "ts_sec": 76.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Find out everything about that girl, Jake, because if Evelyn hears Cole married a nobody, she'll rewrite the empire's will by sunrise!"
+    },
+    {
+     "line_id": "E02L016",
+     "ts": "01:24",
+     "ts_sec": 84.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "I'll handle Harper personally, Mother, starting first thing tomorrow morning."
+    }
+   ]
+  },
+  {
+   "scene_id": "E02S04",
+   "episode": 2,
+   "heading": "INT. SURGICAL RECOVERY ROOM - NIGHT",
+   "start": "01:31",
+   "lines": [
+    {
+     "line_id": "E02L017",
+     "ts": "01:31",
+     "ts_sec": 91.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. SURGICAL RECOVERY ROOM - NIGHT"
+    },
+    {
+     "line_id": "E02L018",
+     "ts": "01:31",
+     "ts_sec": 91.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole subtly pulls an encrypted Whitmore executive smartphone from his jacket while Harper steps away to adjust Mia's IV drip."
+    },
+    {
+     "line_id": "E02L019",
+     "ts": "01:38",
+     "ts_sec": 98.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "An incoming text message flashes on Cole's screen from eighty-one-year-old matriarch Evelyn: \"I know about your contract marriage; bring your wife to the estate.\""
+    }
+   ]
+  }
+ ]
+}

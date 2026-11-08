@@ -1,0 +1,202 @@
+{
+ "episode": 4,
+ "source_file": "ep_04.txt",
+ "title": "Poisoned Trust",
+ "scenes": [
+  {
+   "scene_id": "E04S01",
+   "episode": 4,
+   "heading": "INT. ST. BRIGID'S HOSPITAL - DAY",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E04L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. ST. BRIGID'S HOSPITAL - DAY"
+    },
+    {
+     "line_id": "E04L002",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Seventeen-year-old Mia trips over a gurney in the hallway, crashing to the floor with a painful scream."
+    },
+    {
+     "line_id": "E04L003",
+     "ts": "00:05",
+     "ts_sec": 5.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Mia!"
+    },
+    {
+     "line_id": "E04L004",
+     "ts": "00:09",
+     "ts_sec": 9.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Twenty-four-year-old nurse Harper rushes over as twenty-nine-year-old Jake Whitmore catches Mia and carefully helps her up."
+    },
+    {
+     "line_id": "E04L005",
+     "ts": "00:14",
+     "ts_sec": 14.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Easy kid, looks like your left arm took the brunt of that fall."
+    },
+    {
+     "line_id": "E04L006",
+     "ts": "00:19",
+     "ts_sec": 19.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Harper fits a padded sling around Mia's left arm while Jake gazes intensely at Harper."
+    },
+    {
+     "line_id": "E04L007",
+     "ts": "00:24",
+     "ts_sec": 24.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Your sister is tough, Harper, but you look like you need someone to take care of you for a change."
+    },
+    {
+     "line_id": "E04L008",
+     "ts": "00:30",
+     "ts_sec": 30.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "I don't need a Whitmore executive flirting with me while my husband Cole is working late at his auto shop."
+    }
+   ]
+  },
+  {
+   "scene_id": "E04S02",
+   "episode": 4,
+   "heading": "INT. EVELYN'S HOSPITAL ROOM - DAY",
+   "start": "00:36",
+   "lines": [
+    {
+     "line_id": "E04L009",
+     "ts": "00:36",
+     "ts_sec": 36.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. EVELYN'S HOSPITAL ROOM - DAY"
+    },
+    {
+     "line_id": "E04L010",
+     "ts": "00:36",
+     "ts_sec": 36.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Eighty-one-year-old Evelyn lies in bed connected to a heart monitor while fifty-eight-year-old Diane stands by the IV pole."
+    },
+    {
+     "line_id": "E04L011",
+     "ts": "00:42",
+     "ts_sec": 42.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Get well soon, mother-in-law, before Cole inherits everything."
+    },
+    {
+     "line_id": "E04L012",
+     "ts": "00:47",
+     "ts_sec": 47.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Diane quietly injects a clear liquid into Evelyn's IV line, beginning her secret plot to poison the matriarch."
+    },
+    {
+     "line_id": "E04L013",
+     "ts": "00:53",
+     "ts_sec": 53.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Thirty-two-year-old Cole enters in grease-stained mechanic coveralls, catching Diane stepping away from the drip."
+    },
+    {
+     "line_id": "E04L014",
+     "ts": "00:59",
+     "ts_sec": 59.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "What are you doing near my grandmother's meds, Diane?"
+    },
+    {
+     "line_id": "E04L015",
+     "ts": "01:04",
+     "ts_sec": 64.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Just checking her drip, Cole, since your broke nurse wife isn't on duty right now."
+    }
+   ]
+  },
+  {
+   "scene_id": "E04S03",
+   "episode": 4,
+   "heading": "INT. HOSPITAL CORRIDOR - DAY",
+   "start": "01:10",
+   "lines": [
+    {
+     "line_id": "E04L016",
+     "ts": "01:10",
+     "ts_sec": 70.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. HOSPITAL CORRIDOR - DAY"
+    },
+    {
+     "line_id": "E04L017",
+     "ts": "01:10",
+     "ts_sec": 70.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Jake steps into Harper's path outside Evelyn's door, leaning in close to the nurse."
+    },
+    {
+     "line_id": "E04L018",
+     "ts": "01:16",
+     "ts_sec": 76.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Cole Hayes isn't who you think he is, Harper, and his mechanic act won't last."
+    },
+    {
+     "line_id": "E04L019",
+     "ts": "01:22",
+     "ts_sec": 82.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Inside the room, Evelyn's heart monitor flatlines into a piercing, continuous alarm."
+    }
+   ]
+  }
+ ]
+}

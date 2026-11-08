@@ -1,0 +1,312 @@
+{
+ "rules": {
+  "setup": "rules",
+  "recall": 0.6,
+  "caught": 12,
+  "planted": 20,
+  "per_type": {
+   "identity": {
+    "planted": 4,
+    "caught": 4,
+    "caught_right_prior": 0
+   },
+   "relationship": {
+    "planted": 4,
+    "caught": 3,
+    "caught_right_prior": 0
+   },
+   "status": {
+    "planted": 4,
+    "caught": 4,
+    "caught_right_prior": 1
+   },
+   "knowledge": {
+    "planted": 4,
+    "caught": 1,
+    "caught_right_prior": 1
+   },
+   "physical": {
+    "planted": 4,
+    "caught": 0,
+    "caught_right_prior": 0
+   }
+  },
+  "precision": 0.5,
+  "labels": {
+   "unlabeled": 33,
+   "true_error": 1,
+   "false_alarm": 1
+  },
+  "flags_per_episode_clean": 3.5,
+  "seconds_per_episode": 1.62,
+  "tokens_logged_for_mode": 11446,
+  "missed": [
+   {
+    "seed_id": "S05",
+    "type": "relationship",
+    "episode": 17,
+    "text": "Jake, Diane's nephew, walks in."
+   },
+   {
+    "seed_id": "S13",
+    "type": "knowledge",
+    "episode": 17,
+    "text": "I know that harper hid the Whitmore shipping empire from Cole."
+   },
+   {
+    "seed_id": "S15",
+    "type": "knowledge",
+    "episode": 21,
+    "text": "I know that someone broke in and wiped all video evidence of Diane murdering the matriarch."
+   },
+   {
+    "seed_id": "S16",
+    "type": "knowledge",
+    "episode": 23,
+    "text": "I know that diane poisoned Evelyn, proven by Evelyn's personal ledger behind the bookshelf."
+   },
+   {
+    "seed_id": "S17",
+    "type": "physical",
+    "episode": 17,
+    "text": "Cole lifts a heavy box with both arms and carries it outside."
+   },
+   {
+    "seed_id": "S18",
+    "type": "physical",
+    "episode": 19,
+    "text": "Cole lifts a heavy box with both arms and carries it outside."
+   },
+   {
+    "seed_id": "S19",
+    "type": "physical",
+    "episode": 21,
+    "text": "Cole lifts a heavy box with both arms and carries it outside."
+   },
+   {
+    "seed_id": "S20",
+    "type": "physical",
+    "episode": 23,
+    "text": "Cole lifts a heavy box with both arms and carries it outside."
+   }
+  ]
+ },
+ "judge": {
+  "setup": "judge",
+  "recall": 0.5,
+  "caught": 10,
+  "planted": 20,
+  "per_type": {
+   "identity": {
+    "planted": 4,
+    "caught": 3,
+    "caught_right_prior": 0
+   },
+   "relationship": {
+    "planted": 4,
+    "caught": 3,
+    "caught_right_prior": 0
+   },
+   "status": {
+    "planted": 4,
+    "caught": 4,
+    "caught_right_prior": 1
+   },
+   "knowledge": {
+    "planted": 4,
+    "caught": 0,
+    "caught_right_prior": 0
+   },
+   "physical": {
+    "planted": 4,
+    "caught": 0,
+    "caught_right_prior": 0
+   }
+  },
+  "precision": 0.5,
+  "labels": {
+   "true_error": 1,
+   "false_alarm": 1
+  },
+  "flags_per_episode_clean": 0.2,
+  "seconds_per_episode": 2.68,
+  "tokens_logged_for_mode": 19220,
+  "missed": [
+   {
+    "seed_id": "S03",
+    "type": "identity",
+    "episode": 21,
+    "text": "I'm 34, and I know exactly what I'm doing."
+   },
+   {
+    "seed_id": "S05",
+    "type": "relationship",
+    "episode": 17,
+    "text": "Jake, Diane's nephew, walks in."
+   },
+   {
+    "seed_id": "S13",
+    "type": "knowledge",
+    "episode": 17,
+    "text": "I know that harper hid the Whitmore shipping empire from Cole."
+   },
+   {
+    "seed_id": "S14",
+    "type": "knowledge",
+    "episode": 19,
+    "text": "I know that diane Whitmore planted a diamond necklace in Harper's bag to frame her for grand larceny."
+   },
+   {
+    "seed_id": "S15",
+    "type": "knowledge",
+    "episode": 21,
+    "text": "I know that someone broke in and wiped all video evidence of Diane murdering the matriarch."
+   },
+   {
+    "seed_id": "S16",
+    "type": "knowledge",
+    "episode": 23,
+    "text": "I know that diane poisoned Evelyn, proven by Evelyn's personal ledger behind the bookshelf."
+   },
+   {
+    "seed_id": "S17",
+    "type": "physical",
+    "episode": 17,
+    "text": "Cole lifts a heavy box with both arms and carries it outside."
+   },
+   {
+    "seed_id": "S18",
+    "type": "physical",
+    "episode": 19,
+    "text": "Cole lifts a heavy box with both arms and carries it outside."
+   },
+   {
+    "seed_id": "S19",
+    "type": "physical",
+    "episode": 21,
+    "text": "Cole lifts a heavy box with both arms and carries it outside."
+   },
+   {
+    "seed_id": "S20",
+    "type": "physical",
+    "episode": 23,
+    "text": "Cole lifts a heavy box with both arms and carries it outside."
+   }
+  ]
+ },
+ "full": {
+  "setup": "full",
+  "recall": 0.4,
+  "caught": 8,
+  "planted": 20,
+  "per_type": {
+   "identity": {
+    "planted": 4,
+    "caught": 3,
+    "caught_right_prior": 0
+   },
+   "relationship": {
+    "planted": 4,
+    "caught": 2,
+    "caught_right_prior": 0
+   },
+   "status": {
+    "planted": 4,
+    "caught": 3,
+    "caught_right_prior": 0
+   },
+   "knowledge": {
+    "planted": 4,
+    "caught": 0,
+    "caught_right_prior": 0
+   },
+   "physical": {
+    "planted": 4,
+    "caught": 0,
+    "caught_right_prior": 0
+   }
+  },
+  "precision": 0.5,
+  "labels": {
+   "true_error": 1,
+   "false_alarm": 1
+  },
+  "flags_per_episode_clean": 0.2,
+  "seconds_per_episode": 4.15,
+  "tokens_logged_for_mode": 9458,
+  "missed": [
+   {
+    "seed_id": "S03",
+    "type": "identity",
+    "episode": 21,
+    "text": "I'm 34, and I know exactly what I'm doing."
+   },
+   {
+    "seed_id": "S05",
+    "type": "relationship",
+    "episode": 17,
+    "text": "Jake, Diane's nephew, walks in."
+   },
+   {
+    "seed_id": "S06",
+    "type": "relationship",
+    "episode": 19,
+    "text": "Mia, Harper's cousin, walks in."
+   },
+   {
+    "seed_id": "S12",
+    "type": "status",
+    "episode": 23,
+    "text": "I'm not finished with this family yet."
+   },
+   {
+    "seed_id": "S13",
+    "type": "knowledge",
+    "episode": 17,
+    "text": "I know that harper hid the Whitmore shipping empire from Cole."
+   },
+   {
+    "seed_id": "S14",
+    "type": "knowledge",
+    "episode": 19,
+    "text": "I know that diane Whitmore planted a diamond necklace in Harper's bag to frame her for grand larceny."
+   },
+   {
+    "seed_id": "S15",
+    "type": "knowledge",
+    "episode": 21,
+    "text": "I know that someone broke in and wiped all video evidence of Diane murdering the matriarch."
+   },
+   {
+    "seed_id": "S16",
+    "type": "knowledge",
+    "episode": 23,
+    "text": "I know that diane poisoned Evelyn, proven by Evelyn's personal ledger behind the bookshelf."
+   },
+   {
+    "seed_id": "S17",
+    "type": "physical",
+    "episode": 17,
+    "text": "Cole lifts a heavy box with both arms and carries it outside."
+   },
+   {
+    "seed_id": "S18",
+    "type": "physical",
+    "episode": 19,
+    "text": "Cole lifts a heavy box with both arms and carries it outside."
+   },
+   {
+    "seed_id": "S19",
+    "type": "physical",
+    "episode": 21,
+    "text": "Cole lifts a heavy box with both arms and carries it outside."
+   },
+   {
+    "seed_id": "S20",
+    "type": "physical",
+    "episode": 23,
+    "text": "Cole lifts a heavy box with both arms and carries it outside."
+   }
+  ]
+ }
+}

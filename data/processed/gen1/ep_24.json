@@ -1,0 +1,202 @@
+{
+ "episode": 24,
+ "source_file": "ep_24.txt",
+ "title": "The Bleeding Oath",
+ "scenes": [
+  {
+   "scene_id": "E24S01",
+   "episode": 24,
+   "heading": "EXT. WHITMORE MANSION - NIGHT",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E24L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. WHITMORE MANSION - NIGHT"
+    },
+    {
+     "line_id": "E24L002",
+     "ts": "00:05",
+     "ts_sec": 5.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "A chaotic swarm of federal agents floods the grand courtyard as red and blue police lights strobe against the limestone pillars."
+    }
+   ]
+  },
+  {
+   "scene_id": "E24S02",
+   "episode": 24,
+   "heading": "INT. MANSION FOYER - NIGHT",
+   "start": "00:10",
+   "lines": [
+    {
+     "line_id": "E24L003",
+     "ts": "00:10",
+     "ts_sec": 10.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. MANSION FOYER - NIGHT"
+    },
+    {
+     "line_id": "E24L004",
+     "ts": "00:14",
+     "ts_sec": 14.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Twenty-four-year-old night-shift nurse Harper collapses onto the marble floor, blood rapidly pooling from her chest where Jake shot her."
+    },
+    {
+     "line_id": "E24L005",
+     "ts": "00:19",
+     "ts_sec": 19.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Harper! Stay with me, please, look at my eyes!"
+    },
+    {
+     "line_id": "E24L006",
+     "ts": "00:24",
+     "ts_sec": 24.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Thirty-two-year-old CEO Cole lunges forward with his hands still cuffed, screaming in raw agony as federal agents rush past him."
+    },
+    {
+     "line_id": "E24L007",
+     "ts": "00:29",
+     "ts_sec": 29.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "No! Mom, what did you make me do? I didn't mean to shoot her!"
+    },
+    {
+     "line_id": "E24L008",
+     "ts": "00:34",
+     "ts_sec": 34.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Twenty-nine-year-old sales head Jake drops his smoking gun, staring in sheer horror at his hands while his mother Diane grabs his arm."
+    },
+    {
+     "line_id": "E24L009",
+     "ts": "00:39",
+     "ts_sec": 39.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Shut up, Jake! She was going to put us both behind bars for poisoning Evelyn!"
+    },
+    {
+     "line_id": "E24L010",
+     "ts": "00:44",
+     "ts_sec": 44.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Fifty-eight-board member Diane tries to drag her crying son toward the back exit while federal agents draw their weapons on them."
+    }
+   ]
+  },
+  {
+   "scene_id": "E24S03",
+   "episode": 24,
+   "heading": "INT. MANSION FOYER - CONTINUOUS",
+   "start": "00:49",
+   "lines": [
+    {
+     "line_id": "E24L011",
+     "ts": "00:49",
+     "ts_sec": 49.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. MANSION FOYER - CONTINUOUS"
+    },
+    {
+     "line_id": "E24L012",
+     "ts": "00:53",
+     "ts_sec": 53.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole drops to his knees beside his bleeding wife, pressing his bound hands against her chest to stem the terrifying flow of blood."
+    },
+    {
+     "line_id": "E24L013",
+     "ts": "00:58",
+     "ts_sec": 58.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Cole... your hands... you're really the CEO..."
+    },
+    {
+     "line_id": "E24L014",
+     "ts": "01:03",
+     "ts_sec": 63.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "I'm just your husband, Harper. Don't close your eyes, stay with me!"
+    },
+    {
+     "line_id": "E24L015",
+     "ts": "01:08",
+     "ts_sec": 68.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Harper's eyelids flutter and close completely as her head falls back against the cold marble floor."
+    },
+    {
+     "line_id": "E24L016",
+     "ts": "01:13",
+     "ts_sec": 73.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Medic! Get over here right now, she's dying!"
+    },
+    {
+     "line_id": "E24L017",
+     "ts": "01:18",
+     "ts_sec": 78.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole screams with unbridled fury as federal agents finally tackle Diane and a sobbing Jake to the ground."
+    },
+    {
+     "line_id": "E24L018",
+     "ts": "01:23",
+     "ts_sec": 83.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DETECTIVE",
+     "text": "He's gone, Mr. Whitmore. There's no pulse."
+    },
+    {
+     "line_id": "E24L019",
+     "ts": "01:28",
+     "ts_sec": 88.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole stares down at his lifeless wife in utter devastation, his hidden empire turning to dust in his arms."
+    }
+   ]
+  }
+ ]
+}

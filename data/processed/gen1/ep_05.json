@@ -1,0 +1,193 @@
+{
+ "episode": 5,
+ "source_file": "ep_05.txt",
+ "title": "Critical Condition",
+ "scenes": [
+  {
+   "scene_id": "E05S01",
+   "episode": 5,
+   "heading": "INT. ST. BRIGID'S HOSPITAL - ICU ROOM - NIGHT",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E05L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. ST. BRIGID'S HOSPITAL - ICU ROOM - NIGHT"
+    },
+    {
+     "line_id": "E05L002",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Emergency alarms blare as twenty-four-year-old nurse Harper rushes to perform chest compressions on eighty-one-year-old Evelyn Whitmore."
+    },
+    {
+     "line_id": "E05L003",
+     "ts": "00:05",
+     "ts_sec": 5.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Clear the line, her heart rate is crashing!"
+    },
+    {
+     "line_id": "E05L004",
+     "ts": "00:09",
+     "ts_sec": 9.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Save her, Harper, she is the only real family I have left."
+    },
+    {
+     "line_id": "E05L005",
+     "ts": "00:14",
+     "ts_sec": 14.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Harper stabilizes the cardiac monitor just as stepmother Diane glares through the glass window."
+    }
+   ]
+  },
+  {
+   "scene_id": "E05S02",
+   "episode": 5,
+   "heading": "INT. ST. BRIGID'S HOSPITAL - CORRIDOR - NIGHT",
+   "start": "00:19",
+   "lines": [
+    {
+     "line_id": "E05L006",
+     "ts": "00:19",
+     "ts_sec": 19.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. ST. BRIGID'S HOSPITAL - CORRIDOR - NIGHT"
+    },
+    {
+     "line_id": "E05L007",
+     "ts": "00:19",
+     "ts_sec": 19.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Seventeen-year-old Mia adjusts the black sling on her injured left arm as she hands Harper a bottle of water."
+    },
+    {
+     "line_id": "E05L008",
+     "ts": "00:24",
+     "ts_sec": 24.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "MIA",
+     "text": "You saved the matriarch, but Cole's half-brother will not stop watching you."
+    },
+    {
+     "line_id": "E05L009",
+     "ts": "00:29",
+     "ts_sec": 29.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Twenty-nine-year-old sales head Jake Whitmore steps close to Harper and gently grabs her arm."
+    },
+    {
+     "line_id": "E05L010",
+     "ts": "00:34",
+     "ts_sec": 34.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Cole is just a broke mechanic, Harper, while I can give you everything."
+    },
+    {
+     "line_id": "E05L011",
+     "ts": "00:39",
+     "ts_sec": 39.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Cole paid one hundred thousand dollars for Mia's heart surgery, so back off, Jake."
+    },
+    {
+     "line_id": "E05L012",
+     "ts": "00:44",
+     "ts_sec": 44.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Ask your mechanic husband why he carries an encrypted executive smartphone."
+    }
+   ]
+  },
+  {
+   "scene_id": "E05S03",
+   "episode": 5,
+   "heading": "INT. ST. BRIGID'S HOSPITAL - NURSES' STATION - NIGHT",
+   "start": "00:49",
+   "lines": [
+    {
+     "line_id": "E05L013",
+     "ts": "00:49",
+     "ts_sec": 49.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. ST. BRIGID'S HOSPITAL - NURSES' STATION - NIGHT"
+    },
+    {
+     "line_id": "E05L014",
+     "ts": "00:49",
+     "ts_sec": 49.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Fifty-eight-year-old Diane Whitmore secretly opens the automated medicine dispenser with a stolen badge."
+    },
+    {
+     "line_id": "E05L015",
+     "ts": "00:54",
+     "ts_sec": 54.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Diane swaps Evelyn's IV bag for a lethal potassium dose logged under Harper's credentials."
+    },
+    {
+     "line_id": "E05L016",
+     "ts": "00:59",
+     "ts_sec": 59.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "When Evelyn dies, Cole loses his inheritance and his little nurse wife takes the murder charge."
+    },
+    {
+     "line_id": "E05L017",
+     "ts": "01:04",
+     "ts_sec": 64.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Harper picks up the digital chart at the counter and gasps at the unauthorized lethal order."
+    },
+    {
+     "line_id": "E05L018",
+     "ts": "01:09",
+     "ts_sec": 69.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Someone used my nurse ID to order a fatal drug dose for Evelyn!"
+    }
+   ]
+  }
+ ]
+}

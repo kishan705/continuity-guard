@@ -1,0 +1,125 @@
+{
+ "episode": 21,
+ "flags": [
+  {
+   "flag_id": "FL-E21-01",
+   "type": "status",
+   "rule": "dead_character_active",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.9,
+   "new": {
+    "episode": 21,
+    "ts": "00:50",
+    "line_id": "E21L010_S11",
+    "quote": "EVELYN: I'm not finished with this family yet."
+   },
+   "prior": [
+    {
+     "episode": 10,
+     "ts": "00:48",
+     "line_id": "E10L011",
+     "quote": "Mia sits on her hospital bed, staring at her healing left arm in its sling, crying over Evelyn's tragic death."
+    }
+   ],
+   "explanation": "Evelyn is firmly established as deceased in earlier episodes, so her sudden active appearance breaks continuity.",
+   "suggested_fix": "Change Evelyn's dialogue to a recorded message or a hallucination/dream sequence.",
+   "found_by": "rules+judge",
+   "model": "google_genai/gemini-3.5-flash-lite",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E10-008"
+   ]
+  },
+  {
+   "flag_id": "FL-E21-02",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.9,
+   "new": {
+    "episode": 21,
+    "ts": "00:26",
+    "line_id": "E21L006_S7",
+    "quote": "Cole, Jake's cousin, walks in."
+   },
+   "prior": [
+    {
+     "episode": 17,
+     "ts": "01:24",
+     "line_id": "E17L015",
+     "quote": "JAKE: Because my half-brother Cole doesn't own you anymore, Harper... you belong to me now."
+    }
+   ],
+   "explanation": "Cole is consistently called Jake's half-brother in earlier episodes, making the shift to cousin a direct contradiction.",
+   "suggested_fix": "Change 'cousin' back to 'half-brother' in the new line.",
+   "found_by": "rules+judge",
+   "model": "google_genai/gemini-3.5-flash-lite",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E17-010"
+   ]
+  },
+  {
+   "flag_id": "FL-E21-03",
+   "type": "relationship",
+   "rule": "similar_fact",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.9,
+   "new": {
+    "episode": 21,
+    "ts": "00:20",
+    "line_id": "E21L005",
+    "quote": "DIANE: Step-mother Diane glares at her son Jake, demanding he secure the shipping empire immediately."
+   },
+   "prior": [
+    {
+     "episode": 5,
+     "ts": "00:14",
+     "line_id": "E05L005",
+     "quote": "Harper stabilizes the cardiac monitor just as stepmother Diane glares through the glass window."
+    },
+    {
+     "episode": 16,
+     "ts": "00:32",
+     "line_id": "E16L007",
+     "quote": "HARPER: You poisoned fifty-eight-year-old stepmother Diane, and I found the hidden pages proving you murdered Evelyn for control."
+    },
+    {
+     "episode": 7,
+     "ts": "00:38",
+     "line_id": "E07L008",
+     "quote": "Seventeen-year-old Mia adjusts the sling on her injured left arm as she catches stepmother Diane whispering to an administrator."
+    }
+   ],
+   "explanation": "Diane is established as the stepmother to Evelyn, Harper, and Mia, not the biological mother of Jake.",
+   "suggested_fix": "Change 'her son Jake' to 'her stepson Jake'.",
+   "found_by": "rules+judge",
+   "model": "google_genai/gemini-3.5-flash-lite",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E05-006",
+    "F-E16-008",
+    "F-E07-013"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 21,
+  "facts": 14,
+  "extract_calls": 1,
+  "extract_drafts": 14,
+  "extract_invalid": 0,
+  "extract_grounded": 14,
+  "extract_rejected": 0,
+  "extract_repaired": 0,
+  "candidates": 11,
+  "judged_contradiction": 3,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 3,
+  "seconds": 12.99
+ }
+}

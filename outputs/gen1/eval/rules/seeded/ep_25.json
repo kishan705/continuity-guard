@@ -1,0 +1,241 @@
+{
+ "episode": 25,
+ "flags": [
+  {
+   "flag_id": "FL-E25-01",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 25,
+    "ts": "00:03",
+    "line_id": "E25L002",
+    "quote": "A sterile hospital hallway echoes with the frantic footsteps of thirty-two-year-old Cole Whitmore, grieving billionaire CEO of Whitmore Shipping."
+   },
+   "prior": [
+    {
+     "episode": 24,
+     "ts": "00:24",
+     "line_id": "E24L006",
+     "quote": "Thirty-two-year-old CEO Cole lunges forward with his hands still cuffed, screaming in raw agony as federal agents rush past him."
+    },
+    {
+     "episode": 21,
+     "ts": "00:50",
+     "line_id": "E21L010",
+     "quote": "COLE: 32-year-old CEO Cole whispers to his contract wife, his true identity still hidden from her."
+    },
+    {
+     "episode": 18,
+     "ts": "00:20",
+     "line_id": "E18L006",
+     "quote": "Cole, the 32-year-old CEO of Whitmore Shipping, bleeds through his bandages as he searches the desk for his late grandmother Evelyn's medical file."
+    }
+   ],
+   "explanation": "age was '32', now 'thirty-two'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E24-004",
+    "F-E21-008",
+    "F-E18-008"
+   ]
+  },
+  {
+   "flag_id": "FL-E25-02",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 25,
+    "ts": "00:10",
+    "line_id": "E25L004",
+    "quote": "Twenty-four-year-old night-shift nurse Harper Lane lies motionless on a medical bed, pale and cold after taking a bullet to the chest from Jake."
+   },
+   "prior": [
+    {
+     "episode": 24,
+     "ts": "00:14",
+     "line_id": "E24L004",
+     "quote": "Twenty-four-year-old night-shift nurse Harper collapses onto the marble floor, blood rapidly pooling from her chest where Jake shot her."
+    },
+    {
+     "episode": 21,
+     "ts": "00:43",
+     "line_id": "E21L009",
+     "quote": "HARPER: 24-year-old night-shift nurse Harper breaks past the corrupt guards to reach Cole."
+    },
+    {
+     "episode": 20,
+     "ts": "00:33",
+     "line_id": "E20L007",
+     "quote": "COLE: Stop right there, Diane, before you frame my 24-year-old wife Harper for another crime she didn't commit!"
+    }
+   ],
+   "explanation": "age was '24', now 'twenty-four'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E24-001",
+    "F-E21-006",
+    "F-E20-006"
+   ]
+  },
+  {
+   "flag_id": "FL-E25-04",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 25,
+    "ts": "00:31",
+    "line_id": "E25L008",
+    "quote": "Seventeen-year-old high-school student Mia races down the corridor with her left arm still in a sling from her recent fall."
+   },
+   "prior": [
+    {
+     "episode": 19,
+     "ts": "00:26",
+     "line_id": "E19L006",
+     "quote": "Nurse Harper paces beside the bed of her 17-year-old sister Mia, whose left arm remains trapped in a restrictive medical sling."
+    },
+    {
+     "episode": 18,
+     "ts": "00:03",
+     "line_id": "E18L002",
+     "quote": "Harper, a 24-year-old night-shift nurse, stands by her locker while her 17-year-old sister Mia watches closely."
+    },
+    {
+     "episode": 14,
+     "ts": "00:10",
+     "line_id": "E14L004",
+     "quote": "JAKE WHITMORE: Then watch your seventeen-year-old sister Mia lose her hospital funding and die tonight!"
+    }
+   ],
+   "explanation": "age was '17-year-old', now 'seventeen'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E19-005",
+    "F-E18-003",
+    "F-E14-004"
+   ]
+  },
+  {
+   "flag_id": "FL-E25-03",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 25,
+    "ts": "00:17",
+    "line_id": "E25L005",
+    "quote": "COLE: Please, Harper, you can't leave me, my one-year contract wife."
+   },
+   "prior": [
+    {
+     "episode": 23,
+     "ts": "00:20",
+     "line_id": "E23L005",
+     "quote": "Cole struggles against his handcuffs, fighting through his recent injuries to protect his wife Harper."
+    },
+    {
+     "episode": 22,
+     "ts": "01:12",
+     "line_id": "E22L013",
+     "quote": "COLE: My injured body is failing me, but I will break these gates down before I let Jake take my wife!"
+    },
+    {
+     "episode": 20,
+     "ts": "00:33",
+     "line_id": "E20L007",
+     "quote": "COLE: Stop right there, Diane, before you frame my 24-year-old wife Harper for another crime she didn't commit!"
+    }
+   ],
+   "explanation": "relationship was 'wife', now 'one-year contract wife'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E23-006",
+    "F-E22-008",
+    "F-E20-007"
+   ]
+  },
+  {
+   "flag_id": "FL-E25-05",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 25,
+    "ts": "00:38",
+    "line_id": "E25L009",
+    "quote": "MIA: Where is my older sister Harper?"
+   },
+   "prior": [
+    {
+     "episode": 21,
+     "ts": "00:10",
+     "line_id": "E21L003",
+     "quote": "HARPER: You cannot arrest him, he is bleeding through his bandages from saving my sister Mia!"
+    },
+    {
+     "episode": 19,
+     "ts": "00:26",
+     "line_id": "E19L006",
+     "quote": "Nurse Harper paces beside the bed of her 17-year-old sister Mia, whose left arm remains trapped in a restrictive medical sling."
+    },
+    {
+     "episode": 18,
+     "ts": "00:03",
+     "line_id": "E18L002",
+     "quote": "Harper, a 24-year-old night-shift nurse, stands by her locker while her 17-year-old sister Mia watches closely."
+    }
+   ],
+   "explanation": "relationship was 'sister', now 'older sister'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E21-001",
+    "F-E19-006",
+    "F-E18-004"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 25,
+  "facts": 13,
+  "extract_calls": 1,
+  "extract_drafts": 13,
+  "extract_invalid": 0,
+  "extract_grounded": 13,
+  "extract_rejected": 0,
+  "extract_repaired": 0,
+  "candidates": 11,
+  "judged_contradiction": 0,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 5,
+  "seconds": 0.08
+ }
+}

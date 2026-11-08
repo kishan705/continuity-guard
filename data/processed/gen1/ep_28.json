@@ -1,0 +1,174 @@
+{
+ "episode": 28,
+ "source_file": "ep_28.txt",
+ "title": "Bloodline Ultimatum",
+ "scenes": [
+  {
+   "scene_id": "E28S01",
+   "episode": 28,
+   "heading": "INT. HOSPITAL ROOM - DAY",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E28L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. HOSPITAL ROOM - DAY"
+    },
+    {
+     "line_id": "E28L002",
+     "ts": "00:03",
+     "ts_sec": 3.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Harper Lane, twenty-four-year-old night-shift nurse, gasps awake as the flatlining heart monitor abruptly returns to a steady rhythm."
+    },
+    {
+     "line_id": "E28L003",
+     "ts": "00:08",
+     "ts_sec": 8.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Cole Whitmore, thirty-two-year-old billionaire CEO of Whitmore Shipping posing as a mechanic, grips her hand in overwhelming relief."
+    },
+    {
+     "line_id": "E28L004",
+     "ts": "00:13",
+     "ts_sec": 13.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "You... you paid for my seventeen-year-old sister Mia's heart surgery, and now you own an entire shipping empire."
+    },
+    {
+     "line_id": "E28L005",
+     "ts": "00:19",
+     "ts_sec": 19.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "I'm sorry I hid my true identity as a billionaire, Harper, but my heart has always belonged to my mechanic wife."
+    }
+   ]
+  },
+  {
+   "scene_id": "E28S02",
+   "episode": 28,
+   "heading": "EXT. WHITMORE SHIPPING HEADQUARTERS - DAY",
+   "start": "00:26",
+   "lines": [
+    {
+     "line_id": "E28L006",
+     "ts": "00:26",
+     "ts_sec": 26.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. WHITMORE SHIPPING HEADQUARTERS - DAY"
+    },
+    {
+     "line_id": "E28L007",
+     "ts": "00:30",
+     "ts_sec": 30.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "Diane Whitmore, fifty-eight-year-old board member and Cole's stepmother, is led away in handcuffs by federal agents for poisoning Evelyn."
+    },
+    {
+     "line_id": "E28L008",
+     "ts": "00:37",
+     "ts_sec": 37.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Jake Whitmore, twenty-nine-year-old head of sales and Diane's son, screams curses at the reporters while being dragged into a police cruiser."
+    }
+   ]
+  },
+  {
+   "scene_id": "E28S03",
+   "episode": 28,
+   "heading": "INT. SHAREHOLDERS MEETING ROOM - DAY",
+   "start": "00:44",
+   "lines": [
+    {
+     "line_id": "E28L009",
+     "ts": "00:44",
+     "ts_sec": 44.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. SHAREHOLDERS MEETING ROOM - DAY"
+    },
+    {
+     "line_id": "E28L010",
+     "ts": "00:47",
+     "ts_sec": 47.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "EVELYN",
+     "text": "Evelyn Whitmore, the late eighty-one-year-old matriarch, left an emergency video clause naming Harper as the controlling shareholder."
+    },
+    {
+     "line_id": "E28L011",
+     "ts": "00:54",
+     "ts_sec": 54.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "ATTORNEY",
+     "text": "The company's legal counsel plays Evelyn's final recorded decree transferring all voting shares directly to Cole and Harper."
+    }
+   ]
+  },
+  {
+   "scene_id": "E28S04",
+   "episode": 28,
+   "heading": "INT. HOSPITAL ROOM - NIGHT",
+   "start": "01:01",
+   "lines": [
+    {
+     "line_id": "E28L012",
+     "ts": "01:01",
+     "ts_sec": 61.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. HOSPITAL ROOM - NIGHT"
+    },
+    {
+     "line_id": "E28L013",
+     "ts": "01:05",
+     "ts_sec": 65.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "MIA",
+     "text": "Mia Lane rushes through the door with a doctor's report, shouting that Harper's pregnancy status is severely compromised by the shooting."
+    },
+    {
+     "line_id": "E28L014",
+     "ts": "01:11",
+     "ts_sec": 71.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Cole stands protectively over his recovering wife, vowing to protect both Harper and their unborn child at any cost."
+    },
+    {
+     "line_id": "E28L015",
+     "ts": "01:17",
+     "ts_sec": 77.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Harper suddenly clutches her lower abdomen in agonizing pain as the hospital room door is kicked open by an armed hitman."
+    }
+   ]
+  }
+ ]
+}

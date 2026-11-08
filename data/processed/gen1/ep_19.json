@@ -1,0 +1,166 @@
+{
+ "episode": 19,
+ "source_file": "ep_19.txt",
+ "title": "The Loaded Gun",
+ "scenes": [
+  {
+   "scene_id": "E19S01",
+   "episode": 19,
+   "heading": "EXT. WHITMORE MANSION STUDY - NIGHT",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E19L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. WHITMORE MANSION STUDY - NIGHT"
+    },
+    {
+     "line_id": "E19L002",
+     "ts": "00:05",
+     "ts_sec": 5.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole stares down the barrel of a pistol held by his ruthless half-brother Jake inside the darkened study."
+    },
+    {
+     "line_id": "E19L003",
+     "ts": "00:10",
+     "ts_sec": 10.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "You are willing to commit murder just to inherit the shipping empire, Jake."
+    },
+    {
+     "line_id": "E19L004",
+     "ts": "00:16",
+     "ts_sec": 16.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "I am protecting my mother Diane, and you were always just a grease-monkey impostor, Cole."
+    }
+   ]
+  },
+  {
+   "scene_id": "E19S02",
+   "episode": 19,
+   "heading": "INT. HOSPITAL ROOM - NIGHT",
+   "start": "00:23",
+   "lines": [
+    {
+     "line_id": "E19L005",
+     "ts": "00:23",
+     "ts_sec": 23.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. HOSPITAL ROOM - NIGHT"
+    },
+    {
+     "line_id": "E19L006",
+     "ts": "00:26",
+     "ts_sec": 26.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Nurse Harper paces beside the bed of her 17-year-old sister Mia, whose left arm remains trapped in a restrictive medical sling."
+    },
+    {
+     "line_id": "E19L007",
+     "ts": "00:32",
+     "ts_sec": 32.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Jake blackmailed me into transferring here, Mia, and now Cole is alone with him at the mansion."
+    },
+    {
+     "line_id": "E19L008",
+     "ts": "00:39",
+     "ts_sec": 39.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "MIA",
+     "text": "You have to call the police right now, Harper, before Jake hurts him."
+    }
+   ]
+  },
+  {
+   "scene_id": "E19S03",
+   "episode": 19,
+   "heading": "INT. WHITMORE MANSION STUDY - NIGHT",
+   "start": "00:46",
+   "lines": [
+    {
+     "line_id": "E19L009",
+     "ts": "00:46",
+     "ts_sec": 46.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE MANSION STUDY - NIGHT"
+    },
+    {
+     "line_id": "E19L010",
+     "ts": "00:48",
+     "ts_sec": 48.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole presses his bleeding side, his post-surgery bandages soaking through with fresh crimson blood onto the Persian rug."
+    },
+    {
+     "line_id": "E19L011",
+     "ts": "00:54",
+     "ts_sec": 54.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Drop Evelyn's glass poison vial on the floor, Cole, or I pull this trigger right now."
+    },
+    {
+     "line_id": "E19L012",
+     "ts": "01:00",
+     "ts_sec": 60.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "My grandmother Evelyn knew Diane was poisoning her, and I will never let you bury the truth."
+    },
+    {
+     "line_id": "E19L013",
+     "ts": "01:07",
+     "ts_sec": 67.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "The mahogany study door suddenly bursts open as police officers rush in with drawn weapons."
+    },
+    {
+     "line_id": "E19L014",
+     "ts": "01:13",
+     "ts_sec": 73.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Drop your weapon, officer, my half-brother Cole just tried to murder me!"
+    },
+    {
+     "line_id": "E19L015",
+     "ts": "01:20",
+     "ts_sec": 80.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole looks in horror as the lead detective slaps heavy steel handcuffs onto his injured wrists."
+    }
+   ]
+  }
+ ]
+}

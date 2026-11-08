@@ -1,0 +1,166 @@
+{
+ "episode": 9,
+ "source_file": "ep_09.txt",
+ "title": "The Broken Crown",
+ "scenes": [
+  {
+   "scene_id": "E09S01",
+   "episode": 9,
+   "heading": "INT. WHITMORE ESTATE - STUDY - DAY",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E09L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE ESTATE - STUDY - DAY"
+    },
+    {
+     "line_id": "E09L002",
+     "ts": "00:04",
+     "ts_sec": 4.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "HARPER stands frozen in the mahogany library, staring at the legal trust file naming Cole as the billionaire CEO."
+    },
+    {
+     "line_id": "E09L003",
+     "ts": "00:09",
+     "ts_sec": 9.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Harper, let me explain why I had to hide my identity as the Whitmore shipping heir until the will was read."
+    },
+    {
+     "line_id": "E09L004",
+     "ts": "00:15",
+     "ts_sec": 15.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "You lied to a broke 24-year-old night-shift nurse just to use me for a contract marriage, Cole!"
+    }
+   ]
+  },
+  {
+   "scene_id": "E09S02",
+   "episode": 9,
+   "heading": "EXT. WHITMORE ESTATE - TERRACE - DAY",
+   "start": "00:23",
+   "lines": [
+    {
+     "line_id": "E09L005",
+     "ts": "00:23",
+     "ts_sec": 23.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. WHITMORE ESTATE - TERRACE - DAY"
+    },
+    {
+     "line_id": "E09L006",
+     "ts": "00:27",
+     "ts_sec": 27.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "JAKE watches through the glass doors, smirking as he sips scotch and celebrates his mother Diane's deadly scheme."
+    },
+    {
+     "line_id": "E09L007",
+     "ts": "00:33",
+     "ts_sec": 33.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "My 58-year-old board member status is secure now that 81-year-old Evelyn is dead and buried."
+    }
+   ]
+  },
+  {
+   "scene_id": "E09S03",
+   "episode": 9,
+   "heading": "INT. WHITMORE ESTATE - STUDY - DAY",
+   "start": "00:40",
+   "lines": [
+    {
+     "line_id": "E09L008",
+     "ts": "00:40",
+     "ts_sec": 40.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE ESTATE - STUDY - DAY"
+    },
+    {
+     "line_id": "E09L009",
+     "ts": "00:44",
+     "ts_sec": 44.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "HARPER yanks her wedding ring off her finger and throws it hard against the stone fireplace."
+    },
+    {
+     "line_id": "E09L010",
+     "ts": "00:50",
+     "ts_sec": 50.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "My grandmother Evelyn knew about the inheritance clause, but my feelings for you were real!"
+    },
+    {
+     "line_id": "E09L011",
+     "ts": "00:57",
+     "ts_sec": 57.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "My 17-year-old sister Mia is still recovering from her heart surgery, and you built our entire life on a throne of lies."
+    },
+    {
+     "line_id": "E09L012",
+     "ts": "01:05",
+     "ts_sec": 65.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "COLE reaches out his hand, but Harper backs away toward the heavy oak doors, her eyes filled with tears."
+    },
+    {
+     "line_id": "E09L013",
+     "ts": "01:12",
+     "ts_sec": 72.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Stay away from me, Cole Hayes, or whatever your real name is."
+    },
+    {
+     "line_id": "E09L014",
+     "ts": "01:19",
+     "ts_sec": 79.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "JAKE steps into the doorway, blocking her exit with a sinister smile and a new legal document."
+    },
+    {
+     "line_id": "E09L015",
+     "ts": "01:25",
+     "ts_sec": 85.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "If you want to leave him, Harper, sign these papers and let me be the one who saves you."
+    }
+   ]
+  }
+ ]
+}

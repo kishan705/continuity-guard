@@ -1,0 +1,200 @@
+{
+ "episode": 13,
+ "source_file": "ep_13.txt",
+ "title": "Blood And Signatures",
+ "scenes": [
+  {
+   "scene_id": "E13S01",
+   "episode": 13,
+   "heading": "EXT. HOSPITAL PARKING GARAGE - NIGHT",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E13L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. HOSPITAL PARKING GARAGE - NIGHT"
+    },
+    {
+     "line_id": "E13L002",
+     "ts": "00:05",
+     "ts_sec": 5.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Jake Whitmore blocks seventeen-year-old Mia Lane, who wears a medical sling on her recovering left arm."
+    },
+    {
+     "line_id": "E13L003",
+     "ts": "00:10",
+     "ts_sec": 10.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Sign these corporate transfer papers for me right now, Mia, or your nurse sister Harper never gets another dime for her medical bills."
+    },
+    {
+     "line_id": "E13L004",
+     "ts": "00:17",
+     "ts_sec": 17.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "MIA",
+     "text": "Get away from me, you creep, I know your mother Diane poisoned our grandmother Evelyn."
+    }
+   ]
+  },
+  {
+   "scene_id": "E13S02",
+   "episode": 13,
+   "heading": "INT. ST. BRIGID HOSPITAL ER - NIGHT",
+   "start": "00:23",
+   "lines": [
+    {
+     "line_id": "E13L005",
+     "ts": "00:23",
+     "ts_sec": 23.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. ST. BRIGID HOSPITAL ER - NIGHT"
+    },
+    {
+     "line_id": "E13L006",
+     "ts": "00:28",
+     "ts_sec": 28.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Harper Lane pumps thirty-two-year-old Cole Whitmore's chest as the monitor flatlines after his near-fatal stab wound."
+    },
+    {
+     "line_id": "E13L007",
+     "ts": "00:35",
+     "ts_sec": 35.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Don't you dare die on me, Cole, you lying billionaire bastard!"
+    },
+    {
+     "line_id": "E13L008",
+     "ts": "00:41",
+     "ts_sec": 41.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "(weak gasping) Harper... the flash drive in my auto shop desk... proves Diane killed Evelyn."
+    }
+   ]
+  },
+  {
+   "scene_id": "E13S03",
+   "episode": 13,
+   "heading": "EXT. AUTO SHOP - NIGHT",
+   "start": "00:48",
+   "lines": [
+    {
+     "line_id": "E13L009",
+     "ts": "00:48",
+     "ts_sec": 48.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. AUTO SHOP - NIGHT"
+    },
+    {
+     "line_id": "E13L010",
+     "ts": "00:52",
+     "ts_sec": 52.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole's loyal mechanic assistant kicks open the office door to find the security hard drive smashed to pieces."
+    },
+    {
+     "line_id": "E13L011",
+     "ts": "00:58",
+     "ts_sec": 58.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "MECHANIC",
+     "text": "Someone broke in and wiped all the video evidence of Diane murdering the matriarch."
+    }
+   ]
+  },
+  {
+   "scene_id": "E13S04",
+   "episode": 13,
+   "heading": "INT. WHITMORE BOARDROOM - NIGHT",
+   "start": "01:04",
+   "lines": [
+    {
+     "line_id": "E13L012",
+     "ts": "01:04",
+     "ts_sec": 64.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE BOARDROOM - NIGHT"
+    },
+    {
+     "line_id": "E13L013",
+     "ts": "01:09",
+     "ts_sec": 69.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Diane Whitmore slides a forged inheritance contract across the mahogany table while laughing maniacally."
+    },
+    {
+     "line_id": "E13L014",
+     "ts": "01:15",
+     "ts_sec": 75.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE",
+     "text": "With Cole bleeding out and Harper cornered by Jake, the Whitmore shipping empire is finally mine!"
+    }
+   ]
+  },
+  {
+   "scene_id": "E13S05",
+   "episode": 13,
+   "heading": "EXT. HOSPITAL EXIT - NIGHT",
+   "start": "01:22",
+   "lines": [
+    {
+     "line_id": "E13L015",
+     "ts": "01:22",
+     "ts_sec": 82.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. HOSPITAL EXIT - NIGHT"
+    },
+    {
+     "line_id": "E13L016",
+     "ts": "01:26",
+     "ts_sec": 86.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Jake grabs Harper by the wrist in the shadows, shoving the stolen transfer ledger into her face."
+    },
+    {
+     "line_id": "E13L017",
+     "ts": "01:32",
+     "ts_sec": 92.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Choose now, Harper, sign away the company or watch your little sister Mia die tonight."
+    }
+   ]
+  }
+ ]
+}

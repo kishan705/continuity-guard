@@ -1,0 +1,52 @@
+{
+ "episode": 22,
+ "flags": [
+  {
+   "flag_id": "FL-E22-01",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.9,
+   "new": {
+    "episode": 22,
+    "ts": "00:11",
+    "line_id": "E22L003",
+    "quote": "HARPER: You are insane, Jake, your own mother Diane murdered your grandmother Evelyn for this shipping empire!"
+   },
+   "prior": [
+    {
+     "episode": 16,
+     "ts": "00:19",
+     "line_id": "E16L005",
+     "quote": "DIANE: Looking for your late grandmother-in-law Evelyn's personal medical diary, twenty-four-year-old nurse Harper?"
+    }
+   ],
+   "explanation": "Evelyn was previously established as Diane's mother-in-law (or late grandmother-in-law to Harper), but Harper incorrectly calls Evelyn Diane's mother.",
+   "suggested_fix": "Change 'your own mother Diane murdered your grandmother' to 'your mother-in-law Diane murdered your grandmother' or adjust the family tree.",
+   "found_by": "rules+judge+verify",
+   "model": "google_genai/gemini-3.5-flash-lite",
+   "verify_reason": "Harper calls Evelyn Diane's mother in Episode 22, contradicting the earlier statement in Episode 16 that Evelyn was Diane's mother-in-law.",
+   "prior_fact_ids": [
+    "F-E16-005"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 22,
+  "facts": 8,
+  "extract_calls": 1,
+  "extract_drafts": 8,
+  "extract_invalid": 0,
+  "extract_grounded": 8,
+  "extract_rejected": 0,
+  "extract_repaired": 0,
+  "candidates": 6,
+  "judged_contradiction": 1,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 1,
+  "seconds": 22.03,
+  "priors_disputed": 0
+ }
+}

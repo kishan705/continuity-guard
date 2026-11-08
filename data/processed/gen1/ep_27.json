@@ -1,0 +1,184 @@
+{
+ "episode": 27,
+ "source_file": "ep_27.txt",
+ "title": "The Heir's Return",
+ "scenes": [
+  {
+   "scene_id": "E27S01",
+   "episode": 27,
+   "heading": "EXT. WHITMORE SHIPPING HEADQUARTERS - DAY",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E27L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. WHITMORE SHIPPING HEADQUARTERS - DAY"
+    },
+    {
+     "line_id": "E27L002",
+     "ts": "00:03",
+     "ts_sec": 3.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Federal marshals march a handcuffed Diane Whitmore past a swarm of screaming reporters outside the glass tower."
+    }
+   ]
+  },
+  {
+   "scene_id": "E27S02",
+   "episode": 27,
+   "heading": "INT. EXECUTIVE BOARDROOM - CONTINUOUS",
+   "start": "00:08",
+   "lines": [
+    {
+     "line_id": "E27L003",
+     "ts": "00:08",
+     "ts_sec": 8.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. EXECUTIVE BOARDROOM - CONTINUOUS"
+    },
+    {
+     "line_id": "E27L004",
+     "ts": "00:11",
+     "ts_sec": 11.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "32-year-old billionaire CEO Cole Whitmore stands at the head of the mahogany table, adjusting his expensive tailored suit."
+    },
+    {
+     "line_id": "E27L005",
+     "ts": "00:16",
+     "ts_sec": 16.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "My stepmother Diane and half-brother Jake thought poison and bullets could steal the Whitmore empire."
+    },
+    {
+     "line_id": "E27L006",
+     "ts": "00:22",
+     "ts_sec": 22.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "The terrified board members lower their heads in absolute silence, recognizing true authority."
+    }
+   ]
+  },
+  {
+   "scene_id": "E27S03",
+   "episode": 27,
+   "heading": "INT. ST. BRIGID'S HOSPITAL - PRIVATE ROOM - DAY",
+   "start": "00:27",
+   "lines": [
+    {
+     "line_id": "E27L007",
+     "ts": "00:27",
+     "ts_sec": 27.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. ST. BRIGID'S HOSPITAL - PRIVATE ROOM - DAY"
+    },
+    {
+     "line_id": "E27L008",
+     "ts": "00:31",
+     "ts_sec": 31.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "24-year-old night-shift nurse Harper Lane rests against white pillows, still recovering from her near-fatal gunshot wound."
+    },
+    {
+     "line_id": "E27L009",
+     "ts": "00:37",
+     "ts_sec": 37.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "I still cannot believe you own this entire hospital, Cole, and all I knew was a quiet mechanic."
+    },
+    {
+     "line_id": "E27L010",
+     "ts": "00:44",
+     "ts_sec": 44.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "17-year-old Mia Lane steps into the room, wearing her hospital gown and holding a sealed medical file."
+    },
+    {
+     "line_id": "E27L011",
+     "ts": "00:50",
+     "ts_sec": 50.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "MIA",
+     "text": "That is not even the biggest secret in this room, Harper, because the doctor just read my lab work."
+    },
+    {
+     "line_id": "E27L012",
+     "ts": "00:57",
+     "ts_sec": 57.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Harper grips the white cotton blanket tightly, staring up at her younger sister with sudden anxiety."
+    },
+    {
+     "line_id": "E27L013",
+     "ts": "01:03",
+     "ts_sec": 63.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Mia, what is wrong with your post-op blood work? Is your heart failing again?"
+    },
+    {
+     "line_id": "E27L014",
+     "ts": "01:10",
+     "ts_sec": 70.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "MIA",
+     "text": "No, it is not my heart, Harper, it is yours because you are pregnant with Cole's baby!"
+    },
+    {
+     "line_id": "E27L015",
+     "ts": "01:17",
+     "ts_sec": 77.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole drops his leather briefcase, rushing to the bedside with tears of sheer joy in his eyes."
+    },
+    {
+     "line_id": "E27L016",
+     "ts": "01:23",
+     "ts_sec": 83.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "A baby? Harper, we are going to be a real family."
+    },
+    {
+     "line_id": "E27L017",
+     "ts": "01:28",
+     "ts_sec": 88.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "The heart monitor suddenly begins to emit a rapid, erratic high-pitched flatline as Harper gasps for air."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,277 @@
+{
+ "episodes": [
+  {
+   "episode": 1,
+   "scenes": 3,
+   "lines": 18,
+   "dialogue": 8,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 2,
+   "scenes": 4,
+   "lines": 19,
+   "dialogue": 9,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 3,
+   "scenes": 2,
+   "lines": 16,
+   "dialogue": 9,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 4,
+   "scenes": 3,
+   "lines": 19,
+   "dialogue": 8,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 5,
+   "scenes": 3,
+   "lines": 18,
+   "dialogue": 8,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 6,
+   "scenes": 3,
+   "lines": 16,
+   "dialogue": 6,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 7,
+   "scenes": 3,
+   "lines": 16,
+   "dialogue": 5,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 8,
+   "scenes": 8,
+   "lines": 22,
+   "dialogue": 6,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 9,
+   "scenes": 3,
+   "lines": 15,
+   "dialogue": 7,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 10,
+   "scenes": 5,
+   "lines": 16,
+   "dialogue": 6,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 11,
+   "scenes": 4,
+   "lines": 15,
+   "dialogue": 6,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 12,
+   "scenes": 7,
+   "lines": 20,
+   "dialogue": 6,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 13,
+   "scenes": 5,
+   "lines": 17,
+   "dialogue": 7,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 14,
+   "scenes": 6,
+   "lines": 20,
+   "dialogue": 8,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 15,
+   "scenes": 4,
+   "lines": 13,
+   "dialogue": 9,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 16,
+   "scenes": 4,
+   "lines": 16,
+   "dialogue": 6,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 17,
+   "scenes": 4,
+   "lines": 15,
+   "dialogue": 7,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 18,
+   "scenes": 5,
+   "lines": 17,
+   "dialogue": 7,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 19,
+   "scenes": 3,
+   "lines": 15,
+   "dialogue": 7,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 20,
+   "scenes": 4,
+   "lines": 16,
+   "dialogue": 12,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 21,
+   "scenes": 4,
+   "lines": 14,
+   "dialogue": 10,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 22,
+   "scenes": 3,
+   "lines": 13,
+   "dialogue": 10,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 23,
+   "scenes": 3,
+   "lines": 17,
+   "dialogue": 7,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 24,
+   "scenes": 3,
+   "lines": 19,
+   "dialogue": 7,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 25,
+   "scenes": 4,
+   "lines": 16,
+   "dialogue": 5,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 26,
+   "scenes": 3,
+   "lines": 14,
+   "dialogue": 11,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 1
+  },
+  {
+   "episode": 27,
+   "scenes": 3,
+   "lines": 17,
+   "dialogue": 6,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 28,
+   "scenes": 4,
+   "lines": 15,
+   "dialogue": 11,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 29,
+   "scenes": 3,
+   "lines": 16,
+   "dialogue": 6,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  },
+  {
+   "episode": 30,
+   "scenes": 4,
+   "lines": 18,
+   "dialogue": 14,
+   "no_timestamp": 0,
+   "inherited_timestamp": 0,
+   "timestamps_backwards": 0
+  }
+ ],
+ "warnings": [
+  "ep 26: timestamps go backwards 1 time(s)"
+ ]
+}

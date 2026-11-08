@@ -1,0 +1,81 @@
+{
+ "episode": 22,
+ "flags": [
+  {
+   "flag_id": "FL-E22-01",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 22,
+    "ts": "00:05",
+    "line_id": "E22L002",
+    "quote": "JAKE: You are coming with me right now, Harper, or I pull this trigger and end my half-brother Cole forever!"
+   },
+   "prior": [
+    {
+     "episode": 7,
+     "ts": "00:09",
+     "line_id": "E07L003",
+     "quote": "JAKE: Sign these divorce papers for my broke mechanic brother, Harper, and my legal team gets you out today."
+    }
+   ],
+   "explanation": "relationship was 'brother', now 'half-brother'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E07-005"
+   ]
+  },
+  {
+   "flag_id": "FL-E22-02",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 22,
+    "ts": "00:11",
+    "line_id": "E22L003",
+    "quote": "HARPER: You are insane, Jake, your own mother Diane murdered your grandmother Evelyn for this shipping empire!"
+   },
+   "prior": [
+    {
+     "episode": 16,
+     "ts": "00:19",
+     "line_id": "E16L005",
+     "quote": "DIANE: Looking for your late grandmother-in-law Evelyn's personal medical diary, twenty-four-year-old nurse Harper?"
+    }
+   ],
+   "explanation": "relationship was 'late grandmother-in-law', now 'mother-in-law'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E16-005"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 22,
+  "facts": 8,
+  "extract_calls": 1,
+  "extract_drafts": 8,
+  "extract_invalid": 0,
+  "extract_grounded": 8,
+  "extract_rejected": 0,
+  "extract_repaired": 0,
+  "candidates": 6,
+  "judged_contradiction": 0,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 2,
+  "seconds": 0.03
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "episode": 18,
+ "flags": [
+  {
+   "flag_id": "FL-E18-01",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 18,
+    "ts": "00:03",
+    "line_id": "E18L002",
+    "quote": "Harper, a 24-year-old night-shift nurse, stands by her locker while her 17-year-old sister Mia watches closely."
+   },
+   "prior": [
+    {
+     "episode": 16,
+     "ts": "00:19",
+     "line_id": "E16L005",
+     "quote": "DIANE: Looking for your late grandmother-in-law Evelyn's personal medical diary, twenty-four-year-old nurse Harper?"
+    },
+    {
+     "episode": 7,
+     "ts": "00:04",
+     "line_id": "E07L002",
+     "quote": "Cuffed at the wrist, twenty-four-year-old night-shift nurse Harper stares through the iron bars as officer footfalls echo down the hall."
+    },
+    {
+     "episode": 5,
+     "ts": "00:00",
+     "line_id": "E05L002",
+     "quote": "Emergency alarms blare as twenty-four-year-old nurse Harper rushes to perform chest compressions on eighty-one-year-old Evelyn Whitmore."
+    },
+    {
+     "episode": 13,
+     "ts": "00:05",
+     "line_id": "E13L002",
+     "quote": "Jake Whitmore blocks seventeen-year-old Mia Lane, who wears a medical sling on her recovering left arm."
+    },
+    {
+     "episode": 7,
+     "ts": "00:38",
+     "line_id": "E07L008",
+     "quote": "Seventeen-year-old Mia adjusts the sling on her injured left arm as she catches stepmother Diane whispering to an administrator."
+    },
+    {
+     "episode": 5,
+     "ts": "00:19",
+     "line_id": "E05L007",
+     "quote": "Seventeen-year-old Mia adjusts the black sling on her injured left arm as she hands Harper a bottle of water."
+    }
+   ],
+   "explanation": "age was 'twenty-four-year-old', now '24'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E16-003",
+    "F-E07-001",
+    "F-E05-001",
+    "F-E13-001",
+    "F-E07-011",
+    "F-E05-007"
+   ]
+  },
+  {
+   "flag_id": "FL-E18-02",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 18,
+    "ts": "00:20",
+    "line_id": "E18L006",
+    "quote": "Cole, the 32-year-old CEO of Whitmore Shipping, bleeds through his bandages as he searches the desk for his late grandmother Evelyn's medical file."
+   },
+   "prior": [
+    {
+     "episode": 16,
+     "ts": "01:14",
+     "line_id": "E16L014",
+     "quote": "Thirty-two-year-old CEO Cole Whitmore stumbles out of a black sedan with his hospital bandages stained red."
+    },
+    {
+     "episode": 13,
+     "ts": "00:28",
+     "line_id": "E13L006",
+     "quote": "Harper Lane pumps thirty-two-year-old Cole Whitmore's chest as the monitor flatlines after his near-fatal stab wound."
+    },
+    {
+     "episode": 11,
+     "ts": "00:31",
+     "line_id": "E11L007",
+     "quote": "JAKE: Looking for a ride, Harper? My 29-year-old half-brother Cole is a fraud, but my corporate offer is entirely real."
+    }
+   ],
+   "explanation": "age was 'thirty-two-year-old', now '32'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E16-013",
+    "F-E13-005",
+    "F-E11-006"
+   ]
+  },
+  {
+   "flag_id": "FL-E18-04",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 18,
+    "ts": "00:25",
+    "line_id": "E18L007",
+    "quote": "COLE: Diane, my stepmother, thought she could poison my 81-year-old grandmother Evelyn and get away with it."
+   },
+   "prior": [
+    {
+     "episode": 7,
+     "ts": "01:04",
+     "line_id": "E07L013",
+     "quote": "Released from custody, Harper rushes to eighty-one-year-old Evelyn's bedside to check the tampered IV line."
+    },
+    {
+     "episode": 7,
+     "ts": "00:44",
+     "line_id": "E07L009",
+     "quote": "DIANE: If that eighty-one-year-old matriarch wakes up, Cole gets the entire shipping fortune and we get nothing."
+    },
+    {
+     "episode": 5,
+     "ts": "00:00",
+     "line_id": "E05L002",
+     "quote": "Emergency alarms blare as twenty-four-year-old nurse Harper rushes to perform chest compressions on eighty-one-year-old Evelyn Whitmore."
+    }
+   ],
+   "explanation": "age was 'eighty-one-year-old', now '81'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E07-015",
+    "F-E07-014",
+    "F-E05-003"
+   ]
+  },
+  {
+   "flag_id": "FL-E18-05",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 18,
+    "ts": "00:33",
+    "line_id": "E18L009",
+    "quote": "Diane, the 58-year-old board member, paces near the glass doors with her son Jake, the 29-year-old head of sales."
+   },
+   "prior": [
+    {
+     "episode": 16,
+     "ts": "00:32",
+     "line_id": "E16L007",
+     "quote": "HARPER: You poisoned fifty-eight-year-old stepmother Diane, and I found the hidden pages proving you murdered Evelyn for control."
+    },
+    {
+     "episode": 5,
+     "ts": "00:49",
+     "line_id": "E05L014",
+     "quote": "Fifty-eight-year-old Diane Whitmore secretly opens the automated medicine dispenser with a stolen badge."
+    },
+    {
+     "episode": 4,
+     "ts": "00:36",
+     "line_id": "E04L010",
+     "quote": "Eighty-one-year-old Evelyn lies in bed connected to a heart monitor while fifty-eight-year-old Diane stands by the IV pole."
+    },
+    {
+     "episode": 5,
+     "ts": "00:29",
+     "line_id": "E05L009",
+     "quote": "Twenty-nine-year-old sales head Jake Whitmore steps close to Harper and gently grabs her arm."
+    },
+    {
+     "episode": 4,
+     "ts": "00:09",
+     "line_id": "E04L004",
+     "quote": "Twenty-four-year-old nurse Harper rushes over as twenty-nine-year-old Jake Whitmore catches Mia and carefully helps her up."
+    },
+    {
+     "episode": 2,
+     "ts": "00:27",
+     "line_id": "E02L006",
+     "quote": "Twenty-nine-year-old Jake stares at Harper, his gaze lingering on her face longer than simple curiosity allows."
+    }
+   ],
+   "explanation": "age was 'fifty-eight-year-old', now '58'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E16-007",
+    "F-E05-014",
+    "F-E04-009",
+    "F-E05-010",
+    "F-E04-006",
+    "F-E02-010"
+   ]
+  },
+  {
+   "flag_id": "FL-E18-03",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 18,
+    "ts": "00:25",
+    "line_id": "E18L007",
+    "quote": "COLE: Diane, my stepmother, thought she could poison my 81-year-old grandmother Evelyn and get away with it."
+   },
+   "prior": [
+    {
+     "episode": 2,
+     "ts": "00:06",
+     "line_id": "E02L003",
+     "quote": "DIANE: You shameless grease-monkey, dragging the Whitmore family name through hospital dirt with this poverty-stricken nurse!"
+    },
+    {
+     "episode": 5,
+     "ts": "00:09",
+     "line_id": "E05L004",
+     "quote": "COLE: Save her, Harper, she is the only real family I have left."
+    }
+   ],
+   "explanation": "relationship was 'enemy', now 'stepmother'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E02-006",
+    "F-E05-005"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 18,
+  "facts": 22,
+  "extract_calls": 1,
+  "extract_drafts": 22,
+  "extract_invalid": 0,
+  "extract_grounded": 22,
+  "extract_rejected": 0,
+  "extract_repaired": 0,
+  "candidates": 16,
+  "judged_contradiction": 0,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 5,
+  "seconds": 0.02
+ }
+}

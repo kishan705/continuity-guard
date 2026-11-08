@@ -1,0 +1,278 @@
+{
+ "episode": 17,
+ "flags": [
+  {
+   "flag_id": "FL-E17-01",
+   "type": "status",
+   "rule": "dead_character_active",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 17,
+    "ts": "00:46",
+    "line_id": "E17L009_S1_S9",
+    "quote": "EVELYN: I'm not finished with this family yet."
+   },
+   "prior": [
+    {
+     "episode": 10,
+     "ts": "00:48",
+     "line_id": "E10L011",
+     "quote": "Mia sits on her hospital bed, staring at her healing left arm in its sling, crying over Evelyn's tragic death."
+    }
+   ],
+   "explanation": "Evelyn died earlier but speaks here",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E10-008"
+   ]
+  },
+  {
+   "flag_id": "FL-E17-03",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 17,
+    "ts": "00:16",
+    "line_id": "E17L004",
+    "quote": "DETECTIVE: Mrs. Whitmore is a respected board member, nurse Lane, and your fingerprints are all over the velvet box."
+   },
+   "prior": [
+    {
+     "episode": 9,
+     "ts": "00:15",
+     "line_id": "E09L004",
+     "quote": "HARPER: You lied to a broke 24-year-old night-shift nurse just to use me for a contract marriage, Cole!"
+    },
+    {
+     "episode": 8,
+     "ts": "01:10",
+     "line_id": "E08L017",
+     "quote": "JAKE: He lied to you, twenty-four-year-old night-shift nurse Harper, he is no poor mechanic named Cole Hayes!"
+    },
+    {
+     "episode": 8,
+     "ts": "00:02",
+     "line_id": "E08L002",
+     "quote": "Harper gasps as eighty-one-year-old Evelyn Whitmore's heart monitor flatlines after a final, violent seizure."
+    }
+   ],
+   "explanation": "job was 'night-shift nurse', now 'nurse'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E09-004",
+    "F-E08-013",
+    "F-E08-003"
+   ]
+  },
+  {
+   "flag_id": "FL-E17-04",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 17,
+    "ts": "00:46",
+    "line_id": "E17L009_S1",
+    "quote": "COLE: I'm 36, and I know exactly what I'm doing."
+   },
+   "prior": [
+    {
+     "episode": 16,
+     "ts": "01:14",
+     "line_id": "E16L014",
+     "quote": "Thirty-two-year-old CEO Cole Whitmore stumbles out of a black sedan with his hospital bandages stained red."
+    },
+    {
+     "episode": 14,
+     "ts": "00:19",
+     "line_id": "E14L006",
+     "quote": "Cole Whitmore, 32, stumbles off a stretcher despite his critical chest stab wound from the recent alley ambush."
+    },
+    {
+     "episode": 13,
+     "ts": "00:28",
+     "line_id": "E13L006",
+     "quote": "Harper Lane pumps thirty-two-year-old Cole Whitmore's chest as the monitor flatlines after his near-fatal stab wound."
+    }
+   ],
+   "explanation": "age was 'thirty-two-year-old', now '36'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E16-013",
+    "F-E14-006",
+    "F-E13-005"
+   ]
+  },
+  {
+   "flag_id": "FL-E17-05",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 17,
+    "ts": "00:52",
+    "line_id": "E17L010",
+    "quote": "DIANE: A broke 24-year-old nurse from St. Brigid's Hospital never stood a chance against the Whitmore empire."
+   },
+   "prior": [
+    {
+     "episode": 16,
+     "ts": "00:19",
+     "line_id": "E16L005",
+     "quote": "DIANE: Looking for your late grandmother-in-law Evelyn's personal medical diary, twenty-four-year-old nurse Harper?"
+    },
+    {
+     "episode": 7,
+     "ts": "00:04",
+     "line_id": "E07L002",
+     "quote": "Cuffed at the wrist, twenty-four-year-old night-shift nurse Harper stares through the iron bars as officer footfalls echo down the hall."
+    },
+    {
+     "episode": 5,
+     "ts": "00:00",
+     "line_id": "E05L002",
+     "quote": "Emergency alarms blare as twenty-four-year-old nurse Harper rushes to perform chest compressions on eighty-one-year-old Evelyn Whitmore."
+    },
+    {
+     "episode": 9,
+     "ts": "00:15",
+     "line_id": "E09L004",
+     "quote": "HARPER: You lied to a broke 24-year-old night-shift nurse just to use me for a contract marriage, Cole!"
+    },
+    {
+     "episode": 8,
+     "ts": "01:10",
+     "line_id": "E08L017",
+     "quote": "JAKE: He lied to you, twenty-four-year-old night-shift nurse Harper, he is no poor mechanic named Cole Hayes!"
+    },
+    {
+     "episode": 8,
+     "ts": "00:02",
+     "line_id": "E08L002",
+     "quote": "Harper gasps as eighty-one-year-old Evelyn Whitmore's heart monitor flatlines after a final, violent seizure."
+    }
+   ],
+   "explanation": "age was 'twenty-four-year-old', now '24'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E16-003",
+    "F-E07-001",
+    "F-E05-001",
+    "F-E09-004",
+    "F-E08-013",
+    "F-E08-003"
+   ]
+  },
+  {
+   "flag_id": "FL-E17-02",
+   "type": "knowledge",
+   "rule": "secret_before_learned",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 17,
+    "ts": "00:10",
+    "line_id": "E17L003",
+    "quote": "HARPER: I told you, Diane Whitmore planted that diamond necklace in my bag to frame me for grand larceny."
+   },
+   "prior": [
+    {
+     "episode": 10,
+     "ts": "00:23",
+     "line_id": "E10L006",
+     "quote": "COLE: Harper, wait, let me explain why I hid the Whitmore shipping empire from you!"
+    }
+   ],
+   "explanation": "Diane uses a secret only Cole learned on screen",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E10-003"
+   ]
+  },
+  {
+   "flag_id": "FL-E17-06",
+   "type": "knowledge",
+   "rule": "secret_before_learned",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 17,
+    "ts": "01:10",
+    "line_id": "E17L013",
+    "quote": "JAKE: Drop the grand larceny charges against Harper right now, or I expose your poisoning to the whole board."
+   },
+   "prior": [
+    {
+     "episode": 13,
+     "ts": "00:58",
+     "line_id": "E13L011",
+     "quote": "MECHANIC: Someone broke in and wiped all the video evidence of Diane murdering the matriarch."
+    },
+    {
+     "episode": 13,
+     "ts": "00:41",
+     "line_id": "E13L008",
+     "quote": "COLE: (weak gasping) Harper... the flash drive in my auto shop desk... proves Diane killed Evelyn."
+    },
+    {
+     "episode": 13,
+     "ts": "00:17",
+     "line_id": "E13L004",
+     "quote": "MIA: Get away from me, you creep, I know your mother Diane poisoned our grandmother Evelyn."
+    }
+   ],
+   "explanation": "Jake uses a secret only Cole, Mechanic, Mia learned on screen",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E13-010",
+    "F-E13-008",
+    "F-E13-004"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 17,
+  "facts": 13,
+  "extract_calls": 1,
+  "extract_drafts": 13,
+  "extract_invalid": 0,
+  "extract_grounded": 13,
+  "extract_rejected": 0,
+  "extract_repaired": 1,
+  "candidates": 13,
+  "judged_contradiction": 0,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 6,
+  "seconds": 10.02
+ }
+}

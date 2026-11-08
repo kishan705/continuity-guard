@@ -1,0 +1,197 @@
+{
+ "episode": 16,
+ "flags": [
+  {
+   "flag_id": "FL-E16-01",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 16,
+    "ts": "00:19",
+    "line_id": "E16L005",
+    "quote": "DIANE: Looking for your late grandmother-in-law Evelyn's personal medical diary, twenty-four-year-old nurse Harper?"
+   },
+   "prior": [
+    {
+     "episode": 14,
+     "ts": "00:03",
+     "line_id": "E14L002",
+     "quote": "Jake Whitmore, 29, physically corners 24-year-old nurse Harper Lane outside the ambulance bay doors."
+    },
+    {
+     "episode": 9,
+     "ts": "00:15",
+     "line_id": "E09L004",
+     "quote": "HARPER: You lied to a broke 24-year-old night-shift nurse just to use me for a contract marriage, Cole!"
+    },
+    {
+     "episode": 8,
+     "ts": "01:10",
+     "line_id": "E08L017",
+     "quote": "JAKE: He lied to you, twenty-four-year-old night-shift nurse Harper, he is no poor mechanic named Cole Hayes!"
+    }
+   ],
+   "explanation": "age was '24', now 'twenty-four-year-old'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E14-002",
+    "F-E09-003",
+    "F-E08-012"
+   ]
+  },
+  {
+   "flag_id": "FL-E16-02",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 16,
+    "ts": "00:32",
+    "line_id": "E16L007",
+    "quote": "HARPER: You poisoned fifty-eight-year-old stepmother Diane, and I found the hidden pages proving you murdered Evelyn for control."
+   },
+   "prior": [
+    {
+     "episode": 14,
+     "ts": "00:32",
+     "line_id": "E14L009",
+     "quote": "Diane Whitmore, 58, calmly stamps the corporate transfer documents to finalize seizing control after poisoning Evelyn."
+    },
+    {
+     "episode": 12,
+     "ts": "00:26",
+     "line_id": "E12L008",
+     "quote": "Jake slams a stolen corporate ledger onto the mahogany desk in front of his 58-year-old mother Diane."
+    },
+    {
+     "episode": 9,
+     "ts": "00:33",
+     "line_id": "E09L007",
+     "quote": "DIANE: My 58-year-old board member status is secure now that 81-year-old Evelyn is dead and buried."
+    }
+   ],
+   "explanation": "age was '58', now 'fifty-eight-year-old'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E14-008",
+    "F-E12-005",
+    "F-E09-006"
+   ]
+  },
+  {
+   "flag_id": "FL-E16-03",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 16,
+    "ts": "00:50",
+    "line_id": "E16L010",
+    "quote": "DIANE: Security, arrest thirty-two-year-old nurse Harper for stealing our most priceless family heirloom from the study!"
+   },
+   "prior": [
+    {
+     "episode": 14,
+     "ts": "00:03",
+     "line_id": "E14L002",
+     "quote": "Jake Whitmore, 29, physically corners 24-year-old nurse Harper Lane outside the ambulance bay doors."
+    },
+    {
+     "episode": 9,
+     "ts": "00:15",
+     "line_id": "E09L004",
+     "quote": "HARPER: You lied to a broke 24-year-old night-shift nurse just to use me for a contract marriage, Cole!"
+    },
+    {
+     "episode": 8,
+     "ts": "01:10",
+     "line_id": "E08L017",
+     "quote": "JAKE: He lied to you, twenty-four-year-old night-shift nurse Harper, he is no poor mechanic named Cole Hayes!"
+    }
+   ],
+   "explanation": "age was '24', now 'thirty-two-year-old'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E14-002",
+    "F-E09-003",
+    "F-E08-012"
+   ]
+  },
+  {
+   "flag_id": "FL-E16-04",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 16,
+    "ts": "01:14",
+    "line_id": "E16L014",
+    "quote": "Thirty-two-year-old CEO Cole Whitmore stumbles out of a black sedan with his hospital bandages stained red."
+   },
+   "prior": [
+    {
+     "episode": 14,
+     "ts": "00:19",
+     "line_id": "E14L006",
+     "quote": "Cole Whitmore, 32, stumbles off a stretcher despite his critical chest stab wound from the recent alley ambush."
+    },
+    {
+     "episode": 12,
+     "ts": "00:13",
+     "line_id": "E12L005",
+     "quote": "Nurses rush out with a gurney, wheeling the 32-year-old billionaire shipping CEO inside while he gasps for air."
+    },
+    {
+     "episode": 11,
+     "ts": "00:55",
+     "line_id": "E11L011",
+     "quote": "Cole smashes a wrench against a workbench, furious that his 32-year-old billionaire identity ruined his marriage to Harper."
+    }
+   ],
+   "explanation": "age was '32', now 'thirty-two-year-old'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E14-006",
+    "F-E12-002",
+    "F-E11-010"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 16,
+  "facts": 17,
+  "extract_calls": 1,
+  "extract_drafts": 17,
+  "extract_invalid": 0,
+  "extract_grounded": 17,
+  "extract_rejected": 0,
+  "extract_repaired": 0,
+  "candidates": 13,
+  "judged_contradiction": 0,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 4,
+  "seconds": 0.15
+ }
+}

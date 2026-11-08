@@ -1,0 +1,82 @@
+{
+ "episode": 26,
+ "flags": [
+  {
+   "flag_id": "FL-E26-01",
+   "type": "status",
+   "rule": "dead_character_active",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.95,
+   "new": {
+    "episode": 26,
+    "ts": "00:08",
+    "line_id": "E26L002",
+    "quote": "HARPER: Harper Lane, twenty-four, a night-shift nurse, gasps awake on the hospital bed, her chest wound bandaged."
+   },
+   "prior": [
+    {
+     "episode": 24,
+     "ts": "01:23",
+     "line_id": "E24L018",
+     "quote": "DETECTIVE: He's gone, Mr. Whitmore. There's no pulse."
+    }
+   ],
+   "explanation": "Harper was pronounced dead with no pulse in Episode 24, but is shown gasping awake in Episode 26 without a resurrection or reveal explanation.",
+   "suggested_fix": "Add a medical intervention scene explaining how Harper was revived.",
+   "found_by": "rules+judge+verify",
+   "model": "google_genai/gemini-3.5-flash-lite",
+   "verify_reason": "The text states that Harper gasped awake after being pronounced dead without providing an in-scene explanation such as a dream, flashback, or medical resuscitation within the provided lines.",
+   "prior_fact_ids": [
+    "F-E24-013"
+   ]
+  },
+  {
+   "flag_id": "FL-E26-02",
+   "type": "status",
+   "rule": "dead_character_active",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.95,
+   "new": {
+    "episode": 26,
+    "ts": "01:01",
+    "line_id": "E26L009",
+    "quote": "HARPER: What is it, Mia, is my heart failing again?"
+   },
+   "prior": [
+    {
+     "episode": 24,
+     "ts": "01:23",
+     "line_id": "E24L018",
+     "quote": "DETECTIVE: He's gone, Mr. Whitmore. There's no pulse."
+    }
+   ],
+   "explanation": "Harper speaks in this line, which contradicts her established death in Episode 24.",
+   "suggested_fix": "Ensure her revival is established before she speaks.",
+   "found_by": "rules+judge+verify",
+   "model": "google_genai/gemini-3.5-flash-lite",
+   "verify_reason": "The provided text contains no evidence that Harper's death in Episode 24 was a fake, a flashback, or that she has a twin, leaving her speaking in Episode 26 as an unresolvable contradiction.",
+   "prior_fact_ids": [
+    "F-E24-013"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 26,
+  "facts": 24,
+  "extract_calls": 1,
+  "extract_drafts": 25,
+  "extract_invalid": 1,
+  "extract_grounded": 24,
+  "extract_rejected": 0,
+  "extract_repaired": 0,
+  "candidates": 24,
+  "judged_contradiction": 2,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 2,
+  "seconds": 44.01,
+  "priors_disputed": 0
+ }
+}

@@ -1,0 +1,235 @@
+{
+ "episode": 14,
+ "source_file": "ep_14.txt",
+ "title": "The Final Signature",
+ "scenes": [
+  {
+   "scene_id": "E14S01",
+   "episode": 14,
+   "heading": "EXT. ST. BRIGID'S HOSPITAL - NIGHT",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E14L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. ST. BRIGID'S HOSPITAL - NIGHT"
+    },
+    {
+     "line_id": "E14L002",
+     "ts": "00:03",
+     "ts_sec": 3.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Jake Whitmore, 29, physically corners 24-year-old nurse Harper Lane outside the ambulance bay doors."
+    },
+    {
+     "line_id": "E14L003",
+     "ts": "00:07",
+     "ts_sec": 7.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "I will never sign those papers, Jake."
+    },
+    {
+     "line_id": "E14L004",
+     "ts": "00:10",
+     "ts_sec": 10.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE WHITMORE",
+     "text": "Then watch your seventeen-year-old sister Mia lose her hospital funding and die tonight!"
+    }
+   ]
+  },
+  {
+   "scene_id": "E14S02",
+   "episode": 14,
+   "heading": "INT. ST. BRIGID'S HOSPITAL - ER TRAUMA ROOM - NIGHT",
+   "start": "00:15",
+   "lines": [
+    {
+     "line_id": "E14L005",
+     "ts": "00:15",
+     "ts_sec": 15.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. ST. BRIGID'S HOSPITAL - ER TRAUMA ROOM - NIGHT"
+    },
+    {
+     "line_id": "E14L006",
+     "ts": "00:19",
+     "ts_sec": 19.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole Whitmore, 32, stumbles off a stretcher despite his critical chest stab wound from the recent alley ambush."
+    },
+    {
+     "line_id": "E14L007",
+     "ts": "00:24",
+     "ts_sec": 24.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE HAYES",
+     "text": "I have to stop Diane from stealing my company."
+    }
+   ]
+  },
+  {
+   "scene_id": "E14S03",
+   "episode": 14,
+   "heading": "INT. WHITMORE SHIPPING - EXECUTIVE SUITE - NIGHT",
+   "start": "00:28",
+   "lines": [
+    {
+     "line_id": "E14L008",
+     "ts": "00:28",
+     "ts_sec": 28.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. WHITMORE SHIPPING - EXECUTIVE SUITE - NIGHT"
+    },
+    {
+     "line_id": "E14L009",
+     "ts": "00:32",
+     "ts_sec": 32.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Diane Whitmore, 58, calmly stamps the corporate transfer documents to finalize seizing control after poisoning Evelyn."
+    },
+    {
+     "line_id": "E14L010",
+     "ts": "00:37",
+     "ts_sec": 37.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "DIANE WHITMORE",
+     "text": "With Evelyn dead and Cole bleeding out, the empire is finally ours, son."
+    }
+   ]
+  },
+  {
+   "scene_id": "E14S04",
+   "episode": 14,
+   "heading": "EXT. ST. BRIGID'S HOSPITAL - PARKING LOT - NIGHT",
+   "start": "00:43",
+   "lines": [
+    {
+     "line_id": "E14L011",
+     "ts": "00:43",
+     "ts_sec": 43.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. ST. BRIGID'S HOSPITAL - PARKING LOT - NIGHT"
+    },
+    {
+     "line_id": "E14L012",
+     "ts": "00:47",
+     "ts_sec": 47.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Harper stands frozen with a pen in her trembling hand while Jake holds her medical clearance papers hostage."
+    },
+    {
+     "line_id": "E14L013",
+     "ts": "00:52",
+     "ts_sec": 52.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Stop! I'll sign it. Just don't hurt Mia."
+    }
+   ]
+  },
+  {
+   "scene_id": "E14S05",
+   "episode": 14,
+   "heading": "EXT. ST. BRIGID'S HOSPITAL - AMBULANCE BAY - NIGHT",
+   "start": "00:57",
+   "lines": [
+    {
+     "line_id": "E14L014",
+     "ts": "00:57",
+     "ts_sec": 57.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. ST. BRIGID'S HOSPITAL - AMBULANCE BAY - NIGHT"
+    },
+    {
+     "line_id": "E14L015",
+     "ts": "01:02",
+     "ts_sec": 62.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "Cole staggers out into the cold night air and grabs Jake's shoulder from behind with a bloody hand."
+    },
+    {
+     "line_id": "E14L016",
+     "ts": "01:07",
+     "ts_sec": 67.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE HAYES",
+     "text": "Step away from my wife, Jake."
+    }
+   ]
+  },
+  {
+   "scene_id": "E14S06",
+   "episode": 14,
+   "heading": "INT. ST. BRIGID'S HOSPITAL - LOBBY - NIGHT",
+   "start": "01:12",
+   "lines": [
+    {
+     "line_id": "E14L017",
+     "ts": "01:12",
+     "ts_sec": 72.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. ST. BRIGID'S HOSPITAL - LOBBY - NIGHT"
+    },
+    {
+     "line_id": "E14L018",
+     "ts": "01:16",
+     "ts_sec": 76.0,
+     "ts_inferred": false,
+     "kind": "action",
+     "speaker": null,
+     "text": "A masked security guard hired by Diane suddenly tasers Cole in the back, dropping the CEO to the floor."
+    },
+    {
+     "line_id": "E14L019",
+     "ts": "01:22",
+     "ts_sec": 82.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "No! Cole!"
+    },
+    {
+     "line_id": "E14L020",
+     "ts": "01:26",
+     "ts_sec": 86.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE WHITMORE",
+     "text": "Too late, brother. Sign the line, Harper."
+    }
+   ]
+  }
+ ]
+}

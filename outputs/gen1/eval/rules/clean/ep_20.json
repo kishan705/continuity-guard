@@ -1,0 +1,183 @@
+{
+ "episode": 20,
+ "flags": [
+  {
+   "flag_id": "FL-E20-01",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 20,
+    "ts": "00:09",
+    "line_id": "E20L003",
+    "quote": "DIANE: You think your pathetic nurse salary gives you leverage against me, Harper?"
+   },
+   "prior": [
+    {
+     "episode": 18,
+     "ts": "00:03",
+     "line_id": "E18L002",
+     "quote": "Harper, a 24-year-old night-shift nurse, stands by her locker while her 17-year-old sister Mia watches closely."
+    },
+    {
+     "episode": 9,
+     "ts": "00:15",
+     "line_id": "E09L004",
+     "quote": "HARPER: You lied to a broke 24-year-old night-shift nurse just to use me for a contract marriage, Cole!"
+    },
+    {
+     "episode": 8,
+     "ts": "01:10",
+     "line_id": "E08L017",
+     "quote": "JAKE: He lied to you, twenty-four-year-old night-shift nurse Harper, he is no poor mechanic named Cole Hayes!"
+    }
+   ],
+   "explanation": "job was 'night-shift nurse', now 'nurse'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E18-002",
+    "F-E09-004",
+    "F-E08-013"
+   ]
+  },
+  {
+   "flag_id": "FL-E20-02",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 20,
+    "ts": "00:15",
+    "line_id": "E20L004",
+    "quote": "HARPER: I found Evelyn's personal ledger hidden behind the bookshelf, Diane, and it proves you poisoned the 81-year-old matriarch."
+   },
+   "prior": [
+    {
+     "episode": 7,
+     "ts": "01:04",
+     "line_id": "E07L013",
+     "quote": "Released from custody, Harper rushes to eighty-one-year-old Evelyn's bedside to check the tampered IV line."
+    },
+    {
+     "episode": 7,
+     "ts": "00:44",
+     "line_id": "E07L009",
+     "quote": "DIANE: If that eighty-one-year-old matriarch wakes up, Cole gets the entire shipping fortune and we get nothing."
+    },
+    {
+     "episode": 5,
+     "ts": "00:00",
+     "line_id": "E05L002",
+     "quote": "Emergency alarms blare as twenty-four-year-old nurse Harper rushes to perform chest compressions on eighty-one-year-old Evelyn Whitmore."
+    }
+   ],
+   "explanation": "age was 'eighty-one-year-old', now '81'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E07-015",
+    "F-E07-014",
+    "F-E05-003"
+   ]
+  },
+  {
+   "flag_id": "FL-E20-03",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 20,
+    "ts": "00:33",
+    "line_id": "E20L007",
+    "quote": "COLE: Stop right there, Diane, before you frame my 24-year-old wife Harper for another crime she didn't commit!"
+   },
+   "prior": [
+    {
+     "episode": 16,
+     "ts": "00:19",
+     "line_id": "E16L005",
+     "quote": "DIANE: Looking for your late grandmother-in-law Evelyn's personal medical diary, twenty-four-year-old nurse Harper?"
+    },
+    {
+     "episode": 7,
+     "ts": "00:04",
+     "line_id": "E07L002",
+     "quote": "Cuffed at the wrist, twenty-four-year-old night-shift nurse Harper stares through the iron bars as officer footfalls echo down the hall."
+    },
+    {
+     "episode": 5,
+     "ts": "00:00",
+     "line_id": "E05L002",
+     "quote": "Emergency alarms blare as twenty-four-year-old nurse Harper rushes to perform chest compressions on eighty-one-year-old Evelyn Whitmore."
+    }
+   ],
+   "explanation": "age was 'twenty-four-year-old', now '24'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E16-003",
+    "F-E07-001",
+    "F-E05-001"
+   ]
+  },
+  {
+   "flag_id": "FL-E20-04",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 20,
+    "ts": "01:00",
+    "line_id": "E20L011",
+    "quote": "COLE: I know her game, Harper, because my late grandmother Evelyn left me the exact proof of who killed her."
+   },
+   "prior": [
+    {
+     "episode": 5,
+     "ts": "00:09",
+     "line_id": "E05L004",
+     "quote": "COLE: Save her, Harper, she is the only real family I have left."
+    }
+   ],
+   "explanation": "relationship was 'family', now 'grandmother'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E05-005"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 20,
+  "facts": 11,
+  "extract_calls": 1,
+  "extract_drafts": 11,
+  "extract_invalid": 0,
+  "extract_grounded": 11,
+  "extract_rejected": 0,
+  "extract_repaired": 0,
+  "candidates": 8,
+  "judged_contradiction": 0,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 4,
+  "seconds": 0.01
+ }
+}

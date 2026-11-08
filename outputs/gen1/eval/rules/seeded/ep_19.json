@@ -1,0 +1,243 @@
+{
+ "episode": 19,
+ "flags": [
+  {
+   "flag_id": "FL-E19-01",
+   "type": "status",
+   "rule": "dead_character_active",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 19,
+    "ts": "00:32",
+    "line_id": "E19L007_S10",
+    "quote": "EVELYN: I'm not finished with this family yet."
+   },
+   "prior": [
+    {
+     "episode": 10,
+     "ts": "00:48",
+     "line_id": "E10L011",
+     "quote": "Mia sits on her hospital bed, staring at her healing left arm in its sling, crying over Evelyn's tragic death."
+    }
+   ],
+   "explanation": "Evelyn died earlier but speaks here",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E10-008"
+   ]
+  },
+  {
+   "flag_id": "FL-E19-02",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 19,
+    "ts": "00:26",
+    "line_id": "E19L006",
+    "quote": "Nurse Harper paces beside the bed of her 17-year-old sister Mia, whose left arm remains trapped in a restrictive medical sling."
+   },
+   "prior": [
+    {
+     "episode": 13,
+     "ts": "00:05",
+     "line_id": "E13L002",
+     "quote": "Jake Whitmore blocks seventeen-year-old Mia Lane, who wears a medical sling on her recovering left arm."
+    },
+    {
+     "episode": 7,
+     "ts": "00:38",
+     "line_id": "E07L008",
+     "quote": "Seventeen-year-old Mia adjusts the sling on her injured left arm as she catches stepmother Diane whispering to an administrator."
+    },
+    {
+     "episode": 5,
+     "ts": "00:19",
+     "line_id": "E05L007",
+     "quote": "Seventeen-year-old Mia adjusts the black sling on her injured left arm as she hands Harper a bottle of water."
+    }
+   ],
+   "explanation": "age was 'seventeen', now '17'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E13-001",
+    "F-E07-011",
+    "F-E05-007"
+   ]
+  },
+  {
+   "flag_id": "FL-E19-04",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 19,
+    "ts": "00:54",
+    "line_id": "E19L011_S2",
+    "quote": "JAKE: I'm 32, and I know exactly what I'm doing."
+   },
+   "prior": [
+    {
+     "episode": 18,
+     "ts": "00:33",
+     "line_id": "E18L009",
+     "quote": "Diane, the 58-year-old board member, paces near the glass doors with her son Jake, the 29-year-old head of sales."
+    },
+    {
+     "episode": 14,
+     "ts": "00:03",
+     "line_id": "E14L002",
+     "quote": "Jake Whitmore, 29, physically corners 24-year-old nurse Harper Lane outside the ambulance bay doors."
+    },
+    {
+     "episode": 12,
+     "ts": "00:40",
+     "line_id": "E12L011",
+     "quote": "Diane exhales a plume of cigarette smoke, a cold smile crossing her face as she looks at her 29-year-old son."
+    }
+   ],
+   "explanation": "age was '29', now '32'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E18-017",
+    "F-E14-001",
+    "F-E12-007"
+   ]
+  },
+  {
+   "flag_id": "FL-E19-03",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 19,
+    "ts": "00:48",
+    "line_id": "E19L010_S6",
+    "quote": "Mia, Harper's cousin, walks in."
+   },
+   "prior": [
+    {
+     "episode": 18,
+     "ts": "00:03",
+     "line_id": "E18L002",
+     "quote": "Harper, a 24-year-old night-shift nurse, stands by her locker while her 17-year-old sister Mia watches closely."
+    },
+    {
+     "episode": 16,
+     "ts": "00:04",
+     "line_id": "E16L002",
+     "quote": "HARPER: I cannot believe my husband Cole lied to me about being a billionaire Whitmore heir while my sister Mia needed surgery."
+    },
+    {
+     "episode": 15,
+     "ts": "00:05",
+     "line_id": "E15L002",
+     "quote": "HARPER: You win, Jake. I signed the transfer papers, just leave my sister Mia alone."
+    }
+   ],
+   "explanation": "relationship was 'sister', now 'cousin'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E18-004",
+    "F-E16-002",
+    "F-E15-002"
+   ]
+  },
+  {
+   "flag_id": "FL-E19-05",
+   "type": "knowledge",
+   "rule": "secret_before_learned",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 19,
+    "ts": "00:54",
+    "line_id": "E19L011_S2_S14",
+    "quote": "DETECTIVE: I know that diane Whitmore planted a diamond necklace in Harper's bag to frame her for grand larceny."
+   },
+   "prior": [
+    {
+     "episode": 17,
+     "ts": "00:10",
+     "line_id": "E17L003",
+     "quote": "HARPER: I told you, Diane Whitmore planted that diamond necklace in my bag to frame me for grand larceny."
+    }
+   ],
+   "explanation": "Diane uses a secret only Harper learned on screen",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E17-001"
+   ]
+  },
+  {
+   "flag_id": "FL-E19-06",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 19,
+    "ts": "01:00",
+    "line_id": "E19L012",
+    "quote": "COLE: My grandmother Evelyn knew Diane was poisoning her, and I will never let you bury the truth."
+   },
+   "prior": [
+    {
+     "episode": 5,
+     "ts": "00:09",
+     "line_id": "E05L004",
+     "quote": "COLE: Save her, Harper, she is the only real family I have left."
+    }
+   ],
+   "explanation": "relationship was 'family', now 'grandmother'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E05-005"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 19,
+  "facts": 15,
+  "extract_calls": 1,
+  "extract_drafts": 16,
+  "extract_invalid": 0,
+  "extract_grounded": 15,
+  "extract_rejected": 1,
+  "extract_repaired": 0,
+  "candidates": 12,
+  "judged_contradiction": 0,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 6,
+  "seconds": 4.7
+ }
+}

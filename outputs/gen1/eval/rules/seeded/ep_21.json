@@ -1,0 +1,336 @@
+{
+ "episode": 21,
+ "flags": [
+  {
+   "flag_id": "FL-E21-01",
+   "type": "status",
+   "rule": "dead_character_active",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 21,
+    "ts": "00:50",
+    "line_id": "E21L010_S11",
+    "quote": "EVELYN: I'm not finished with this family yet."
+   },
+   "prior": [
+    {
+     "episode": 10,
+     "ts": "00:48",
+     "line_id": "E10L011",
+     "quote": "Mia sits on her hospital bed, staring at her healing left arm in its sling, crying over Evelyn's tragic death."
+    }
+   ],
+   "explanation": "Evelyn died earlier but speaks here",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E10-008"
+   ]
+  },
+  {
+   "flag_id": "FL-E21-02",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 21,
+    "ts": "00:26",
+    "line_id": "E21L006",
+    "quote": "JAKE: 29-year-old Jake holds a loaded pistol, staring at Harper with desperate, unhinged obsession."
+   },
+   "prior": [
+    {
+     "episode": 5,
+     "ts": "00:29",
+     "line_id": "E05L009",
+     "quote": "Twenty-nine-year-old sales head Jake Whitmore steps close to Harper and gently grabs her arm."
+    },
+    {
+     "episode": 4,
+     "ts": "00:09",
+     "line_id": "E04L004",
+     "quote": "Twenty-four-year-old nurse Harper rushes over as twenty-nine-year-old Jake Whitmore catches Mia and carefully helps her up."
+    },
+    {
+     "episode": 2,
+     "ts": "00:27",
+     "line_id": "E02L006",
+     "quote": "Twenty-nine-year-old Jake stares at Harper, his gaze lingering on her face longer than simple curiosity allows."
+    }
+   ],
+   "explanation": "age was 'twenty-nine-year-old', now '29'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E05-010",
+    "F-E04-006",
+    "F-E02-010"
+   ]
+  },
+  {
+   "flag_id": "FL-E21-04",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 21,
+    "ts": "00:43",
+    "line_id": "E21L009",
+    "quote": "HARPER: 24-year-old night-shift nurse Harper breaks past the corrupt guards to reach Cole."
+   },
+   "prior": [
+    {
+     "episode": 16,
+     "ts": "00:19",
+     "line_id": "E16L005",
+     "quote": "DIANE: Looking for your late grandmother-in-law Evelyn's personal medical diary, twenty-four-year-old nurse Harper?"
+    },
+    {
+     "episode": 7,
+     "ts": "00:04",
+     "line_id": "E07L002",
+     "quote": "Cuffed at the wrist, twenty-four-year-old night-shift nurse Harper stares through the iron bars as officer footfalls echo down the hall."
+    },
+    {
+     "episode": 5,
+     "ts": "00:00",
+     "line_id": "E05L002",
+     "quote": "Emergency alarms blare as twenty-four-year-old nurse Harper rushes to perform chest compressions on eighty-one-year-old Evelyn Whitmore."
+    }
+   ],
+   "explanation": "age was 'twenty-four-year-old', now '24'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E16-003",
+    "F-E07-001",
+    "F-E05-001"
+   ]
+  },
+  {
+   "flag_id": "FL-E21-05",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 21,
+    "ts": "00:50",
+    "line_id": "E21L010",
+    "quote": "COLE: 32-year-old CEO Cole whispers to his contract wife, his true identity still hidden from her."
+   },
+   "prior": [
+    {
+     "episode": 16,
+     "ts": "01:14",
+     "line_id": "E16L014",
+     "quote": "Thirty-two-year-old CEO Cole Whitmore stumbles out of a black sedan with his hospital bandages stained red."
+    },
+    {
+     "episode": 13,
+     "ts": "00:28",
+     "line_id": "E13L006",
+     "quote": "Harper Lane pumps thirty-two-year-old Cole Whitmore's chest as the monitor flatlines after his near-fatal stab wound."
+    },
+    {
+     "episode": 11,
+     "ts": "00:31",
+     "line_id": "E11L007",
+     "quote": "JAKE: Looking for a ride, Harper? My 29-year-old half-brother Cole is a fraud, but my corporate offer is entirely real."
+    }
+   ],
+   "explanation": "age was 'thirty-two-year-old', now '32'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E16-013",
+    "F-E13-005",
+    "F-E11-006"
+   ]
+  },
+  {
+   "flag_id": "FL-E21-07",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 21,
+    "ts": "00:50",
+    "line_id": "E21L010_S3",
+    "quote": "JAKE: I'm 34, and I know exactly what I'm doing."
+   },
+   "prior": [
+    {
+     "episode": 18,
+     "ts": "00:33",
+     "line_id": "E18L009",
+     "quote": "Diane, the 58-year-old board member, paces near the glass doors with her son Jake, the 29-year-old head of sales."
+    },
+    {
+     "episode": 14,
+     "ts": "00:03",
+     "line_id": "E14L002",
+     "quote": "Jake Whitmore, 29, physically corners 24-year-old nurse Harper Lane outside the ambulance bay doors."
+    },
+    {
+     "episode": 12,
+     "ts": "00:40",
+     "line_id": "E12L011",
+     "quote": "Diane exhales a plume of cigarette smoke, a cold smile crossing her face as she looks at her 29-year-old son."
+    }
+   ],
+   "explanation": "age was '29', now '34'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E18-017",
+    "F-E14-001",
+    "F-E12-007"
+   ]
+  },
+  {
+   "flag_id": "FL-E21-03",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 21,
+    "ts": "00:26",
+    "line_id": "E21L006_S7",
+    "quote": "Cole, Jake's cousin, walks in."
+   },
+   "prior": [
+    {
+     "episode": 17,
+     "ts": "01:24",
+     "line_id": "E17L015",
+     "quote": "JAKE: Because my half-brother Cole doesn't own you anymore, Harper... you belong to me now."
+    },
+    {
+     "episode": 15,
+     "ts": "00:11",
+     "line_id": "E15L003",
+     "quote": "JAKE: Smart nurse, Harper. Now walk away from my half-brother Cole and never look back."
+    },
+    {
+     "episode": 11,
+     "ts": "00:31",
+     "line_id": "E11L007",
+     "quote": "JAKE: Looking for a ride, Harper? My 29-year-old half-brother Cole is a fraud, but my corporate offer is entirely real."
+    }
+   ],
+   "explanation": "relationship was 'half-brother', now 'cousin'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E17-010",
+    "F-E15-004",
+    "F-E11-007"
+   ]
+  },
+  {
+   "flag_id": "FL-E21-06",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 21,
+    "ts": "00:50",
+    "line_id": "E21L010",
+    "quote": "COLE: 32-year-old CEO Cole whispers to his contract wife, his true identity still hidden from her."
+   },
+   "prior": [
+    {
+     "episode": 17,
+     "ts": "00:34",
+     "line_id": "E17L007",
+     "quote": "COLE: Diane is going to pay for murdering my grandmother Evelyn and framing my wife."
+    },
+    {
+     "episode": 15,
+     "ts": "00:38",
+     "line_id": "E15L007",
+     "quote": "HARPER: Don't touch me, Cole! My husband is dead to me, go back to your CEO tower."
+    },
+    {
+     "episode": 9,
+     "ts": "00:15",
+     "line_id": "E09L004",
+     "quote": "HARPER: You lied to a broke 24-year-old night-shift nurse just to use me for a contract marriage, Cole!"
+    },
+    {
+     "episode": 20,
+     "ts": "00:33",
+     "line_id": "E20L007",
+     "quote": "COLE: Stop right there, Diane, before you frame my 24-year-old wife Harper for another crime she didn't commit!"
+    },
+    {
+     "episode": 14,
+     "ts": "01:07",
+     "line_id": "E14L016",
+     "quote": "COLE HAYES: Step away from my wife, Jake."
+    },
+    {
+     "episode": 11,
+     "ts": "00:55",
+     "line_id": "E11L011",
+     "quote": "Cole smashes a wrench against a workbench, furious that his 32-year-old billionaire identity ruined his marriage to Harper."
+    }
+   ],
+   "explanation": "relationship was 'husband', now 'contract husband'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E17-006",
+    "F-E15-007",
+    "F-E09-005",
+    "F-E20-007",
+    "F-E14-011",
+    "F-E11-012"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 21,
+  "facts": 14,
+  "extract_calls": 1,
+  "extract_drafts": 14,
+  "extract_invalid": 0,
+  "extract_grounded": 14,
+  "extract_rejected": 0,
+  "extract_repaired": 0,
+  "candidates": 11,
+  "judged_contradiction": 0,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 7,
+  "seconds": 8.98
+ }
+}

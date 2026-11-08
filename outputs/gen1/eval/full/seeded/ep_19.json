@@ -1,0 +1,95 @@
+{
+ "episode": 19,
+ "flags": [
+  {
+   "flag_id": "FL-E19-01",
+   "type": "status",
+   "rule": "dead_character_active",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.95,
+   "new": {
+    "episode": 19,
+    "ts": "00:32",
+    "line_id": "E19L007_S10",
+    "quote": "EVELYN: I'm not finished with this family yet."
+   },
+   "prior": [
+    {
+     "episode": 10,
+     "ts": "00:48",
+     "line_id": "E10L011",
+     "quote": "Mia sits on her hospital bed, staring at her healing left arm in its sling, crying over Evelyn's tragic death."
+    }
+   ],
+   "explanation": "Evelyn was established as dead in earlier episodes, yet she speaks here as an active character without any supernatural context or reveal.",
+   "suggested_fix": "Change the line to be a flashback or remove Evelyn's active dialogue.",
+   "found_by": "rules+judge+verify",
+   "model": "google_genai/gemini-3.5-flash-lite",
+   "verify_reason": "The provided text does not contain any explanation such as a flashback, dream, or twin to account for Evelyn speaking after being established as dead.",
+   "prior_fact_ids": [
+    "F-E10-008"
+   ]
+  },
+  {
+   "flag_id": "FL-E19-02",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.95,
+   "new": {
+    "episode": 19,
+    "ts": "00:54",
+    "line_id": "E19L011_S2",
+    "quote": "JAKE: I'm 32, and I know exactly what I'm doing."
+   },
+   "prior": [
+    {
+     "episode": 18,
+     "ts": "00:33",
+     "line_id": "E18L009",
+     "quote": "Diane, the 58-year-old board member, paces near the glass doors with her son Jake, the 29-year-old head of sales."
+    },
+    {
+     "episode": 14,
+     "ts": "00:03",
+     "line_id": "E14L002",
+     "quote": "Jake Whitmore, 29, physically corners 24-year-old nurse Harper Lane outside the ambulance bay doors."
+    },
+    {
+     "episode": 12,
+     "ts": "00:40",
+     "line_id": "E12L011",
+     "quote": "Diane exhales a plume of cigarette smoke, a cold smile crossing her face as she looks at her 29-year-old son."
+    }
+   ],
+   "explanation": "Jake's age was explicitly established as 29 in multiple earlier episodes, but he now claims to be 32 without any passage of time or plot explanation.",
+   "suggested_fix": "Change Jake's age back to 29 in the dialogue.",
+   "found_by": "rules+judge+verify",
+   "model": "google_genai/gemini-3.5-flash-lite",
+   "verify_reason": "Jake's age is explicitly given as 29 in multiple earlier episodes but he claims to be 32 in Episode 19 without any text-supported passage of time or explanation.",
+   "prior_fact_ids": [
+    "F-E18-017",
+    "F-E14-001",
+    "F-E12-007"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 19,
+  "facts": 15,
+  "extract_calls": 1,
+  "extract_drafts": 16,
+  "extract_invalid": 0,
+  "extract_grounded": 15,
+  "extract_rejected": 1,
+  "extract_repaired": 0,
+  "candidates": 12,
+  "judged_contradiction": 3,
+  "verify_dropped": 1,
+  "ungrounded_dropped": 0,
+  "flags": 2,
+  "seconds": 22.47
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "episode": 15,
+ "source_file": "ep_15.txt",
+ "title": "The Breaking Point",
+ "scenes": [
+  {
+   "scene_id": "E15S01",
+   "episode": 15,
+   "heading": "EXT. HOSPITAL PARKING GARAGE - NIGHT",
+   "start": "00:00",
+   "lines": [
+    {
+     "line_id": "E15L001",
+     "ts": "00:00",
+     "ts_sec": 0.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. HOSPITAL PARKING GARAGE - NIGHT"
+    },
+    {
+     "line_id": "E15L002",
+     "ts": "00:05",
+     "ts_sec": 5.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "You win, Jake. I signed the transfer papers, just leave my sister Mia alone."
+    },
+    {
+     "line_id": "E15L003",
+     "ts": "00:11",
+     "ts_sec": 11.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Smart nurse, Harper. Now walk away from my half-brother Cole and never look back."
+    }
+   ]
+  },
+  {
+   "scene_id": "E15S02",
+   "episode": 15,
+   "heading": "INT. ST. BRIGID'S HOSPITAL - CORRIDOR - CONTINUOUS",
+   "start": "00:18",
+   "lines": [
+    {
+     "line_id": "E15L004",
+     "ts": "00:18",
+     "ts_sec": 18.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. ST. BRIGID'S HOSPITAL - CORRIDOR - CONTINUOUS"
+    },
+    {
+     "line_id": "E15L005",
+     "ts": "00:22",
+     "ts_sec": 22.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "I can't believe Cole hid the fact that he's a billionaire Whitmore heir for a full year."
+    },
+    {
+     "line_id": "E15L006",
+     "ts": "00:30",
+     "ts_sec": 30.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Harper, wait, I can explain everything about why I kept my identity a secret from you!"
+    },
+    {
+     "line_id": "E15L007",
+     "ts": "00:38",
+     "ts_sec": 38.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "HARPER",
+     "text": "Don't touch me, Cole! My husband is dead to me, go back to your CEO tower."
+    }
+   ]
+  },
+  {
+   "scene_id": "E15S03",
+   "episode": 15,
+   "heading": "EXT. AUTO SHOP - NIGHT",
+   "start": "00:46",
+   "lines": [
+    {
+     "line_id": "E15L008",
+     "ts": "00:46",
+     "ts_sec": 46.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "EXT. AUTO SHOP - NIGHT"
+    },
+    {
+     "line_id": "E15L009",
+     "ts": "00:51",
+     "ts_sec": 51.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "If the flash drive is destroyed, I need to find another way to prove Diane poisoned grandmother Evelyn."
+    },
+    {
+     "line_id": "E15L010",
+     "ts": "00:59",
+     "ts_sec": 59.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "Wait, Evelyn's old medical records were hidden in this exact toolbox by the mechanic."
+    }
+   ]
+  },
+  {
+   "scene_id": "E15S04",
+   "episode": 15,
+   "heading": "INT. AUTO SHOP - CONTINUOUS",
+   "start": "01:08",
+   "lines": [
+    {
+     "line_id": "E15L011",
+     "ts": "01:08",
+     "ts_sec": 68.0,
+     "ts_inferred": false,
+     "kind": "heading",
+     "speaker": null,
+     "text": "INT. AUTO SHOP - CONTINUOUS"
+    },
+    {
+     "line_id": "E15L012",
+     "ts": "01:13",
+     "ts_sec": 73.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "COLE",
+     "text": "The toxicology report proves stepmother Diane murdered her."
+    },
+    {
+     "line_id": "E15L013",
+     "ts": "01:21",
+     "ts_sec": 81.0,
+     "ts_inferred": false,
+     "kind": "dialogue",
+     "speaker": "JAKE",
+     "text": "Too bad you won't live to show it to the board, brother."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "episode": 17,
+ "flags": [
+  {
+   "flag_id": "FL-E17-01",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 17,
+    "ts": "00:16",
+    "line_id": "E17L004",
+    "quote": "DETECTIVE: Mrs. Whitmore is a respected board member, nurse Lane, and your fingerprints are all over the velvet box."
+   },
+   "prior": [
+    {
+     "episode": 9,
+     "ts": "00:15",
+     "line_id": "E09L004",
+     "quote": "HARPER: You lied to a broke 24-year-old night-shift nurse just to use me for a contract marriage, Cole!"
+    },
+    {
+     "episode": 8,
+     "ts": "01:10",
+     "line_id": "E08L017",
+     "quote": "JAKE: He lied to you, twenty-four-year-old night-shift nurse Harper, he is no poor mechanic named Cole Hayes!"
+    },
+    {
+     "episode": 8,
+     "ts": "00:02",
+     "line_id": "E08L002",
+     "quote": "Harper gasps as eighty-one-year-old Evelyn Whitmore's heart monitor flatlines after a final, violent seizure."
+    }
+   ],
+   "explanation": "job was 'night-shift nurse', now 'nurse'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E09-004",
+    "F-E08-013",
+    "F-E08-003"
+   ]
+  },
+  {
+   "flag_id": "FL-E17-02",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 17,
+    "ts": "00:52",
+    "line_id": "E17L010",
+    "quote": "DIANE: A broke 24-year-old nurse from St. Brigid's Hospital never stood a chance against the Whitmore empire."
+   },
+   "prior": [
+    {
+     "episode": 16,
+     "ts": "00:19",
+     "line_id": "E16L005",
+     "quote": "DIANE: Looking for your late grandmother-in-law Evelyn's personal medical diary, twenty-four-year-old nurse Harper?"
+    },
+    {
+     "episode": 7,
+     "ts": "00:04",
+     "line_id": "E07L002",
+     "quote": "Cuffed at the wrist, twenty-four-year-old night-shift nurse Harper stares through the iron bars as officer footfalls echo down the hall."
+    },
+    {
+     "episode": 5,
+     "ts": "00:00",
+     "line_id": "E05L002",
+     "quote": "Emergency alarms blare as twenty-four-year-old nurse Harper rushes to perform chest compressions on eighty-one-year-old Evelyn Whitmore."
+    },
+    {
+     "episode": 9,
+     "ts": "00:15",
+     "line_id": "E09L004",
+     "quote": "HARPER: You lied to a broke 24-year-old night-shift nurse just to use me for a contract marriage, Cole!"
+    },
+    {
+     "episode": 8,
+     "ts": "01:10",
+     "line_id": "E08L017",
+     "quote": "JAKE: He lied to you, twenty-four-year-old night-shift nurse Harper, he is no poor mechanic named Cole Hayes!"
+    },
+    {
+     "episode": 8,
+     "ts": "00:02",
+     "line_id": "E08L002",
+     "quote": "Harper gasps as eighty-one-year-old Evelyn Whitmore's heart monitor flatlines after a final, violent seizure."
+    }
+   ],
+   "explanation": "age was 'twenty-four-year-old', now '24'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E16-003",
+    "F-E07-001",
+    "F-E05-001",
+    "F-E09-004",
+    "F-E08-013",
+    "F-E08-003"
+   ]
+  },
+  {
+   "flag_id": "FL-E17-03",
+   "type": "relationship",
+   "rule": "relationship_changed",
+   "severity": "medium",
+   "verdict": "contradiction",
+   "confidence": 0.5,
+   "new": {
+    "episode": 17,
+    "ts": "01:24",
+    "line_id": "E17L015",
+    "quote": "JAKE: Because my half-brother Cole doesn't own you anymore, Harper... you belong to me now."
+   },
+   "prior": [
+    {
+     "episode": 7,
+     "ts": "00:09",
+     "line_id": "E07L003",
+     "quote": "JAKE: Sign these divorce papers for my broke mechanic brother, Harper, and my legal team gets you out today."
+    }
+   ],
+   "explanation": "relationship was 'brother', now 'half-brother'",
+   "suggested_fix": "",
+   "found_by": "rules",
+   "model": "rules-only",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E07-005"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 17,
+  "facts": 10,
+  "extract_calls": 1,
+  "extract_drafts": 10,
+  "extract_invalid": 0,
+  "extract_grounded": 10,
+  "extract_rejected": 0,
+  "extract_repaired": 0,
+  "candidates": 6,
+  "judged_contradiction": 0,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 3,
+  "seconds": 0.04
+ }
+}

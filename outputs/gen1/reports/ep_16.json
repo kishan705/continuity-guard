@@ -1,0 +1,66 @@
+{
+ "episode": 16,
+ "flags": [
+  {
+   "flag_id": "FL-E16-01",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.95,
+   "new": {
+    "episode": 16,
+    "ts": "00:50",
+    "line_id": "E16L010",
+    "quote": "DIANE: Security, arrest thirty-two-year-old nurse Harper for stealing our most priceless family heirloom from the study!"
+   },
+   "prior": [
+    {
+     "episode": 14,
+     "ts": "00:03",
+     "line_id": "E14L002",
+     "quote": "Jake Whitmore, 29, physically corners 24-year-old nurse Harper Lane outside the ambulance bay doors."
+    },
+    {
+     "episode": 9,
+     "ts": "00:15",
+     "line_id": "E09L004",
+     "quote": "HARPER: You lied to a broke 24-year-old night-shift nurse just to use me for a contract marriage, Cole!"
+    },
+    {
+     "episode": 8,
+     "ts": "01:10",
+     "line_id": "E08L017",
+     "quote": "JAKE: He lied to you, twenty-four-year-old night-shift nurse Harper, he is no poor mechanic named Cole Hayes!"
+    }
+   ],
+   "explanation": "Diane calls Harper thirty-two years old here, directly contradicting her established age of twenty-four.",
+   "suggested_fix": "Change 'thirty-two-year-old' back to 'twenty-four-year-old' in E16L010.",
+   "found_by": "rules+judge+verify",
+   "model": "google_genai/gemini-3.5-flash-lite",
+   "verify_reason": "Diane refers to Harper as a thirty-two-year-old nurse, which directly and irreconcilably contradicts her established age of twenty-four across multiple prior episodes without any textual support for a time skip, disguise, or lie within the provided lines.",
+   "prior_fact_ids": [
+    "F-E14-002",
+    "F-E09-003",
+    "F-E08-012"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 16,
+  "facts": 17,
+  "extract_calls": 1,
+  "extract_drafts": 17,
+  "extract_invalid": 0,
+  "extract_grounded": 17,
+  "extract_rejected": 0,
+  "extract_repaired": 0,
+  "candidates": 13,
+  "judged_contradiction": 1,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 1,
+  "seconds": 30.78,
+  "priors_disputed": 0
+ }
+}

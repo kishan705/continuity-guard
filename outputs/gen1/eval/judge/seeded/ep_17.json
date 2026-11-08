@@ -1,0 +1,95 @@
+{
+ "episode": 17,
+ "flags": [
+  {
+   "flag_id": "FL-E17-02",
+   "type": "identity",
+   "rule": "stable_attribute_changed",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.98,
+   "new": {
+    "episode": 17,
+    "ts": "00:46",
+    "line_id": "E17L009_S1",
+    "quote": "COLE: I'm 36, and I know exactly what I'm doing."
+   },
+   "prior": [
+    {
+     "episode": 16,
+     "ts": "01:14",
+     "line_id": "E16L014",
+     "quote": "Thirty-two-year-old CEO Cole Whitmore stumbles out of a black sedan with his hospital bandages stained red."
+    },
+    {
+     "episode": 14,
+     "ts": "00:19",
+     "line_id": "E14L006",
+     "quote": "Cole Whitmore, 32, stumbles off a stretcher despite his critical chest stab wound from the recent alley ambush."
+    },
+    {
+     "episode": 13,
+     "ts": "00:28",
+     "line_id": "E13L006",
+     "quote": "Harper Lane pumps thirty-two-year-old Cole Whitmore's chest as the monitor flatlines after his near-fatal stab wound."
+    }
+   ],
+   "explanation": "Cole's age was consistently stated as 32 across episodes 13, 14, and 16, but suddenly becomes 36 in episode 17 without explanation.",
+   "suggested_fix": "Change Cole's age in E17 to 32 to match earlier episodes.",
+   "found_by": "rules+judge",
+   "model": "google_genai/gemini-3.5-flash-lite",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E16-013",
+    "F-E14-006",
+    "F-E13-005"
+   ]
+  },
+  {
+   "flag_id": "FL-E17-01",
+   "type": "status",
+   "rule": "dead_character_active",
+   "severity": "high",
+   "verdict": "contradiction",
+   "confidence": 0.95,
+   "new": {
+    "episode": 17,
+    "ts": "00:46",
+    "line_id": "E17L009_S1_S9",
+    "quote": "EVELYN: I'm not finished with this family yet."
+   },
+   "prior": [
+    {
+     "episode": 10,
+     "ts": "00:48",
+     "line_id": "E10L011",
+     "quote": "Mia sits on her hospital bed, staring at her healing left arm in its sling, crying over Evelyn's tragic death."
+    }
+   ],
+   "explanation": "Evelyn is explicitly dead following a tragic seizure and flatline, yet she appears speaking actively in E17 without any resurrection or dream sequence indicated.",
+   "suggested_fix": "Change Evelyn's appearance to a flashback or hallucination sequence.",
+   "found_by": "rules+judge",
+   "model": "google_genai/gemini-3.5-flash-lite",
+   "verify_reason": "",
+   "prior_fact_ids": [
+    "F-E10-008"
+   ]
+  }
+ ],
+ "stats": {
+  "episode": 17,
+  "facts": 13,
+  "extract_calls": 1,
+  "extract_drafts": 13,
+  "extract_invalid": 0,
+  "extract_grounded": 13,
+  "extract_rejected": 0,
+  "extract_repaired": 1,
+  "candidates": 13,
+  "judged_contradiction": 2,
+  "verify_dropped": 0,
+  "ungrounded_dropped": 0,
+  "flags": 2,
+  "seconds": 12.4
+ }
+}
