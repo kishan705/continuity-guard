@@ -1,5 +1,5 @@
 # Continuity Guard
-
+# Live - https://continuity-guard-jayfsorwdlqkyptzz8kmsp.streamlit.app/
 **Catches story contradictions in a new microdrama episode script before anyone pays to generate the video.**
 
 Give it episodes 1 to N and a new episode. It flags every line that breaks the story so far: a dead character who speaks, an age that changes, a cousin who becomes a brother, someone using a secret they never learned, an injury that vanishes. Each flag quotes **both lines word for word**, with episode and timestamp, so an editor can verify it in seconds.
