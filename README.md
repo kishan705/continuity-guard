@@ -4,7 +4,7 @@
 
 Live demo: https://continuity-guard-jayfsorwdlqkyptzz8kmsp.streamlit.app/
 
-Give it episodes 1 to N and a new episode. It flags every line that breaks the story so far: a dead character who speaks, an age that changes, a cousin who becomes a brother, someone using a secret they never learned, an injury that vanishes. Each flag quotes **both lines word for word**, with episode and timestamp, so an editor can verify it in seconds.
+Give it episodes 1 to N and a new episode. It looks for lines that break the story so far: a dead character who speaks, an age that changes, a cousin who becomes a brother, someone using a secret they never learned, an injury that vanishes. Each flag quotes **both lines word for word**, with episode and timestamp, so an editor can verify it in seconds. It doesn't catch everything yet: see [Results so far](#5-results-so-far) for what it finds and misses.
 
 ```text
 NEW     ep 3 00:08: ROSE: Get out of my house, Victor.
@@ -42,7 +42,7 @@ Continuity Guard does this by keeping a ledger of grounded facts, checking each 
 ## 2. Try it in 2 minutes (no API key)
 
 ```bash
-git clone <your repo url> continuity-guard && cd continuity-guard
+git clone https://github.com/kishan705/continuity-guard.git && cd continuity-guard
 python -m venv venv && source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python cli.py demo          # offline run on 3 made-up episodes
@@ -104,13 +104,13 @@ The AI groups name variants ("ETHAN", "Ethan Sterling", "Mr. Sterling"). Open `s
 python cli.py build --show show1
 ```
 
-Episodes are processed in order. Each one is checked against the episodes before it, then its facts join the ledger. Expect about 3 to 5 model calls per episode. At `rpm_limit: 8`, 50 episodes take roughly 20 to 30 minutes. Everything is cached in `cache/`, so reruns are fast and free.
+Episodes are processed in order. Each one is checked against the episodes before it, then its facts join the ledger. Each episode needs one extraction call, one judge call per 8 candidates, and one verify call per judged contradiction: about 3 calls on average (88 calls for the 30 episodes of `gen1`). At `rpm_limit: 8`, 50 episodes take roughly 20 to 30 minutes. Every model reply is cached in `cache/`, so rerunning without changes is fast and free.
 
 Outputs, all in `outputs/show1/`:
 
 | File | What it is |
 | --- | --- |
-| `reports/ep_02.json … ep_50.json` (+ `.md`) | Flags for each episode |
+| `reports/ep_01.json … ep_50.json` (+ `.md`) | Flags for each episode (episode 1 has nothing earlier to contradict, so it never has flags) |
 | `report.html` | Every flag on one page; open in a browser |
 | `story_bible.md` | Every character's facts in story order, with citations |
 | `summary.json` | Facts, candidates, flags and seconds per episode |
@@ -128,14 +128,17 @@ Open the CSV in Excel or Google Sheets and fill the `label` column for each flag
 
 Keep each version's results so you can compare them:
 
+```bash
+cp -r outputs/show1 outputs/show1_v1                          # macOS / Linux: snapshot before changing anything
+```
 ```powershell
-Copy-Item outputs\show1 outputs\show1_v1 -Recurse          # snapshot before changing anything
+Copy-Item outputs\show1 outputs\show1_v1 -Recurse              # Windows PowerShell
 ```
 
 Then change one thing at a time, rebuild with `python cli.py build --show show1 --fresh`, and rerun `python cli.py labels --show show1`. Labels you already gave are reused; only new flags need labelling.
 
-- **Code fixes need no new model calls.** Extraction is cached, so a rebuild after a rule change is fast and free.
-- **Prompt v2:** set `extract.prompt: extract_facts_v2` in `config.yaml`. It is stricter about deaths (a flatline, code blue, being shot or unconscious is not death) and about in-law direction. This re-extracts every episode, about 30 calls.
+- **Code fixes are cheap.** Extraction is cached, so a rebuild after a rule change only pays for judge calls on candidates that changed. (In the second `gen1` build in `run_log.jsonl`, all 30 extraction calls and 25 of 60 judge calls came from the cache.)
+- **Prompt v2 is the default** (`extract.prompt: extract_facts_v2` in `config.yaml`). It is stricter about deaths (a flatline, code blue, being shot or unconscious is not death) and about in-law direction. To compare with v1, set `extract.prompt: extract_facts`. Switching prompts re-extracts every episode, about one call per episode.
 
 ### Step 6: plant errors and score (recall + ablation)
 
@@ -175,7 +178,7 @@ Or use the **Check episode** tab in the app, and switch the model in the sidebar
 
 ```text
 episode script -> parse.py (code) -> extract.py (AI) -> grounding.py (code) -> rules.py + similar past facts (code)
-               -> judge.py (AI) -> verify pass (AI) -> report.py (code, re-checks both quotes) -> editor (human)
+               -> judge.py (AI judge -> AI verify pass -> code re-checks both quotes) -> report.py (code) -> editor (human)
 characters.yaml (human) feeds extract;  ledger.py (code: JSON + LanceDB) feeds rules;  episode k joins the ledger after its check
 ```
 
@@ -183,24 +186,62 @@ characters.yaml (human) feeds extract;  ledger.py (code: JSON + LanceDB) feeds r
 | --- | --- | --- |
 | Parse screenplay | Code | Deterministic; ids like `E12L041` make every claim checkable |
 | Extract facts | AI | Needs reading comprehension; one call per episode |
-| Ground quotes | Code | Rejects any quote not found word for word: **this is how invented facts are stopped** |
+| Ground quotes | Code | Rejects any quote not found word for word: **this is how invented facts are stopped**. If the quote is in a nearby line instead, the fact is moved to that line. This proves the words exist, not that the model read them correctly |
 | Rules | Code | Dead character active, stable attribute changed, relationship changed, secret before learned: cheap, certain, unit-tested |
 | Similar past facts | Code + embeddings | Finds related earlier facts the rules don't cover (injuries, timeline) |
 | Judge | AI | Contradiction vs development (twist) vs consistent; batched per episode |
 | Verify | AI | A second pass that tries to argue each flag away (flashback, lie, time skip) |
 | Characters, final call | Human | Fix aliases once per show; accept, reject or mark intended twist in the app |
 
-Design rules: flagged facts join the ledger as **disputed**, so one error doesn't cause a chain of flags. Checking is **incremental**, so episode 500 costs the same as episode 5. The model is **two lines of config**.
+Design rules:
+
+- **No chain reactions.** Facts on a flagged line join the ledger as **disputed**. And an earlier fact that two different later episodes are flagged against becomes disputed too (`check.dispute_after_challenges: 2`), so one misread line can't flag every later scene. This was added after a real failure; see `failures.md`.
+- **Incremental.** Checking is incremental, so episode 500 costs about the same as episode 5: one extraction call, and at most 40 candidates sent to the judge per episode.
+- **Swappable model.** The model is **two lines of config**, and `judge_model` can put a stronger model on judging only.
 
 `mode` (config or `--mode`) gives the ablation rows: `rules` = no AI judging, `judge` = AI judge, `full` = judge + verify. Provider `offline` = no AI at all.
 
 ---
 
-## 5. Project structure
+## 5. Results so far
+
+All numbers below come from the files committed in `outputs/gen1/`. You can browse them without running anything: open `outputs/gen1/report.html`, or type `gen1` as the show name in the app's sidebar (don't press **Build**, which re-runs the model).
+
+**The test series.** `gen1` is 30 episodes written by `gemini-3.5-flash-lite` (temperature 0.9) from `tools/premise_example.yaml`. The writer saw only the bible and summaries of the last 3 episodes, and was never asked to make mistakes. It was checked with the same model in `full` mode with prompt v2. Writing with one model and checking with another is recommended above but hasn't been run yet.
+
+**Natural errors (nothing planted).** 414 facts, 309 candidates, 8 judged contradictions, **7 flags**. Labelled by hand in `labels_natural.csv`:
+
+| Label | Flags | What they were |
+| --- | --- | --- |
+| True error | 3 | Ep 16: Harper is "thirty-two" after being 24 all series. Ep 10: Jake calls his half-brother Cole "cousin". Ep 12: Cole's chest wound is a "metal pipe strike" in one line and a "stab wound" in another |
+| False alarm | 2 | Ep 7 and ep 22: relationship extraction errors (a "daughter" read into "Mia's heart surgery"; an in-law relationship reversed) |
+| Intended twist | 2 | Ep 26: Harper "dies" in ep 24 and is revived in ep 26 on purpose |
+
+Before the fixes described in `failures.md`, the same series produced 28 flags, 21 of them from one flatline that was read as a death.
+
+**Planted errors.** `eval/seed_errors.py` inserted 20 lines (4 each of identity, relationship, status, knowledge and physical) into episodes 17, 19, 21 and 23. From `outputs/gen1/eval/eval_results.md`:
+
+| Setup | Recall | Identity | Knowledge | Physical | Relationship | Status | Precision | Flags / ep | Sec / ep |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| rules | 60% | 4/4 | 1/4 | 0/4 | 3/4 | 4/4 | 50% | 3.5 | 1.62 |
+| judge | 50% | 3/4 | 0/4 | 0/4 | 3/4 | 4/4 | 50% | 0.2 | 2.68 |
+| full | 40% | 3/4 | 0/4 | 0/4 | 2/4 | 3/4 | 50% | 0.2 | 4.15 |
+
+How to read it:
+
+- **The AI judge trades recall for much less noise.** It cuts flags on clean episodes from 3.5 to 0.2 per episode, but each AI stage can only remove candidates, so recall goes down. The verify pass lowered recall again without a measured precision gain.
+- **Physical errors were never caught** (0/4 in every mode). The judge only sees what the rules and similar-fact search surface, and a line like "lifts a heavy box with both arms" doesn't produce a fact that conflicts with an earlier one.
+- **These are small samples.** 20 planted errors; the precision column rests on only 2 labelled flags in those episodes. The planted lines are templated, so recall here is a ceiling.
+
+**Cost.** The final `gen1` build used 147.6k input and 74.7k output tokens (about 4.9k + 2.5k per episode) in 88 model calls. It took 669 seconds, mostly waiting on the 8 requests/minute limit. `python cli.py stats --show gen1` prints the breakdown.
+
+---
+
+## 6. Project structure
 
 ```text
 continuity-guard/
-├── cli.py                  parse / characters / build / check / bible / stats / demo
+├── cli.py                  parse / characters / build / check / bible / stats / labels / demo
 ├── app.py                  Streamlit UI
 ├── config.yaml             model, thresholds, paths
 ├── guard/
@@ -218,28 +259,33 @@ continuity-guard/
 │   ├── pipeline.py         build / check
 │   ├── report.py           JSON, Markdown, HTML
 │   └── bible.py            story bible
-├── prompts/                extract_facts, judge_conflict, verify_flag, resolve_aliases
+├── prompts/                extract_facts (v1), extract_facts_v2 (default), judge_conflict, verify_flag,
+│                           resolve_aliases, write_episode + summarize_episode (used by the series generator)
 ├── eval/                   seed_errors.py, run_eval.py, manual_seeds.example.json
 ├── tools/                  generate_series.py + premise_example.yaml (test series when you have no scripts)
-├── tests/                  32 tests + a made-up demo show
+├── tests/                  32 tests + a made-up 3-episode demo show (tests/fixtures/demo_show)
+├── data/generated/gen1/    the generated 30-episode test series (scripts + writer_log.yaml)
+├── data/processed/gen1/    gen1 parsed into Episode JSON
+├── store/gen1/             gen1's ledger, facts and characters
+├── outputs/gen1/           gen1's reports, eval results, labels, story bible and run log
 ├── failures.md             known failure cases
 └── ai_log.md               AI tools used and where they got it wrong
 ```
 
-`data/` (except `data/generated/`), `store/`, `outputs/` and `cache/` are gitignored, so **scripts you don't own and everything derived from them stay off GitHub.** Share outputs privately if you need to.
+`data/raw/`, `data/processed/`, `store/`, `outputs/` and `cache/` are gitignored, so **scripts you don't own and everything derived from them stay off GitHub.** Share outputs privately if you need to. The one exception is the generated test series `gen1`: it is original content written by an AI, so its scripts, parsed episodes, ledger and results are committed on purpose, for the online demo and so you can see real output without running anything.
 
 ---
 
-## 6. Deploy the app (Streamlit Community Cloud, free)
+## 7. Deploy the app (Streamlit Community Cloud, free)
 
-1. Push the repo to GitHub (check `git status` first: no `data/raw/`, `outputs/` or `.env`).
+1. Push the repo to GitHub (check `git status` first: nothing from `data/raw/`, no outputs of scripts you don't own, and no `.env`).
 2. On share.streamlit.io, create an app from the repo with `app.py` as the entry point. It installs `requirements.txt` (the light version, no PyTorch).
 3. In the app's **Secrets**, add `GOOGLE_API_KEY = "..."` (or `GROQ_API_KEY`). Streamlit exposes root-level secrets as environment variables, which the model layer reads. Visitors can also paste their own key in the sidebar; it stays in their session.
 4. Open the app in an incognito window, press **Load demo show**, then **Build story ledger**.
 
 ---
 
-## 7. Troubleshooting
+## 8. Troubleshooting
 
 | Symptom | Fix |
 | --- | --- |
